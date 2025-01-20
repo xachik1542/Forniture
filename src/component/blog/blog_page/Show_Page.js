@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import { blog } from "../../../json/blog_service/blog.service";
 import GetTouch from "../../../get_in_touch/GetTouch";
-import { Link, useParams } from "react-router-dom";
+import { useSearchParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 import { HiOutlineArrowSmLeft } from "react-icons/hi";
@@ -9,28 +9,37 @@ import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { MdArrowOutward } from "react-icons/md";
 
 function Show_Page() {
-  const params = useParams();
   const [info, setInfo] = useState([]);
-  const [paramsId, setParamsId] = useState(params);
+  const [searchParams, setSearchParams] = useSearchParams();
+  let urlInfo = +searchParams.get("info");
   const [contact, setContact] = useState(false);
 
   useEffect(() => {
     setInfo(blog);
   }, []);
 
-  const handleNextPage = () => {
-    setParamsId(+paramsId + 1);
+  const handleNextInfo = () => {
+    if (urlInfo < info.length) {
+      searchParams.set("info", urlInfo + 1);
+      setSearchParams(searchParams);
+    }
   };
 
+  const handlePrevInfo = () => {
+    if (urlInfo > 1) {
+      searchParams.set("info", urlInfo - 1);
+      setSearchParams(searchParams);
+    }
+  };
 
   const handleShowTouch = () => {
-    setContact(true)
-  }
+    setContact(true);
+  };
 
   return (
     <div className={styles.container_block}>
       {info.map((el) => {
-        if (el.id == params.id) {
+        if (el.id == urlInfo) {
           return (
             <div
               key={el.id}
@@ -59,7 +68,7 @@ function Show_Page() {
           </div>
 
           {info.map((item) => {
-            if (item.id == params.id && item.read) {
+            if (item.id == urlInfo && item.read) {
               return (
                 <div key={item.id} className={styles.info_boxes}>
                   {item.read.map((el) => (
@@ -86,11 +95,11 @@ function Show_Page() {
           })}
 
           <div className={styles.read_pagination}>
-            <button>
+            <button onClick={handlePrevInfo}>
               <HiOutlineArrowSmLeft className={styles.read_icon} />
               Previous
             </button>
-            <button onClick={handleNextPage}>
+            <button onClick={handleNextInfo}>
               Next
               <HiOutlineArrowSmRight className={styles.read_icon} />
             </button>
@@ -116,7 +125,7 @@ function Show_Page() {
         </div>
 
         {info.map((item) => {
-          if (item.id == params.id) {
+          if (item.id == urlInfo) {
             return (
               <div key={item.id} className={styles.sale_block}>
                 <div className={styles.sale_box}>Sale</div>
@@ -141,7 +150,7 @@ function Show_Page() {
         })}
 
         {info.map((item) => {
-          if (item.id == params.id) {
+          if (item.id == urlInfo) {
             return (
               <div key={item.id} className={styles.visit_block}>
                 <div className={styles.visit_box}>Visit Our Instagram</div>
@@ -162,7 +171,7 @@ function Show_Page() {
           }
         })}
 
-        {contact ? <GetTouch setContact={setContact}/> : null}
+        {contact ? <GetTouch setContact={setContact} /> : null}
       </div>
     </div>
   );

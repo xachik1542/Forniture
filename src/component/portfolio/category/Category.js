@@ -6,7 +6,6 @@ import Types_Category from "../category/type_category/Types_Category.js";
 import Media from "../media/Media.js";
 import { useEffect, useState } from "react";
 import { nav, data } from "../../../json/portfolio/project.js";
-import Pagination from "../pagination/Pagination.js";
 
 function Category() {
   const [firstId, setFirstId] = useState(0);
@@ -39,7 +38,6 @@ function Category() {
     setCategory(nav);
   }, []);
 
-  
   return (
     <div className={styles.category_block}>
       <div className={styles.category_box}>
@@ -59,8 +57,6 @@ function Category() {
         setSubCategories={setSubCategories}
         setTypes={setTypes}
       />
-
-      <Pagination />
     </div>
   );
 }

@@ -1,14 +1,28 @@
 import styles from "./style.module.css";
-import design_img from '../../../assets/img/contact/design.png';
-
-
+import design_img from "../../../assets/img/contact/design.png";
+import { useForm } from "react-hook-form";
+import {
+  Name_Validatation,
+  Phone_Validation,
+  Email_Validation,
+  Textarea_Validation,
+} from "../../../validate/Validatation";
 
 function Registration() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm({ mode: "onChange" });
+
+  const onSubmit = (e) => {
+    console.log(e);
+    reset();
+  };
   return (
     <div className={styles.reg_block}>
-     
-     <div className={styles.text_img_box}>
-      
+      <div className={styles.text_img_box}>
         <div className={styles.inform_box}>
           <button>Contacts</button>
 
@@ -26,22 +40,61 @@ function Registration() {
               <p>Prague, Czech Republic</p>
             </div>
           </div>
-          
         </div>
 
-       <img src={design_img} className={styles.design_img}></img>
-     </div>
+        <img src={design_img} className={styles.design_img}></img>
+      </div>
 
       <div className={styles.contact_reg}>
         <button>Contact us</button>
-        <h1>Lorem ipsum dolor sit<br/> amet consectetur.</h1>
+        <h1>
+          Lorem ipsum dolor sit
+          <br /> amet consectetur.
+        </h1>
 
-        <form action="#" className={styles.reg_form}>
-            <input type="text" placeholder="Name" className={styles.reg_name}/>
-            <input type="tel" placeholder="Phone" className={styles.reg_tell}/>
-            <input type="email" placeholder="Email" className={styles.reg_email}/>
-            <textarea type="text" placeholder="Massage" className={styles.reg_massage}></textarea>
-            <button>Submit</button>
+        <form
+          action="#"
+          className={styles.reg_form}
+          onSubmit={handleSubmit(onSubmit)}
+        >
+          <div className={styles.name_block}>
+            <input
+              type="text"
+              placeholder="Name"
+              className={styles.inp}
+              {...register("name", Name_Validatation)}
+            />
+            <p className={styles.error_message}>{errors?.name?.message}</p>
+          </div>
+          <div className={styles.number_block}>
+            <input
+              type="tel"
+              placeholder="Phone"
+              className={styles.inp}
+              {...register("phone", Phone_Validation)}
+            />
+            <p className={styles.error_message}>{errors?.phone?.message}</p>
+          </div>
+
+          <div className={styles.email_block}>
+            <input
+              type="email"
+              placeholder="Email"
+              className={styles.inp}
+              {...register("email", Email_Validation)}
+            />
+            <p className={styles.error_message}>{errors?.email?.message}</p>
+          </div>
+
+          <div className={styles.textarea_block}>
+            <textarea
+              type="text"
+              placeholder="Massage"
+              className={styles.textarea_inp}
+              {...register("message", Textarea_Validation)}
+            ></textarea>
+          </div>
+          <input type="Submit" className={styles.submit_inp}></input>
         </form>
       </div>
     </div>

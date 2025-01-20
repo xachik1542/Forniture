@@ -31,7 +31,7 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/page/:id" element={<Blog_Page />} />
+        <Route path="/blog/:id" element={<Blog_Page />} />
         <Route path="/favs" element={<Favs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/policy" element={<Policy />} />

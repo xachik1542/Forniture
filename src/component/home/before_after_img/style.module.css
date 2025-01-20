@@ -1,0 +1,226 @@
+.befor_after_block {
+    width: 1392px;
+    height: 1796px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    @media screen and (max-width: 480px) {
+      width: 358px;
+      height: auto;
+      margin-top: 48px;
+    }
+  
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 90%;
+      height: auto;
+      margin-top: 48px;
+      gap: 16px;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      width: 90%;
+      height: auto;
+      margin-top: 48px;
+      gap: 16px;
+    }
+  
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      width: 90%;
+      height: auto;
+      margin-top: 48px;
+      gap: 16px;
+    }
+  
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+      width: 95%;
+      height: auto;
+      margin-top: 48px;
+      gap: 16px;
+    }
+  }
+  
+  .images_box {
+    height: 588px;
+    border-radius: 24px;
+    border: 0.5px solid #b7b7b7;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  
+    @media screen and (max-width: 480px) {
+      width: 358px;
+      height: 274px;
+      margin-bottom: 16px;
+    }
+  
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 100%;
+      height: 260px;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      width: 100%;
+      height: 300px;
+    }
+  
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      width: 100%;
+      height: auto;
+    }
+  
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .before_img {
+    height: 587px;
+    border-radius: 20px 0 0 20px;
+    border-right: 2px solid white;
+    overflow: hidden;
+  
+    @media screen and (max-width: 480px) {
+      width: 179px;
+      height: 100%;
+      gap: 16px;
+    }
+  
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 50%;
+      height: 100%;
+      border: 1px solid red;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      width: 50%;
+      height: 100%;
+    }
+  
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      width: 50%;
+      height: 100%;
+    }
+  
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+      width: 50%;
+      height: 100%;
+    }
+  }
+  .before_img img {
+    border-radius: 20px;
+    width: 72.4vw;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .after_img {
+    width: 100%;
+    height: 587px;
+    border-radius: 0 20px 20px 0;
+    border-left: 2px solid white;
+    overflow: hidden;
+    @media screen and (max-width: 480px) {
+      width: 179px;
+      height: 100%;
+    }
+  
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 50%;
+      height: 100%;
+      border: 1px solid red;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      width: 50%;
+      height: 100%;
+    }
+  
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      width: 50%;
+      height: 100%;
+    }
+  
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+      width: 50%;
+      height: 100%;
+    }
+  }
+  
+  .after_img img {
+    width: 72.4vw;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .nav_box {
+    width: 208px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    position: absolute;
+    transform: translateX(-50%);
+  
+    @media screen and (max-width: 480px) {
+      width: 200px;
+      height: 100%;
+    }
+  }
+
+  .before_box {
+    width: 75px;
+    height: 32px;
+    background-color: white;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .before_text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .round_box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .raund_arrow {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .after_box {
+    width: 75px;
+    height: 32px;
+    background-color: white;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .after_text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  

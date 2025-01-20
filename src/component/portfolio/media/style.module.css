@@ -1,0 +1,115 @@
+@media screen and (max-width: 480px) {       
+    .media_block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .media_filter_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .all_btn {
+        width: 294px;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #764AF1;
+        color: white;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .filter_img {
+        width: 56px;
+        height: 56px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_open_category{
+        width: 100%;
+        height: 100vh;
+        background-color: white;   
+        padding: 48px 16px 16px 16px;
+        overflow-y: scroll;
+        position: absolute;
+        position: fixed;
+        top: 0%;  
+        left: 0%; 
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .media_nav_filter {
+        width: 358px;
+        height: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .arrow_media_filter {
+        width: 32px;
+        height: 32px;
+    }
+    .media_nav_filter>h1 {
+        font-size: 24px;
+        line-height: 28.8px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .media_nav_filter>p {
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 8px;
+        color: #6C6C6C;
+    }
+
+    .category_box {
+        width: 358px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .category_box::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .save_btn {
+        width: 100%;
+        height: 56px;
+        background-color: #764AF1;
+        color: white;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        border-radius: 32px;
+        border: none;
+        outline: none;
+    }
+}

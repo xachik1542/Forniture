@@ -1,0 +1,240 @@
+.container_block {
+    width: 1392px;
+    height: 420px;
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_using_box {
+    width: 336px;
+    height: 100%;
+    background-color: white;
+    border-radius: 24px;
+    gap: 16px;
+    padding: 32px;
+}
+
+.using_name,.servis_two_name {
+    color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.using_text,.servis_two_text {
+    margin-top: 100px;
+    color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 1%;
+}
+
+
+.container_personal_box {
+    width: 336px;
+    height: 100%;
+    background-color: #764AF1;
+    border-radius: 24px;
+    gap: 16px;
+    padding: 32px;
+}
+
+.personal_name,.servis_one_name {
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.personal_text,.servis_one_text {
+    margin-top: 122px;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 1%;
+}
+
+
+.container_servis_one {
+    width: 336px;
+    height: 100%;
+    background-color: #2E2E2E;
+    border-radius: 24px;
+    gap: 16px;
+    padding: 32px;
+}
+.container_servis_two {
+    width: 336px;
+    height: 100%;
+    background-color: white;
+    border-radius: 24px;
+    gap: 16px;
+    padding: 32px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .container_block {
+        width: 358px;
+        height: auto;
+        justify-content: unset;
+    }
+
+    .container_using_box {
+        width: 358px;
+        height: 420px;
+        gap: 144px;
+        margin-bottom: 16px;
+    }
+
+    .container_personal_box {
+        width: 358px;
+        height: 420px;
+        gap: 144px;
+        margin-bottom: 16px;
+    }
+
+    .container_servis_one {
+        width: 358px;
+        height: 420px;
+        gap: 144px;
+        margin-bottom: 16px;
+    }
+
+    .container_servis_two {
+        width: 358px;
+        height: 420px;
+        gap: 144px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container_block {
+        width: 90%;
+        height: auto;
+        gap: 16px;
+    }
+
+    .container_using_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .container_personal_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .container_servis_one {
+        width: 100%;
+        height: auto;
+    }
+
+    .container_servis_two {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .container_block {
+        width: 90%;
+        height: auto;
+        gap: 16px;
+    }
+
+    .container_personal_box {
+        width: 48%;
+        height: auto;
+    }
+
+    .container_using_box {
+        width: 48%;
+        height: 400px;
+    }
+
+    .container_servis_one {
+        width: 48%;
+        height: 400px;
+    }
+
+    .container_servis_two {
+        width: 48%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .container_block {
+        width: 95%;
+        height: auto;
+        gap: 16px;
+    }
+
+    .container_using_box {
+        width: 48%;
+        height: auto;
+    }
+
+    .container_personal_box {
+        width: 48%;
+        height: auto;
+    }
+
+    .container_servis_one {
+        width: 48%;
+        height: auto;
+    }
+
+    .container_servis_two {
+        width: 48%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+    .container_block {
+        width: 95%;
+        height: auto;
+        gap: 16px;
+        flex-wrap: unset;
+    }
+
+    .container_using_box {
+        width: 25%;
+        height: auto;
+    }
+
+    .container_personal_box {
+        width: 25%;
+        height: auto;
+    }
+
+    .container_servis_one {
+        width: 25%;
+        height: auto;
+    }
+    .container_servis_two {
+        width: 25%;
+        height: auto;
+    }
+}
+
+
+

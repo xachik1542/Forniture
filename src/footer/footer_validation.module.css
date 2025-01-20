@@ -1,0 +1,473 @@
+.form_block {
+    width: 648px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 11px 0;
+}
+
+.name_inp_box {
+    width: 100%;
+    height: auto;
+}
+
+.tel_inp_box,.email_inp_box {
+    width: 316px;
+    height: auto;
+}
+
+.inp {
+    width: 100%;
+    height: 56px;
+    background-color: #EBEBEB;
+    padding-left: 16px;
+    border-radius: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.error_message {
+    margin-top: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: red;
+}
+
+.textarea_box {
+    width: 648px;
+    height: 151px;
+}
+
+.textarea_inp {
+    width: 100%;
+    height: 100%;
+    padding: 16px 0 0 16px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: #EBEBEB;
+}
+
+.form_one_text {
+    width: 500px;
+    height: 40px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E1E1E1;
+}
+
+.submit_btn{
+    width: 104px;
+    height: 48px;
+    border-radius: 130px;
+    background-color: #764AF1;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .form_block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .tel_inp_box,.email_inp_box,.name_inp_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .inp {
+        height: 56px;
+        padding-left: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+    
+    .textarea_box {
+        width: 100%;
+        height: 151px;      
+    }
+
+    .textarea_inp {
+        width: 100%;
+        height: 100%;
+        padding: 16px 0 0 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+    
+    .form_one_text {
+        font-size: 11px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #E1E1E1;
+        order: 6;
+    }
+    .form_one_text>br {
+        display: none;
+    }
+
+    .submit_btn {
+        width: 100%;
+        height: 48px;
+        border-radius: 130px;
+        background-color: #764AF1;
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .form_block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .tel_inp_box,.email_inp_box,.name_inp_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .inp {
+        width: 100%;
+        height: 56px;
+        border-radius: 8px;
+        margin-bottom: 0;
+        padding-left: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+    
+    .textarea_box {
+        width: 100%;
+        height: 151px;
+    }
+
+    .textarea_inp {
+        width: 100%;
+        height: 100%;
+        padding: 16px 0 0 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+    
+    .form_one_text {
+        font-size: 11px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #E1E1E1;
+        order: 6;
+    }
+
+    .submit_btn {
+        width: 100%;
+        height: 48px;
+        border-radius: 130px;
+        background-color: #764AF1;
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .form_block {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .name_inp_box,.tel_inp_box {
+        width: 49%;
+        height: auto;
+    }
+
+    .email_inp_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .inp {
+        width: 100%;
+        height: 56px;
+        padding-left: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+
+    .error_message {
+        font-size: 10px;
+    }
+    
+    .textarea_box {
+        width: 100%;
+        height: 151px;
+    }
+
+    .textarea_inp {
+        width: 100%;
+        height: 100%;
+        padding: 16px 0 0 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+    
+    .form_one_text {
+        font-size: 11px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #E1E1E1;
+        order: 6;
+    }
+
+    .submit_btn {
+        width: 100%;
+        height: 48px;
+        border-radius: 130px;
+        background-color: #764AF1;
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .form_block {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        gap: 5px;
+    }
+
+    .name_inp_box,.tel_inp_box {
+        width: 49%;
+        height: auto;
+    }
+
+    .email_inp_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .inp {
+        width: 100%;
+        height: 56px;
+        padding-left: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+    
+    .textarea_box {
+        width: 100%;
+        height: 151px;
+    }
+    
+    .textarea_inp {
+        width: 100%;
+        height: 100%;
+        padding: 16px 0 0 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+
+    .form_one_text {
+        font-size: 13px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #E1E1E1;
+        order: 6;
+    }
+
+    .submit_btn {
+        width: 100%;
+        height: 48px;
+        border-radius: 130px;
+        background-color: #764AF1;
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+    .form_block {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 7px;
+    }
+
+    .name_inp_box,.tel_inp_box {
+        width: 49%;
+        height: auto;
+    }
+
+    .email_inp_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .inp {
+        width: 100%;
+        height: 56px;
+        padding-left: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+
+    .error_message {
+        font-size: 14px;
+    }
+    
+    .textarea_box {
+        width: 100%;
+        height: 151px;
+    }
+
+    .textarea_inp {
+        width: 100%;
+        height: 100%;
+        padding: 16px 0 0 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: #EBEBEB;
+    }
+
+    .form_one_text {
+        width: 70%;
+    }
+
+    .submit_btn {
+        width: 104px;
+        height: 48px;
+        border-radius: 130px;
+        background-color: #764AF1;
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}

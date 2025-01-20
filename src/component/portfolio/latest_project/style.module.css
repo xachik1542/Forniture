@@ -1,0 +1,509 @@
+.container_block {
+    width: 1392px;
+    height: 696px;
+    border-radius: 24px;
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #E1E1E1;
+    border: 1px solid #B7B7B7;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container_btn {
+    width: 127px;
+    height: 32px;
+    border-radius: 28px;
+    background-color: initial;
+    border: 1px solid #2E2E2E;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.last_project {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    border: 0.5px solid #B7B7B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.last_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.link_block {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+    position: absolute;
+}
+
+.mouse_box {
+    width: 100%;
+    height: 100%;
+    background-color: #764AF1A6;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 32px;
+}
+
+.container_name {
+    color: white;
+    font-size: clamp(1.5rem, 1.3298rem + 0.6981vw, 2rem);
+    line-height: 40px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 8px
+}
+
+.container_text {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+
+.container_see {
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.heart_block {
+    width: 40px;
+    height: 40px;
+    background-color: #2E2E2E66;
+    border: 0.5px solid #B7B7B7 40%;
+    border-radius: 6px;
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media_name {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container_block {
+        display: block;
+        width: 358px;
+        height: 488px;
+
+    }
+
+    .last_project {
+        width: 100%;
+        height: 400px;
+        margin-top: 16px;
+    }
+    
+    .last_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 16px    ;
+        border: 0.5px solid #B7B7B7;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
+    
+    
+    .link_block {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        position: absolute;
+    }
+
+    .media_name {
+        display: block;
+        width: 55%;
+        color: white;
+        font-size: clamp(1.5rem, 1.3298rem + 0.6981vw, 2rem);
+        line-height: 40px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: absolute;
+        bottom: 24px;
+        left: 24px;
+    }
+
+    .mouse_box {
+        display: none;
+    }
+
+    .heart_block {
+        width: 40px;
+        height: 40px;
+        background-color: #2E2E2E66;
+        border: 0.5px solid #B7B7B7 40%;
+        border-radius: 6px;
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_hear {
+        width: 22px;
+        height: 22px;
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container_block {
+        display: block;
+        width: 90%;
+        height: auto;
+    }
+
+    .last_project {
+        width: 100%;
+        height: 400px;
+        margin-top: 16px;
+    }
+    
+    .last_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 16px    ;
+        border: 0.5px solid #B7B7B7;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
+    
+    .link_block {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        position: absolute;
+    }
+
+    .media_name {
+        display: block;
+        width: 50%;
+        color: white;
+        font-size: clamp(1.5rem, 1.3298rem + 0.6981vw, 2rem);
+        line-height: 32px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: absolute;
+        bottom: 24px;
+        left: 24px;
+    }
+
+    .mouse_box {
+        display: none;
+    }
+    
+    .heart_block {
+        width: 40px;
+        height: 40px;
+        background-color: #2E2E2E66;
+        border: 0.5px solid #B7B7B7 40%;
+        border-radius: 6px;
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_hear {
+        width: 22px;
+        height: 22px;
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .container_block {
+        display: block;
+        width: 90%;
+        height: auto;
+
+    }
+
+    .last_project {
+        width: 100%;
+        height: 450px;
+        margin-top: 16px;
+    }
+    
+    .last_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 16px    ;
+        border: 0.5px solid #B7B7B7;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
+    
+    
+    .link_block {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        position: absolute;
+    }
+    .media_name {
+        display: block;
+        width: 35%;
+        color: white;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+    }
+ 
+    .mouse_box {
+        display: none;
+    }
+    
+    .heart_block {
+        width: 40px;
+        height: 40px;
+        background-color: #2E2E2E66;
+        border: 0.5px solid #B7B7B7 40%;
+        border-radius: 6px;
+        position: absolute;
+        right: 32px;
+        bottom: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_hear {
+        width: 22px;
+        height: 22px;
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .container_block {
+        display: block;
+        width: 95%;
+        height: auto;
+
+    }
+    
+    .last_project {
+        width: 100%;
+        height: 500px;
+        margin-top: 16px;
+    }
+
+    .last_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 16px    ;
+        border: 0.5px solid #B7B7B7;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
+    
+    
+    .link_block {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        position: absolute;
+    }
+
+    .mouse_box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 32px;
+    }
+
+    .container_name {
+        color: white;
+        font-size: clamp(1.5rem, 1.3298rem + 0.6981vw, 2rem);
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: unset;
+    }
+    .container_text {
+        width: 70%;
+        color: white;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 16px;
+        position: unset;
+    }
+    .container_see {
+        color: white;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        position: unset;
+    }
+    
+    
+    .container_hear_block {
+        width: 40px;
+        height: 40px;
+        background-color: #2E2E2E66;
+        border: 0.5px solid #B7B7B7 40%;
+        border-radius: 6px;
+        position: absolute;
+        right: 32px;
+        bottom: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_hear {
+        width: 22px;
+        height: 22px;
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+    .container_block {
+        display: block;
+        width: 95%;
+        height: auto;
+
+    }
+
+    .last_project {
+        width: 100%;
+        height: 550px;
+        margin-top: 16px;
+    }
+    
+    .last_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 16px    ;
+        border: 0.5px solid #B7B7B7;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
+      
+    .link_block {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        position: absolute;
+    }
+
+    .mouse_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 32px;
+    }
+
+    .container_name {
+        color: white;
+        font-size: clamp(1.5rem, 1.3298rem + 0.6981vw, 2rem);
+        line-height: 40px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: unset;
+    }
+
+    .container_text {
+        width: 70%;
+        color: white;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 16px;
+        position: unset;
+    }
+
+    .container_see {
+        color: white;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        position: unset;
+    }
+}

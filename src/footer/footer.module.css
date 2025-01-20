@@ -1,0 +1,1155 @@
+.footer_block {
+    width: 1392px;
+    height: auto;
+    padding: 32px;
+    margin-top: 64px;
+    background-color: #2E2E2E;
+    border-radius: 24px;
+    gap: 10px;
+}
+
+.footer_one_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.footer_text_box {
+    width: 550px;
+    height: 182px;
+}
+
+.footer_text_box>h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 90.72px;
+    color: white;
+}
+
+.footer_text_box>h1>br {
+    display: none;
+}
+
+.footer_icon_box {
+    width: 304px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.icon {
+    width: 28.38px;
+    height: 28.38px;
+}
+
+
+.footer_two_box {
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.media_logo_footer {
+    display: none;
+}
+
+.footer_for_armenia {
+    width: 162px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_for_czech {
+    width: 185px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_for_armenia>p:nth-child(1),.footer_for_czech>p:nth-child(1) {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer_for_armenia>p,.footer_for_czech>p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+.footer_explore_box {
+    width: 165px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_services_box {
+    width: 109px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_languages {
+    width: 86px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.footer_explore_box>p:nth-child(1),.footer_services_box>p:nth-child(1),.footer_languages>p:nth-child(1) {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer_explore_box>a,.footer_services_box>a,.footer_languages>a {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer_explore_box>a:hover,.footer_services_box>a:hover,.footer_languages>a:hover {
+    font-weight: 700;
+}
+
+.footer_languages>p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer_languages>p:hover {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+    .footer_block {
+        width: 358px;
+        height: auto;
+        margin-top: 48px;
+        padding: 24px;
+        border-radius: 24px;
+        gap: 24px;
+        position: relative;
+        background-color: #2E2E2E;
+    }
+
+    .footer_one_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+    }  
+
+    .footer_text_box {
+        width: 272px;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer_text_box>h1 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 40.32px;
+        color: white;
+    }
+
+    .footer_icon_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .icon {
+        width: 28.38px;
+        height: 28.38px;
+    }
+    
+    .footer_two_box {
+        width: 204px;
+        height: auto;
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 32px 0;
+        position: relative;
+    }
+    .media_logo_footer {
+        display: block;
+        font-size: 30.95px;
+        line-height: 37.14px;
+        color: #764AF1;
+        position: absolute;
+        top: 0;
+    }
+    .footer_for_armenia {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_for_czech {
+        width: 185px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_for_armenia>p:nth-child(1),.footer_for_czech>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .footer_for_armenia>p,.footer_for_czech>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        color: #FFFFFF;
+    }
+    
+    
+
+
+    .footer_explore_box {
+        width: 148px;
+        height: 134px;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        order: -1;
+    }
+
+    .footer_services_box {
+        width: 109px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        order: -1;
+    }
+
+    .footer_languages {
+        width: 86px;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_explore_box>p:nth-child(1),.footer_services_box>p:nth-child(1),.footer_languages>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 30.8px;
+        margin-bottom: 12px;
+        color: #FFFFFF;
+    }
+
+    .media_none {
+        display: none;
+    }
+    .footer_explore_box>a,.footer_services_box>a,.footer_languages>a {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 25.2px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        
+        text-decoration: none;
+    }
+
+    .footer_explore_box>a:hover,.footer_services_box>a:hover,.footer_languages>a:hover {
+        font-weight: 700;
+    }
+    
+    .footer_languages>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_languages>p:hover {
+        font-weight: 700;
+    }
+
+    .box_top {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #764AF1;
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrow_top {
+        width: 40px;
+        height: 40px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .footer_block {
+        width: 90%;
+        height: auto;
+        margin-top: 48px;
+        padding: 24px;
+        border-radius: 24px;
+        gap: 24px;
+        position: relative;
+        background-color: #2E2E2E;
+    }
+
+    .footer_one_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+    }  
+
+    .footer_text_box {
+        width: 272px;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer_text_box>h1 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 40.32px;
+        color: white;
+    }
+
+    .footer_icon_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .icon {
+        width: 28.38px;
+        height: 28.38px;
+    }
+        
+    .footer_two_box {
+        width: 204px;
+        height: auto;
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 32px 0;
+        position: relative;
+    }
+    .media_logo_footer {
+        display: block;
+        font-size: 30.95px;
+        line-height: 37.14px;
+        color: #764AF1;
+        position: absolute;
+        top: 0;
+    }
+    .footer_for_armenia {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_for_czech {
+        width: 185px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_for_armenia>p:nth-child(1),.footer_for_czech>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .footer_for_armenia>p,.footer_for_czech>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        color: #FFFFFF;
+    }
+    
+    .footer_explore_box {
+        width: 148px;
+        height: 134px;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        order: -1;
+    }
+
+    .footer_services_box {
+        width: 109px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        order: -1;
+    }
+
+    .footer_languages {
+        width: 86px;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_explore_box>p:nth-child(1),.footer_services_box>p:nth-child(1),.footer_languages>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 30.8px;
+        margin-bottom: 12px;
+        color: #FFFFFF;
+    }
+
+    .media_none {
+        display: none;
+    }
+    .footer_explore_box>a,.footer_services_box>a,.footer_languages>a {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 25.2px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        
+        text-decoration: none;
+    }
+
+    .footer_explore_box>a:hover,.footer_services_box>a:hover,.footer_languages>a:hover {
+        font-weight: 700;
+    }
+    
+    .footer_languages>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_languages>p:hover {
+        font-weight: 700;
+    }
+
+    .box_top {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #764AF1;
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrow_top {
+        width: 40px;
+        height: 40px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .footer_block {
+        width: 90%;
+        height: auto;
+        margin-top: 48px;
+        padding: 24px;
+        border-radius: 24px;
+        gap: 24px;
+        position: relative;
+        background-color: #2E2E2E;
+    }
+
+    .footer_one_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }  
+
+    .footer_text_box {
+        width: 50%;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer_text_box>h1 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 40.32px;
+        color: white;
+    }
+
+    .footer_icon_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: unset;
+        gap: 0 16px;
+    }
+
+    .footer_icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .icon {
+        width: 28.38px;
+        height: 28.38px;
+    }
+        
+    .footer_two_box {
+        width: 70%;
+        height: auto;
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px 0;
+        position: relative;
+    }
+    .media_logo_footer {
+        display: none;
+    }
+    .footer_for_armenia {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_for_czech {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_for_armenia>p:nth-child(1),.footer_for_czech>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .footer_for_armenia>p,.footer_for_czech>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        color: #FFFFFF;
+    }
+    
+
+    .footer_explore_box {
+        width: 50%;
+        height: 134px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_services_box {
+        width: 50%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_languages {
+        width: 86px;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_explore_box>p:nth-child(1),.footer_services_box>p:nth-child(1),.footer_languages>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 30.8px;
+        margin-bottom: 12px;
+        color: #FFFFFF;
+    }
+
+    .media_none {
+        display: none;
+    }
+    .footer_explore_box>a,.footer_services_box>a,.footer_languages>a {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 25.2px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        text-decoration: none;
+    }
+
+    .footer_explore_box>a:hover,.footer_services_box>a:hover,.footer_languages>a:hover {
+        font-weight: 700;
+    }
+    
+    .footer_languages>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_languages>p:hover {
+        font-weight: 700;
+    }
+
+    .box_top {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #764AF1;
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrow_top {
+        width: 40px;
+        height: 40px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .footer_block {
+        width: 95%;
+        height: auto;
+        margin-top: 48px;
+        padding: 24px;
+        border-radius: 24px;
+        gap: 24px;
+        position: relative;
+        background-color: #2E2E2E;
+    }
+
+    .footer_one_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }  
+
+    .footer_text_box {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer_text_box>h1 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 50px;
+        line-height: 60.32px;
+        color: white;
+    }
+    .footer_text_box>h1>br {
+        display: block;
+    }
+    .footer_icon_box {
+        width: 65%;
+        height: 56px;
+        display: flex;
+        justify-content: unset;
+        gap: 0 16px;
+    }
+
+    .footer_icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .icon {
+        width: 28.38px;
+        height: 28.38px;
+    }
+    
+
+    .footer_two_box {
+        width: 100%;
+        height: auto;
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .media_logo_footer {
+        display: none;
+    }
+    .footer_for_armenia {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_for_czech {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_for_armenia>p:nth-child(1),.footer_for_czech>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .footer_for_armenia>p,.footer_for_czech>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        color: #FFFFFF;
+    }
+    
+    
+
+
+    .footer_explore_box {
+        width: auto;
+        height: 134px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_services_box {
+        width: auto;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_languages {
+        width: auto;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_explore_box>p:nth-child(1),.footer_services_box>p:nth-child(1),.footer_languages>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 30.8px;
+        margin-bottom: 12px;
+        color: #FFFFFF;
+    }
+
+    .media_none {
+        display: none;
+    }
+    .footer_explore_box>a,.footer_services_box>a,.footer_languages>a {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 25.2px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        text-decoration: none;
+    }
+
+    .footer_explore_box>a:hover,.footer_services_box>a:hover,.footer_languages>a:hover {
+        font-weight: 700;
+    }
+    
+    .footer_languages>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_languages>p:hover {
+        font-weight: 700;
+    }
+
+    .box_top {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+    .footer_block {
+        width: 95%;
+        height: auto;
+        margin-top: 48px;
+        padding: 24px;
+        border-radius: 24px;
+        gap: 24px;
+        position: relative;
+        background-color: #2E2E2E;
+    }
+
+    .footer_one_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }  
+
+    .footer_text_box {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer_text_box>h1 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 54px;
+        line-height: 60.32px;
+        color: white;
+    }
+
+    .footer_text_box>h1>br {
+        display: block;
+    }
+
+    .footer_icon_box {
+        width: 65%;
+        height: 56px;
+        display: flex;
+        justify-content: unset;
+        gap: 0 16px;
+    }
+
+    .footer_icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .icon {
+        width: 28.38px;
+        height: 28.38px;
+    }
+    
+    .footer_two_box {
+        width: 100%;
+        height: auto;
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .media_logo_footer {
+        display: none;
+    }
+    .footer_for_armenia {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_for_czech {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_for_armenia>p:nth-child(1),.footer_for_czech>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .footer_for_armenia>p,.footer_for_czech>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        color: #FFFFFF;
+    }
+    
+    
+
+
+    .footer_explore_box {
+        width: auto;
+        height: 134px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_services_box {
+        width: auto;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_languages {
+        width: auto;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .footer_explore_box>p:nth-child(1),.footer_services_box>p:nth-child(1),.footer_languages>p:nth-child(1) {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 30.8px;
+        margin-bottom: 12px;
+        color: #FFFFFF;
+    }
+
+    .media_none {
+        display: none;
+    }
+    .footer_explore_box>a,.footer_services_box>a,.footer_languages>a {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 25.2px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        text-decoration: none;
+    }
+
+    .footer_explore_box>a:hover,.footer_services_box>a:hover,.footer_languages>a:hover {
+        font-weight: 700;
+    }
+    
+    .footer_languages>p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_languages>p:hover {
+        font-weight: 700;
+    }
+
+    .box_top {
+        display: none;
+    }
+}
+

@@ -1,0 +1,424 @@
+.container_block {
+    width: 1392px;
+    height: 576px;
+    margin: 16px 0 64px 0;
+    border-radius: 24px;
+    padding: 16px;
+    gap: 16px;
+    border: 1px solid #B7B7B7;
+    background-color: #E1E1E1;
+}
+
+.container_select_block {
+    width: 100%;
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info_select_box {
+    width: 442.67px;
+    height: 472px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 32px;
+    gap: 16px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_select {
+    width: 64px;
+    height: 64px;
+}
+
+.info_text_box {
+    width: 336px;
+    height: auto;
+}
+
+.info_title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 48px;
+    color: #2E2E2E;
+    margin-bottom: 8px;
+}
+
+.ul_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info_li {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    margin-left: 20px;
+    color: #6C6C6C;
+}
+
+.media_br {
+    display: none;
+}
+
+.arrows_inform {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}
+
+.container_btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #764AF1;
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.reg_block {
+    position: absolute;
+    transform: translateX(50%);
+    right: 50%;
+    z-index: 9;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container_block {
+        width: 358px;
+        height: auto;
+        margin: 16px 0 0 0;
+        border-radius: 24px;
+        padding: 16px;
+        gap: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .container_select_block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 16px;
+    }
+    
+    .info_select_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .img_select {
+        height: auto;
+    }
+
+    .info_text_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .ul_box{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+ 
+    .info_li {
+        width: 75%;
+        font-size: 16px;
+        line-height: 36px;
+        margin: 0;
+        color: #6C6C6C;
+    }
+
+    .media_br {
+        display: block;
+    }
+
+    .arrows_inform {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 24px;
+        bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container_block {
+        width: 90%;
+        height: auto;
+        margin: 16px 0 0 0;
+        border-radius: 24px;
+        padding: 16px;
+        gap: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .container_select_block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 16px;
+    }
+    
+    .info_select_box {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 8px;
+        padding: 32px 42px;
+        gap: 16px;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .img_select {
+        height: auto;
+    }
+
+    .standart_ul{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+  
+    
+    .standart_ul>li,.classic_ul>li,.bussines_ul>li {
+        font-size: 19px;
+        line-height: 35px;
+        margin: 0;
+    }
+
+    .media_br {
+        display: block;
+    }
+
+    .arrows_inform {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 24px;
+        bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .container_block {
+        width: 90%;
+        height: auto;
+        margin: 16px 0 0 0;
+        border-radius: 24px;
+        padding: 16px;
+        gap: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .container_select_block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px;
+    }
+    
+    .info_select_box {
+        width: 48%;
+        height: 600px;
+        background-color: white;
+        border-radius: 8px;
+        padding: 32px 42px;
+        gap: 16px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .info_select_box:last-child {
+        width: 100%;
+    }
+
+    .ul_box{
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .info_li {
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .arrows_inform {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 24px;
+        bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .container_block {
+        width: 95%;
+        height: auto;
+        margin: 16px 0 0 0;
+        border-radius: 24px;
+        padding: 16px;
+        gap: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .container_select_block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px 0;
+    }
+    
+    .info_select_box {
+        width: 49%;
+        height: 600px;
+        background-color: white;
+        border-radius: 8px;
+        padding: 32px 42px;
+        gap: 16px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .info_select_box:last-child{
+        width: 100%;   
+    }
+
+    .ul_box{
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+  
+    .info_li {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .arrows_inform {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 24px;
+        bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+    .container_block {
+        width: 95%;
+        height: auto;
+        margin: 16px 0 0 0;
+        border-radius: 24px;
+        padding: 16px;
+        gap: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .container_select_block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+    
+    .info_select_box {
+        width: 32%;
+        height: auto;
+        background-color: white;
+        border-radius: 8px;
+        padding: 32px 42px;
+        gap: 16px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .img_select {
+        height: auto;
+    }
+
+    .ul_box{
+        width: 224px;
+        height: auto;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+ 
+    .info_li {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .arrows_inform {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 24px;
+        bottom: 32px;
+    }
+}

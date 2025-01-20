@@ -1,0 +1,522 @@
+.reg_block {
+    width: 1392px;
+    height: 623px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 480px) {
+        width: 358px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 95%;
+        height: auto;
+    }
+
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 95%;
+        height: auto;
+        gap: 16px;
+    }
+}
+
+.text_img_box {
+    width: 688px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 49%;
+        height: auto;
+        gap: 16px;
+    }
+
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 49%;
+        height: auto;
+        gap: 16px;
+    }
+}
+.inform_box {
+    width: 688px;
+    height: 286px;
+    border-radius: 24px;
+    padding: 32px;
+    gap: 24px;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        height: auto;
+        padding: 24px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 100%;
+        height: auto;
+        padding: 24px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 100%;
+        height: auto;
+        padding: 24px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 100%;
+        height: auto;
+        padding: 24px;
+    }
+
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 100%;
+        height: auto;
+        padding: 24px;
+    }
+}
+.inform_box>button {
+    width: 96px;
+    height: 32px;
+    gap: 24px;
+    border-radius: 28px;
+    background-color: white;
+    border: 1px solid;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.inform_pair_box {
+    width: 478px;
+    height: 166px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+}
+.pair_one {
+    width: 203px;
+    height: 150px;
+    gap: 16px;
+
+    @media screen and (max-width: 480px) {
+        width: 182px;
+        height: 135px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 200px;
+        height: 100%;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 50%;
+        height: 100%;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 50%;
+        height: 100%;
+    }
+}
+.pair_two {
+    width: 227px;
+    height: 146px;
+    gap: 12px;
+
+    @media screen and (max-width: 480px) {
+        width: 204px;
+        height: 131px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 50%;
+        height: 100%;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 50%;
+        height: 100%;
+    }
+}
+.pair_one>h1,.pair_two>h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #2E2E2E;
+    margin-bottom: 16px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+}
+.pair_one>p,.pair_two>p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19.5px;
+    line-height: 28px;
+    color: #2E2E2E;
+    margin-bottom: 8px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        font-size: 16px;
+        line-height: 25.2px;
+    }
+}
+.design_img {
+    width: 100%;
+    height: 327px;
+    border-radius: 24px;
+    border: 1px solid #B7B7B7;
+
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 100%;
+        height: 300px;  
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 100%;
+        height: 350px;
+    }
+  
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        display: none;
+    }
+  
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+.contact_reg {
+    width: 688px;
+    height: 100%;
+    padding: 32px;
+    border-radius: 24px;
+    background-color: #2E2E2E;
+    border: 1px solid #E1E1E1;
+
+    @media screen and (max-width: 480px) {
+       width: 358px;
+       height: 625px;
+       border: 1px solid #E1E1E1;
+       border-radius: 24px;
+       padding: 24px;
+       margin-top: 16px;
+       gap: 24px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+       width: 100%;
+       height: auto;
+       padding: 24px;
+       margin-top: 16px;
+       gap: 24px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 100%;
+        height: auto;
+        padding: 24px;
+        margin-top: 16px;
+        gap: 24px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 49%;
+        height: auto;
+        padding: 24px;
+        gap: 24px;
+    }
+
+    @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 49%;
+        height: auto;
+        padding: 24px;
+        gap: 24px;
+    }
+}
+.contact_reg>button {
+    width: 108px;
+    height: 32px;
+    border-radius: 28px;
+    background-color: white;
+    border: 1px solid;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.contact_reg>h1 {
+    margin-top: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 1%;
+    color: white;
+
+    @media screen and (max-width: 480px) {
+       font-size: 24px;
+       line-height: 28.8px;
+     } 
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        font-size: 30px;
+        line-height: 29px;
+        
+     }
+ 
+     @media screen and (min-width: 768px) and (max-width: 991px) {
+        font-size: 30px;
+        line-height: 30px;
+        
+     }
+ 
+     @media screen and (min-width: 992px) and (max-width: 1200px) {
+        font-size: 35px;
+        line-height: 38px;
+        
+     }
+ 
+     @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        font-size: 40px;
+        line-height: 42px;
+         
+     }
+}
+
+
+.reg_form {
+    width: 624px;
+    height: 359px;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media screen and (max-width: 480px) {
+        width: 310px;
+        height: 439px;
+      } 
+ 
+     @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 100%;
+        height: auto;
+        gap: 16px 0;
+      }
+  
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 100%;
+        height: auto;
+        gap: 16px 0;
+         
+      }
+  
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 100%;
+        height: auto;
+        gap: 16px 0;
+         
+      }
+  
+      @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 100%;
+        height: auto;
+        gap: 16px 0;  
+      }
+}
+.reg_name {
+    width: 100%;
+    height: 56px;
+    background-color: inherit;
+    border: 1px solid #EBEBEB;
+    color: #FFFFFF;
+    padding-left: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+.reg_tell,.reg_email {
+    width: 304px;
+    height: 56px;
+    background-color: inherit;
+    border: 1px solid #EBEBEB;
+    color: #FFFFFF;
+    padding-left: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        height: 56px;
+      } 
+ 
+     @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 49%;
+        height: 56px;  
+      }
+  
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        width: 49%;
+        height: 56px;
+      }
+  
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+        width: 49%;
+        height: 56px;
+      }
+  
+      @media screen and (min-width: 1201px) and (max-width: 1535px) {
+        width: 49%;
+        height: 56px;
+      }
+}
+.reg_massage {
+    width: 100%;
+    height: 151px;
+    background-color: inherit;
+    border: 1px solid #EBEBEB;
+    color: #FFFFFF;
+    padding: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+.reg_form>button {
+    width: 100%;
+    height: 48px;
+    background-color: #764AF1;
+    color: white;
+    border: none;
+    border-radius: 130px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+}

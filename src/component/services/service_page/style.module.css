@@ -1,0 +1,1084 @@
+.container_block {
+    width: 1392px;
+    height: auto;
+    margin-top: 16px;
+}
+
+.info_blog {
+    width: 100%;
+    height: 688px;
+    display: flex;
+    justify-content: space-between;
+}
+.info_blog_text {
+    width: 688px;
+    height: 100%;
+    border-radius: 24px;
+    padding: 32px;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+}
+
+.info_blog_btn {
+    width: auto;
+    padding: 0 16px;
+    height: 32px;
+    border-radius: 28px;
+    border: 1px solid #2E2E2E;
+    color: #2E2E2E;
+    background-color: inherit;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.info_blog_title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1.9375rem, 1.5759rem + 1.4834vw, 3rem);
+    line-height: clamp(2.325rem, 1.8401rem + 1.9895vw, 3.75rem);
+    letter-spacing: 1%;
+    margin-top: 352px;
+}
+
+
+.info_blog_description {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 0.9149rem + 0.349vw, 1.25rem);
+    line-height: clamp(1.3rem, 1.0618rem + 0.9773vw, 2rem);
+    letter-spacing: 1%;
+    color: #6C6C6C;
+    margin-top: 24px;
+}
+
+.info_blog_img {
+    width: 688px;
+    height: 100%;
+    border-radius: 24px;
+}
+
+
+.service_pricing {
+    width: 100%;
+    height: 432px;
+    margin-top: 64px;
+    border-radius: 24px;
+    padding: 32px;
+    gap: 96px;
+    background-color: #2E2E2E;
+}
+.service_btn {
+    width: 131px;
+    height: 32px;
+    background-color: white;
+    border-radius: 28px;
+    border: 1px solid;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.service_text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1.5rem, 0.9895rem + 2.0942vw, 3rem);
+    line-height: clamp(2rem, 1.4045rem + 2.4433vw, 3.75rem);
+    color: white;
+    margin-top: 96px;
+}
+
+
+
+
+.vizual_block {
+    width: 1392px;
+    height: auto;
+    margin-top: 64px;
+    padding: 32px;
+    border: 1px solid #B7B7B7;
+    overflow: hidden;
+    position: relative;
+}
+
+.vizual_btn {
+    width: 147px;
+    height: 32px;
+    border-radius: 28px;
+    background-color: inherit;
+    border: 1px solid #2E2E2E;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.vizula_text_block {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.vizual_title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1%;
+    margin-top: 64px;
+}
+
+.vizual_ul {
+    width: auto;
+    height: 320px;
+    overflow: hidden;
+    margin: 16px 0 0 20px;
+}
+
+.vizual_ul>li {
+    color: #2E2E2E;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 1%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.visual_btn_show {
+    height: 48px;
+    margin: 16px 0 0 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 130px;
+    padding: 0 24px;
+    background-color: #764AF1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.vizual_img {
+    width: 60%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.need_design {
+    width: 100%;
+    height: 516px;
+    margin-top: 64px;
+    padding: 32px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #E1E1E1;
+}
+
+.need_btn {
+    width: 201px;
+    height: 32px;
+    border-radius: 28px;
+    background-color: inherit;
+    border: 1px solid #2E2E2E;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 96px;
+}
+
+.need_title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1.5rem, 0.9683rem + 2.1815vw, 3.0625rem);
+    line-height: clamp(2rem, 1.4045rem + 2.4433vw, 3.75rem);
+    letter-spacing: 1%;
+}
+
+.need_description {
+    width: 53%; 
+    font-size: 18.5px;
+    line-height: 32px;
+    margin-top: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #6C6C6C;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container_block {
+        width: 358px;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .info_blog {
+        width: 100%;
+        height: 806px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .info_blog_text {
+        width: 100%;
+        height: 432px;
+        border-radius: 24px;
+        padding: 32px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .info_blog_btn {
+        width: auto;
+        padding: 0 16px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        background-color: inherit;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    .info_blog_title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: clamp(1.9375rem, 1.5759rem + 1.4834vw, 3rem);
+        line-height: clamp(2.325rem, 1.8401rem + 1.9895vw, 3.75rem);
+        letter-spacing: 1%;
+        margin-top: 80px;
+    }
+    
+    .info_blog_description {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: clamp(1rem, 0.9149rem + 0.349vw, 1.25rem);
+        line-height: clamp(1.3rem, 1.0618rem + 0.9773vw, 2rem);
+        letter-spacing: 1%;
+        color: #6C6C6C;
+        margin-top: 24px;
+    }
+    
+    .info_blog_img {
+        width: 100%;
+        height: 358px;
+        border-radius: 24px;
+    }
+    
+
+    .service_pricing {
+        width: 358px;
+        height: auto;
+        margin-top: 32px;
+        border-radius: 24px;
+        padding: 24px;
+        background-color: #2E2E2E;
+    }
+    .service_btn {
+        width: 131px;
+        height: 32px;
+        background-color: white;
+        border-radius: 28px;
+        border: 1px solid;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .service_text {
+        font-size: 24px;
+        margin-top: 80px;
+    }
+
+
+    .vizual_block {
+        width: 358px;
+        height: auto;
+        margin-top: 48px;
+        padding: 32px;
+        border-radius: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .vizual_btn {
+        width: 147px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .vizula_text_block {
+        width: 100%;
+        height: auto;
+        gap: 64px;
+    }
+      
+    .vizual_title {
+        margin-top: 64px;
+        font-size: 32px;
+        line-height: 40px;
+        color: #000000;
+    }
+
+    .vizual_ul {
+        width: 100%;
+        height: 520px;
+        margin: 16px 0 0 0;
+    }
+    
+    .vizual_ul>li {
+        color: #2E2E2E;
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 1%;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+    }
+     
+    .vizual_img {
+       display: none    ;
+    }
+
+
+    .need_design {
+        width: 358px;
+        height: 528px;
+        margin-top: 48px;
+        padding: 24px;
+    }
+   
+    .need_btn {
+        margin-bottom: 80px;
+    }
+    
+    .need_description {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #6C6C6C;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container_block {
+        width: 90%;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .info_blog {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+    .info_blog_text {
+        width: 100%;
+        height: 432px;
+        border-radius: 24px;
+        padding: 32px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .info_blog_btn {
+        width: auto;
+        padding: 0 16px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        background-color: inherit;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    .info_blog_title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: clamp(1.9375rem, 1.5759rem + 1.4834vw, 3rem);
+        line-height: clamp(2.325rem, 1.8401rem + 1.9895vw, 3.75rem);
+        letter-spacing: 1%;
+        margin-top: 80px;
+    }
+    
+    .info_blog_description {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: clamp(1rem, 0.9149rem + 0.349vw, 1.25rem);
+        line-height: clamp(1.3rem, 1.0618rem + 0.9773vw, 2rem);
+        letter-spacing: 1%;
+        color: #6C6C6C;
+        margin-top: 24px;
+    }
+    
+    .info_blog_img {
+        width: 100%;
+        height: 380px;
+        border-radius: 24px;
+    }
+
+
+    .service_pricing {
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+        border-radius: 24px;
+        padding: 24px;
+        background-color: #2E2E2E;
+    }
+
+    .service_btn {
+        width: 131px;
+        height: 32px;
+        background-color: white;
+        border-radius: 28px;
+        border: 1px solid;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .service_text {
+        margin-top: 80px;
+    }
+
+    .vizual_block {
+        width: 100%;
+        height: auto;
+        margin-top: 48px;
+        padding: 32px;
+        border-radius: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+
+    .vizual_btn {
+        width: 147px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .vizula_text_block {
+        width: 100%;
+        height: auto;
+        gap: 64px;
+    }
+    
+    .vizual_ul {
+        width: 100%;
+        height: 520px;
+        margin: 20px 0 0 0;
+    }
+    
+    .vizual_ul>li {
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 1%;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+    }
+    
+    .vizual_img {
+       display: none;
+    }
+
+
+    .need_design {
+        width: 100%;
+        height: 100%;
+        padding: 24px;
+        margin-top: 48px;
+        border: 1px solid #E1E1E1;
+        border-radius: 24px;
+        background-color: white;
+    }
+    
+    .need_btn {
+        margin-bottom: 80px;
+    }
+    
+    .need_description {
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #6C6C6C;
+    } 
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .container_block {
+        width: 90%;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .info_blog {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        gap: 0 16px;
+    }
+
+    .info_blog_text {
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+        padding: 24px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .info_blog_btn {
+        width: auto;
+        padding: 0 16px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        background-color: inherit;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    .info_blog_title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 40px;
+        letter-spacing: 1%;
+        margin-top: 80px;
+    }
+    
+    .info_blog_description {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 1%;
+        color: #6C6C6C;
+        margin-top: 24px;
+    }
+    
+    .info_blog_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+
+
+    .service_pricing {
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+        border-radius: 24px;
+        padding: 24px;
+        background-color: #2E2E2E;
+    }
+    .service_btn {
+        width: 131px;
+        height: 32px;
+        background-color: white;
+        border-radius: 28px;
+        border: 1px solid;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .service_text {
+        margin-top: 80px;
+    }
+
+    .vizual_block {
+        width: 100%;
+        height: auto;
+        margin-top: 48px;
+        padding: 32px;
+        border-radius: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .vizual_btn {
+        width: 147px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+     
+    .vizula_text_block {
+        width: 60%;
+        height: auto;
+        gap: 64px;
+        z-index: 2;
+    }
+      
+    .vizual_ul {
+        width: 100%;
+        height: 450px;
+        margin: 20px 0 0 0;
+    }
+    
+    .vizual_ul>li {
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 1%;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+    }
+    
+    .vizual_img {
+        top: 100px;
+        right: -100px;
+    }
+
+
+    .need_design {
+        width: 100%;
+        height: 100%;
+        padding: 24px;
+        margin-top: 64px;
+        border-radius: 24px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .need_btn {
+        margin-bottom: 80px;
+    }
+    
+    .need_description {
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #6C6C6C;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .container_block {
+        width: 95%;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .info_blog {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        gap: 0 16px;
+    }
+
+    .info_blog_text {
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+        padding: 24px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .info_blog_btn {
+        width: auto;
+        padding: 0 16px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        background-color: inherit;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    .info_blog_title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1%;
+        margin-top: 80px;
+    }
+    
+    .info_blog_description {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1%;
+        color: #6C6C6C;
+        margin-top: 24px;
+    }
+    
+    .info_blog_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+
+
+    .service_pricing {
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+        border-radius: 24px;
+        padding: 24px;
+        background-color: #2E2E2E;
+    }
+
+    .service_btn {
+        width: 131px;
+        height: 32px;
+        background-color: white;
+        border-radius: 28px;
+        border: 1px solid;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .service_text {
+        margin-top: 80px;
+    }
+
+
+    .vizual_block {
+        width: 100%;
+        height: auto;
+        margin-top: 48px;
+        padding: 32px;
+        border-radius: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .vizula_text_block {
+        width: 100%;
+        height: auto;
+        gap: 64px;
+    }
+      
+    .vizual_ul {
+        width: 55%;
+        height: 400px;
+        margin: 20px 0 0 0;
+    }
+    
+    .vizual_ul>li {
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 1%;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+    }
+    
+    .vizual_img {
+       width: 60%;
+       height: auto;
+       top: 50px;
+       right: -100px;
+    }
+
+
+    .need_design {
+        width: 100%;
+        height: 100%;
+        padding: 24px;
+        margin-top: 64px;
+        border-radius: 24px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .need_btn {
+        margin-bottom: 80px;
+    }
+    
+    .need_description {
+        width: 60%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #6C6C6C;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+    .container_block {
+        width: 95%;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .info_blog {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        gap: 0 16px;
+    }
+
+    .info_blog_text {
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+        padding: 24px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .info_blog_btn {
+        width: auto;
+        padding: 0 16px;
+        height: 32px;
+        border-radius: 28px;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        background-color: inherit;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    .info_blog_title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1%;
+        margin-top: 200px;
+    }
+    
+    .info_blog_description {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1%;
+        color: #6C6C6C;
+        margin-top: 24px;
+    }
+    
+    .info_blog_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+
+
+    .service_pricing {
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+        border-radius: 24px;
+        padding: 32px;
+        background-color: #2E2E2E;
+    }
+
+    .service_btn {
+        width: 131px;
+        height: 32px;
+        background-color: white;
+        border-radius: 28px;
+        border: 1px solid;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .service_text {
+        margin-top: 80px;
+    }
+
+
+    .vizual_block {
+        width: 100%;
+        height: auto;
+        margin-top: 48px;
+        padding: 32px;
+        border-radius: 32px;
+        background-color: #E1E1E1;
+        border: 1px solid #B7B7B7;
+    }
+    
+    .vizula_text_block {
+        width: 100%;
+        height: auto;
+        gap: 64px;
+    }
+      
+    .vizual_ul {
+        width: 55%;
+        height: 400px;
+        margin: 20px 0 0 0;
+    }
+    
+    .vizual_ul>li {
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 1%;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+    }
+    
+    .vizual_img {
+       width: 60%;
+       height: auto;
+       top: 50px;
+       right: -100px;
+    }
+
+
+    .need_design {
+        width: 100%;
+        height: 100%;
+        padding: 24px;
+        margin-top: 64px;
+        border-radius: 24px;
+        border: 1px solid #E1E1E1;
+        background-color: white;
+    }
+    
+    .need_btn {
+        margin-bottom: 80px;
+    }
+    
+    .need_description {
+        width: 60%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #6C6C6C;
+    }
+}

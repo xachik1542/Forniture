@@ -1,79 +1,79 @@
 import styles from "./style.module.css";
 import { blog } from "../../../json/blog_service/blog.service";
-import GetTouch from "../../../get_in_touch/GetTouch";
-import { useSearchParams, Link } from "react-router-dom";
+import * as React from "react";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-
 import { HiOutlineArrowSmLeft } from "react-icons/hi";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { MdArrowOutward } from "react-icons/md";
+import { Dialog } from "@mui/material";
+import Slide from "@mui/material/Slide";
+import GetTouch from "../../../get_in_touch/GetTouch";
+import { useTranslation } from "react-i18next";
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
 
 function Show_Page() {
+  const [t] = useTranslation();
   const [info, setInfo] = useState([]);
-  const [searchParams, setSearchParams] = useSearchParams();
-  let urlInfo = +searchParams.get("info");
-  const [contact, setContact] = useState(false);
+  const params = useParams();
+  const navigate = useNavigate();
+  const urlBlog = +params.id;
+  const [touchOpen, setTouchOpen] = useState(false);
 
   useEffect(() => {
     setInfo(blog);
   }, []);
 
   const handleNextInfo = () => {
-    if (urlInfo < info.length) {
-      searchParams.set("info", urlInfo + 1);
-      setSearchParams(searchParams);
+    if (urlBlog < info.length) {
+      navigate(`/blog/${urlBlog + 1}`);
     }
   };
 
   const handlePrevInfo = () => {
-    if (urlInfo > 1) {
-      searchParams.set("info", urlInfo - 1);
-      setSearchParams(searchParams);
+    if (urlBlog > 1) {
+      navigate(`/blog/${urlBlog - 1}`);
     }
-  };
-
-  const handleShowTouch = () => {
-    setContact(true);
   };
 
   return (
     <div className={styles.container_block}>
       {info.map((el) => {
-        if (el.id == urlInfo) {
+        if (el.id == urlBlog) {
           return (
             <div
               key={el.id}
               className={styles.project_block}
               style={{ backgroundImage: `url(${el.img})` }}
             >
-              <button className={styles.project_btn}>{el.size}</button>
-              <h1 className={styles.project_name}>{el.name}</h1>
-              <p className={styles.project_text}>{el.text}</p>
+              <button className={styles.project_btn}>{t(el.size)}</button>
+              <h1 className={styles.project_name}>{t(el.name)}</h1>
+              <p className={styles.project_text}>{t(el.text)}</p>
             </div>
           );
         }
       })}
-
       {info.length > 0 ? (
         <div className={styles.container_read}>
           <div className={styles.read_title_box}>
-            <button className={styles.read_btn}>Read Blog</button>
+            <button className={styles.read_btn}>
+              {t("blog.one.read.btnname")}
+            </button>
             <p className={styles.interier_text}>
-              Interior design is more than just decorating a room—it’s about
-              creating a space that reflects your personality, enhances comfort,
-              and serves a functional purpose. Whether you're redesigning your
-              living room or starting from scratch in a new home, here are five
-              key tips to elevate your space.
+              {t("blog.one.read.description")}
             </p>
           </div>
 
           {info.map((item) => {
-            if (item.id == urlInfo && item.read) {
+            if (item.id == urlBlog && item.read) {
               return (
                 <div key={item.id} className={styles.info_boxes}>
                   {item.read.map((el) => (
                     <div key={el.id} className={styles.info_boxes}>
-                      <h1 className={styles.info_name}>{el.name}</h1>
+                      <h1 className={styles.info_name}>{t(el.name)}</h1>
                       {el.images ? (
                         <div className={styles.info_img_box}>
                           {el.images.map((img) => (
@@ -81,9 +81,9 @@ function Show_Page() {
                           ))}
                         </div>
                       ) : null}
-                      <p className={styles.info_title}>{el.title}</p>
+                      <p className={styles.info_title}>{t(el.title)}</p>
                       <p className={styles.info_description}>
-                        {el.description}
+                        {t(el.description)}
                       </p>
                     </div>
                   ))}
@@ -97,27 +97,26 @@ function Show_Page() {
           <div className={styles.read_pagination}>
             <button onClick={handlePrevInfo}>
               <HiOutlineArrowSmLeft className={styles.read_icon} />
-              Previous
+              {t("previous")}
             </button>
             <button onClick={handleNextInfo}>
-              Next
+              {t("next")}
               <HiOutlineArrowSmRight className={styles.read_icon} />
             </button>
           </div>
         </div>
       ) : null}
-
       <div className={styles.right_block}>
         <div className={styles.popular_block}>
-          <div className={styles.pop_box_name}>Popular</div>
+          <div className={styles.pop_box_name}>{t("blog.btnpopular")}</div>
           {info.map((item) => {
             if (item.isPopular == true) {
               return (
-                <div className={styles.popular_box}>
+                <div key={item.id} className={styles.popular_box}>
                   <img src={item.img} />
-                  <div className={styles.popular_size_box}>{item.size}</div>
-                  <h1 className={styles.popular_name}>{item.name}</h1>
-                  <p className={styles.popular_text}>{item.text}</p>
+                  <div className={styles.popular_size_box}>{t(item.size)}</div>
+                  <h1 className={styles.popular_name}>{t(item.name)}</h1>
+                  <p className={styles.popular_text}>{t(item.text)}</p>
                 </div>
               );
             }
@@ -125,23 +124,29 @@ function Show_Page() {
         </div>
 
         {info.map((item) => {
-          if (item.id == urlInfo) {
+          if (item.id == urlBlog) {
             return (
               <div key={item.id} className={styles.sale_block}>
-                <div className={styles.sale_box}>Sale</div>
+                <div className={styles.sale_box}>
+                  {t("blog.one.sale.btnname")}
+                </div>
                 {item.sale.map((el) => (
                   <div
                     key={el.id}
                     className={styles.sale_img_box}
                     style={{ backgroundImage: `url(${el.img})` }}
                   >
-                    <h1>{el.name}</h1>
-                    <p>{el.title}</p>
+                    <h1>{t(el.name)}</h1>
+                    <p>{t(el.title)}</p>
                   </div>
                 ))}
-                <Link className={styles.sale_link} onClick={handleShowTouch}>
-                  GET IN TOUCH <MdArrowOutward className={styles.sale_icon} />
-                </Link>
+                <button
+                  className={styles.sale_link}
+                  onClick={() => setTouchOpen(true)}
+                >
+                  {t("getintouch")}
+                  <MdArrowOutward className={styles.sale_icon} />
+                </button>
               </div>
             );
           } else {
@@ -150,10 +155,12 @@ function Show_Page() {
         })}
 
         {info.map((item) => {
-          if (item.id == urlInfo) {
+          if (item.id == urlBlog) {
             return (
               <div key={item.id} className={styles.visit_block}>
-                <div className={styles.visit_box}>Visit Our Instagram</div>
+                <div className={styles.visit_box}>
+                  {t("blog.one.visit.btnname")}
+                </div>
                 {item.visit.map((el) => (
                   <div
                     key={el.id}
@@ -161,18 +168,32 @@ function Show_Page() {
                     style={{ backgroundImage: `url(${el.img})` }}
                   ></div>
                 ))}
-                <Link className={styles.visit_link} onClick={handleShowTouch}>
-                  VISIT <MdArrowOutward className={styles.visit_icon} />
+                <Link
+                  to={"https://www.instagram.com/"}
+                  target="_blank"
+                  className={styles.visit_link}
+                >
+                  {t("blog.one.visit.linkname")}
+                  <MdArrowOutward className={styles.visit_icon} />
                 </Link>
               </div>
             );
-          } else {
-            return;
           }
         })}
-
-        {contact ? <GetTouch setContact={setContact} /> : null}
       </div>
+      <React.Fragment>
+        <Dialog
+          open={touchOpen}
+          maxWidth={false}
+          TransitionComponent={Transition}
+          keepMounted
+          aria-describedby="alert-dialog-slide-description"
+          PaperProps={{ sx: { borderRadius: "24px" } }}
+        >
+          <GetTouch setTouchOpen={setTouchOpen} />
+        </Dialog>
+      </React.Fragment>
+      ;
     </div>
   );
 }

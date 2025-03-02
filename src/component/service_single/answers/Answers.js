@@ -1,50 +1,44 @@
-import styles from "./style.module.css";
-import { Link } from "react-router-dom";
-import { answer } from "../../../json/service_packages/Service.Packages";
-import { MdArrowOutward } from "react-icons/md";
 import { useState } from "react";
+import styles from "./style.module.css";
+import Commponents_Answer from "./Commponents_Answer";
+import { answer } from "../../../json/service_packages/Service.Packages";
+import { Link } from "react-router-dom";
+import { RxArrowTopRight } from "react-icons/rx";
+import { useTranslation } from "react-i18next";
 
 function Answers() {
+  const [t] = useTranslation();
   const [id, setId] = useState(0);
-  const [num, setNum] = useState(false);
 
-  const handleOpen = (id) => {
-    answer.map((el) => {
-      if (el.id == id) {
-        setId(id);
-        setNum(!num);
-      } 
-    });
+  const getId = (getId) => {
+    if (getId == id) {
+      setId(-1);
+    } else {
+      setId(getId);
+    }
   };
 
   return (
     <div className={styles.container_block}>
-      <div className={styles.container_pair}>
-        <button className={styles.container_btn}>Answers to Questions</button>
+      <div className={styles.answer_boxes}>
+        <button className={styles.container_btn}>
+          {t("services.answers.btnname")}
+        </button>
         {answer.map((el) => {
           return (
-            <div
+            <Commponents_Answer
               key={el.id}
-              className={el.id === id && num ? styles.open : styles.close}
-              onClick={() => handleOpen(el.id)}
-            >
-              <h1 className={styles.container_name}>{el.title}</h1>
-
-              {el.id == id && num ? (
-                <p className={styles.container_text}>{el.description}</p>
-              ) : null}
-
-              <h1 className={styles.plus_minus}>
-                {el.id == id && num ? "-" : "+"}
-              </h1>
-            </div>
+              item={el}
+              setId={getId}
+              isShow={el.id == id ? true : false}
+            />
           );
         })}
       </div>
 
-      <Link className={styles.container_link} to={"/work"}>
-        SEE WORK STAGES
-        <MdArrowOutward />
+      <Link to={"/work"} className={styles.link_to_work}>
+        {t("services.answers.link")}
+        <RxArrowTopRight className={styles.icon_arrow} />
       </Link>
     </div>
   );

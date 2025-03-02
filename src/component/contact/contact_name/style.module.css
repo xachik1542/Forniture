@@ -1,150 +1,150 @@
 .name_block {
-    width: 1392px;
-    height: 391px;
-    background-color: #764AF1;
-    border-radius: 24px;
-    padding: 32px;
-    gap: 96px;
-    margin-top: 10px;
-
-
-    @media screen and (max-width: 480px) {
-        width: 358px;
-        height: 250px;
-        padding: 32px;
-        gap: 70px;
-    }
-
-    @media screen and (min-width: 481px) and (max-width: 767px) {
-        width: 90%;
-        height: 350px;
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-        width: 90%;
-        height: 400px;
-    }
-
-    @media screen and (min-width: 992px) and (max-width: 1200px) {
-        width: 95%;
-        height: 400px;
-    }
-
-    @media screen and (min-width: 1201px) and (max-width: 1535px) {
-        width: 95%;
-        height: 400px;
-    }
+  width: 1392px;
+  height: 391px;
+  background-color: #764af1;
+  border-radius: 24px;
+  padding: 32px;
+  gap: 96px;
+  margin-top: 10px;
 }
 
 .name_btn {
-    width: 88px;
-    height: 32px;
-    background-color: white;
-    color: #764AF1;
-    border: none;
-    border-radius: 28px;
-    gap: 10px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 16px;
+  width: fit-content;
+  height: 32px;
+  padding: 0 16px;
+  background-color: white;
+  color: #764af1;
+  border: none;
+  border-radius: 28px;
+  gap: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .text_box {
-    width: 100%;
-    height: 199px;
-    margin-top: 48px;
-    gap: 16px;
-
-    @media screen and (max-width: 480px) {
-        width: 100%;
-        height: 100px;
-        padding: 0;
-    }
-
-    @media screen and (min-width: 481px) and (max-width: 767px) {
-       width: 100%;
-       height: auto;
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-        width: 100%;
-        height: auto;
-    }
-
-    @media screen and (min-width: 992px) and (max-width: 1200px) {
-        width: 100%;
-        height: auto;
-    }
-
-    @media screen and (min-width: 1201px) and (max-width: 1535px) {
-        width: 100%;
-        height: auto;
-    }
+  width: 100%;
+  height: auto;
+  gap: 16px;
 }
-.text_box>img {
-    width: 100%;
-    height: 162px;
 
-    @media screen and (max-width: 480px) {
-       width: 100%;
-       height: auto;
-    }
-
-    @media screen and (min-width: 481px) and (max-width: 767px) {
-        width: 100%;
-        height: 80px;
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-        width: 100%;
-        height: 120px;
-    }
-
-    @media screen and (min-width: 992px) and (max-width: 1200px) {
-        width: 100%;
-        height: 130px;
-    }
-
-    @media screen and (min-width: 1201px) and (max-width: 1535px) {
-        width: 100%;
-        height: 150px;
-    }
+.text_box > h1 {
+  font-size: 11.5vw;
+  line-height: 1;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 48px;
+  overflow: hidden;
 }
-.text_box>p {
+
+.text_box > h1:lang(ru),
+.text_box > h1:lang(cz) {
+  font-size: 8vw;
+}
+
+.text_box > p {
+  font-size: 16px;
+  line-height: 20.8px;
+  letter-spacing: 1%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .name_block {
+    width: 100%;
+    height: 250px;
+    padding: 32px;
+    gap: 70px;
+  }
+
+  .text_box {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+  }
+
+  .text_box > h1 {
+    font-size: 35px;
+  }
+
+  .text_box > h1:lang(ru),
+  .text_box > h1:lang(cz),
+  .text_box > h1:lang(am) {
+    font-size: 28px;
+  }
+
+  .text_box > p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .name_block {
+    width: 100%;
+    height: auto;
+  }
+
+  .text_box > h1:lang(ru),
+  .text_box > h1:lang(cz),
+  .text_box > h1:lang(am) {
+    font-size: 7.5vw;
+  }
+
+  .text_box > p {
     font-size: 16px;
-    line-height: 20.8px;
-    letter-spacing: 1%;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
+    margin-top: 10px;
+  }
+}
 
-    @media screen and (max-width: 480px) {
-        font-size: 14px;
-        margin-top: 10px;
-    }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .name_block {
+    width: 100%;
+    height: auto;
+  }
 
-    @media screen and (min-width: 481px) and (max-width: 767px) {
-        font-size: 16px;
-        margin-top: 10px;
-    }
+  .text_box > h1:lang(ru),
+  .text_box > h1:lang(cz),
+  .text_box > h1:lang(am) {
+    font-size: 7.5vw;
+  }
 
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-        font-size: 16px;
-        margin-top: 10px;
-    }
+  .text_box > p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
 
-    @media screen and (min-width: 992px) and (max-width: 1200px) {
-        font-size: 16px;
-        margin-top: 16px;
-    }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .name_block {
+    width: 100%;
+    height: auto;
+  }
 
-    @media screen and (min-width: 1201px) and (max-width: 1535px) {
-        font-size: 16px;
-        margin-top: 16px;
-    }
+  .text_box > p {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1535px) {
+  .name_block {
+    width: 100%;
+    height: auto;
+  }
+
+  .text_box > p {
+    font-size: 16px;
+    margin-top: 16px;
+  }
 }

@@ -1,101 +1,56 @@
 import styles from "./style.module.css";
 import { blog } from "../../../json/blog_service/blog.service";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Pagination, Stack } from "@mui/material";
-import { useSearchParams } from "react-router-dom";
+import Pagination from "../../../pagination/Pagination";
+import { useTranslation } from "react-i18next";
 
 function Show_Project() {
-  const [blogData, setBlogData] = useState([]);
-  const itemsPerPage = 2;
-  const pageCount = Math.ceil(blogData.length / itemsPerPage);
+  const [t] = useTranslation();
+  const [data, setData] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
   let urlPage = +searchParams.get("page");
-  const [currentPage, setCurrentPage] = useState(urlPage);
-  
-  
+  const itemsPerPage = 2;
+  let totalPages = Math.ceil(data.length / itemsPerPage);
+
   useEffect(() => {
-    setBlogData(blog);
+    setData(blog);
   }, [blog]);
 
-  const getPaginatedData = () => {
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    return blogData.slice(startIndex, endIndex);
+  const getPaginationItems = () => {
+    const lastIndex = urlPage * itemsPerPage;
+    const firstIndex = lastIndex - itemsPerPage;
+    return data.slice(firstIndex, lastIndex);
   };
-
-  const handlePageChange = (event, page) => {
-    setSearchParams({ page: page });
-  };
-
-  useEffect(() => {
-    setCurrentPage(urlPage);
-  }, [urlPage]);
 
   return (
     <div className={styles.container_block}>
       <div className={styles.container_title_box}>
         <button className={styles.title_btn}>
-          <p className={styles.work_text}>Work Satges</p>
-          <p className={styles.title_name}>Blog</p>
+          <p className={styles.work_text}>{t("blog.btnname")}</p>
+          <p className={styles.title_name}>{t("blog.mediabtnname")}</p>
         </button>
-        <div className={styles.title_big_name}>
-          <svg
-            className={styles.container_svg}
-            width="1328"
-            height="366"
-            viewBox="0 0 1328 366"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0 360.289V5.7113H149.311C172.77 5.7113 192.741 9.83614 209.226 18.0858C226.027 26.0182 238.866 37.4408 247.742 52.3537C256.936 66.9493 261.532 84.7178 261.532 105.659C261.532 121.841 257.094 137.072 248.218 151.35C239.659 165.311 225.869 176.892 206.848 186.094V156.109C224.284 162.772 238.074 171.022 248.218 180.858C258.362 190.694 265.495 201.641 269.616 213.698C273.737 225.756 275.798 238.447 275.798 251.774C275.798 285.724 264.544 312.377 242.036 331.732C219.846 350.77 188.937 360.289 149.311 360.289H0ZM64.6698 303.176H155.968C172.77 303.176 186.084 298.575 195.911 289.373C206.056 279.854 211.128 267.321 211.128 251.774C211.128 236.226 206.056 223.693 195.911 214.174C186.084 204.655 172.77 199.896 155.968 199.896H64.6698V303.176ZM64.6698 143.259H152.64C165.954 143.259 176.574 139.451 184.499 131.836C192.424 123.904 196.387 113.75 196.387 101.376C196.387 89.0013 192.424 79.1652 184.499 71.8674C176.574 64.5696 165.954 60.9207 152.64 60.9207H64.6698V143.259Z"
-              fill="#2E2E2E"
-            />
-            <path
-              d="M328.773 360.289V5.7113H393.442V303.176H545.131V360.289H328.773Z"
-              fill="#2E2E2E"
-            />
-            <path
-              d="M752.187 366C726.193 366 701.941 361.399 679.434 352.198C656.926 342.996 637.272 330.146 620.47 313.646C603.669 297.147 590.513 277.792 581.003 255.581C571.809 233.053 567.213 208.78 567.213 182.762C567.213 156.427 571.809 132.153 581.003 109.943C590.196 87.7321 603.193 68.3771 619.995 51.8778C636.796 35.3784 656.451 22.6866 678.958 13.8023C701.466 4.60078 725.876 0 752.187 0C778.499 0 802.909 4.60078 825.416 13.8023C847.924 23.0039 867.578 35.8543 884.38 52.3537C901.181 68.5358 914.179 87.7321 923.372 109.943C932.882 132.153 937.637 156.427 937.637 182.762C937.637 208.78 932.882 233.053 923.372 255.581C913.862 277.792 900.706 297.147 883.904 313.646C867.103 330.146 847.448 342.996 824.941 352.198C802.75 361.399 778.499 366 752.187 366ZM752.187 306.983C769.623 306.983 785.632 303.969 800.214 297.94C814.797 291.594 827.477 282.869 838.255 271.763C849.35 260.658 857.751 247.49 863.457 232.26C869.48 217.03 872.492 200.531 872.492 182.762C872.492 164.993 869.48 148.653 863.457 133.74C857.751 118.51 849.35 105.342 838.255 94.2367C827.477 82.814 814.797 74.0884 800.214 68.0598C785.632 62.0312 769.623 59.0169 752.187 59.0169C735.069 59.0169 719.218 62.0312 704.636 68.0598C690.054 74.0884 677.215 82.814 666.119 94.2367C655.341 105.342 646.94 118.51 640.917 133.74C634.894 148.653 631.883 164.993 631.883 182.762C631.883 200.531 634.894 217.03 640.917 232.26C646.94 247.49 655.341 260.658 666.119 271.763C677.215 282.869 690.054 291.594 704.636 297.94C719.218 303.969 735.069 306.983 752.187 306.983Z"
-              fill="#2E2E2E"
-            />
-            <path
-              d="M1163 366C1137.64 366 1114.18 361.399 1092.62 352.198C1071.06 342.996 1052.2 330.146 1036.04 313.646C1019.87 297.147 1007.19 277.792 997.994 255.581C989.118 233.371 984.68 209.098 984.68 182.762C984.68 156.427 988.959 132.153 997.518 109.943C1006.39 87.4148 1018.76 68.0598 1034.61 51.8778C1050.78 35.3784 1069.64 22.6866 1091.19 13.8023C1112.75 4.60078 1136.21 0 1161.57 0C1186.93 0 1209.6 4.28349 1229.57 12.8505C1249.86 21.4174 1266.98 32.8401 1280.92 47.1183C1294.87 61.0793 1304.86 76.4681 1310.88 93.2848L1253.34 120.889C1246.69 102.486 1235.43 87.5735 1219.58 76.1509C1203.73 64.7282 1184.4 59.0169 1161.57 59.0169C1139.38 59.0169 1119.73 64.2523 1102.61 74.723C1085.81 85.1938 1072.65 99.6307 1063.14 118.034C1053.95 136.437 1049.35 158.013 1049.35 182.762C1049.35 207.511 1054.1 229.246 1063.61 247.966C1073.44 266.369 1086.91 280.806 1104.03 291.277C1121.15 301.748 1140.81 306.983 1163 306.983C1181.07 306.983 1197.71 303.493 1212.93 296.512C1228.14 289.215 1240.35 279.061 1249.54 266.052C1258.73 252.726 1263.33 237.02 1263.33 218.934V191.805L1292.81 217.506H1161.57V162.772H1328V198.468C1328 225.756 1323.4 249.87 1314.21 270.811C1305.02 291.753 1292.5 309.363 1276.64 323.641C1261.11 337.602 1243.52 348.231 1223.86 355.529C1204.21 362.51 1183.92 366 1163 366Z"
-              fill="#2E2E2E"
-            />
-          </svg>
-          <p className={styles.title_description}>
-            Lorem ipsum dolor sit amet
-            <br /> consectetur. Integer sit vel quisque
-            <br /> laoreet lacus at.
-          </p>
+        <div className={styles.title_text_box}>
+          <h1 className={styles.blog_big_name}>{t("blog.title")}</h1>
         </div>
+          <p className={styles.title_description}>{t("blog.description")}</p>
       </div>
 
       <div className={styles.project_block}>
-        {getPaginatedData().map((el) => (
+        {getPaginationItems().map((el) => (
           <Link
             key={el.id}
             to={`/blog/${el.id}?`}
             className={styles.project_link}
           >
             <img src={el.img} />
-            <h2>{el.name}</h2>
-            <p>{el.text}</p>
+            <h2>{t(el.name)}</h2>
+            <p>{t(el.text)}</p>
           </Link>
         ))}
       </div>
 
-      <Stack>
-        <Pagination
-          count={pageCount}
-          page={currentPage}
-          onChange={handlePageChange}
-          color="primary"
-          size="large"
-        />
-      </Stack>
+      <Pagination totalPages={totalPages} itemsPerPage={itemsPerPage} />
     </div>
   );
 }

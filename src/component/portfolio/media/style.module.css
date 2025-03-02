@@ -11,10 +11,11 @@
         height: 56px;
         display: flex;
         justify-content: space-between;
+        gap: 8px;
     }
 
     .all_btn {
-        width: 294px;
+        width: 85%;
         height: 56px;
         border-radius: 32px;
         background-color: #764AF1;

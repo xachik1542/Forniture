@@ -1,5 +1,4 @@
 import styles from "./style.module.css";
-import process from "../../../assets/img/work_img/Process.svg";
 function Stages_Project() {
   return (
     <div className={styles.container_block}>

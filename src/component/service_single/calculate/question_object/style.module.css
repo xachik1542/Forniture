@@ -1,0 +1,706 @@
+.what_service_box {
+    width: 100%;
+    height: 408px;
+    margin-top: 64px;
+}
+
+.what_service_name {
+    height: 56px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2E2E2E;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question_block {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    padding: 32px 0 32px 234px;
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px 32px;
+}
+
+.question_btn_active {
+    width: 445.5px;
+    height: 56px;
+    border-radius: 32px;
+    background-color: #764AF1;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.question_btn_passive {
+    width: 445.5px;
+    height: 56px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #2E2E2E;
+    color: #2E2E2E;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.service_next_box {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.back_btn {
+    width: 688px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 32px;
+    border: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.back_btn:hover {
+    background-color: #764AF1;
+    cursor: pointer;
+    color: white;
+}
+
+.passive_next_btn {
+    width: 688px;
+    height: 100%;
+    background-color: #B7B7B7;
+    color: white;
+    border-radius: 32px;
+    border: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.active_next_btn {
+    width: 688px;
+    height: 100%;
+    background-color: #764AF1;
+    color: white;
+    border-radius: 32px;
+    border: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .what_service_box {
+        width: 100%;
+        height: auto;
+        margin-top: 64px;        
+    }
+    
+    .what_service_name {
+        height: 56px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .question_block {
+        width: 100%;
+        height: auto;
+        margin-top: 16px;
+        padding: 32px;
+        background-color: white;
+        border: 1px solid #E1E1E1;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        flex-wrap: unset;
+        gap: 16px 0;
+    }
+    
+    .question_btn_active {
+        width: 100%;
+        height: 56px;
+        border-radius: 32px;
+        padding: 0 16px;
+        background-color: #764AF1;
+        border: none;
+        color: white;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .question_btn_passive {
+        width: 100%;
+        height: 56px;
+        border-radius: 32px;
+        padding: 0 16px;
+        background-color: #FFFFFF;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .service_next_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        gap: 0 16px;
+    }
+    
+    .back_btn {
+        width: 183px;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 32px;
+        border: none;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .back_btn:hover {
+        background-color: #764AF1;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .passive_next_btn {
+        width: 183px;
+        height: 100%;
+        border-radius: 32px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .active_next_btn {
+        width: 183px;
+        height: 100%;
+        border-radius: 32px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .what_service_box {
+        width: 100%;
+        height: auto;
+        margin-top: 64px;        
+    }
+    
+    .what_service_name {
+        height: 56px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .question_block {
+        width: 100%;
+        height: auto;
+        margin-top: 16px;
+        padding: 32px;
+        background-color: white;
+        border: 1px solid #E1E1E1;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 16px 0;
+    }
+    
+    .question_btn_active {
+        width: 48%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #764AF1;
+        border: none;
+        color: white;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .question_btn_passive {
+        width: 48%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .service_next_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        gap: 0 16px;
+    }
+    
+    .back_btn {
+        width: 48%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 32px;
+        border: none;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .back_btn:hover {
+        background-color: #764AF1;
+        cursor: pointer;
+        color: white;
+    }
+
+    .passive_next_btn {
+        width: 48%;
+        height: 100%;
+        border-radius: 32px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .active_next_btn {
+        width: 48%;
+        height: 100%;
+        border-radius: 32px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+@media screen and (min-width: 767px) and (max-width:991px) {
+    .what_service_box {
+        width: 100%;
+        height: auto;
+        margin-top: 64px;        
+    }
+    
+    .what_service_name {
+        height: 56px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .question_block {
+        width: 100%;
+        height: auto;
+        margin-top: 16px;
+        padding: 32px;
+        background-color: white;
+        border: 1px solid #E1E1E1;
+        border-radius: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: unset;
+        gap: 16px 0;
+    }
+    
+    .question_btn_active {
+        width: 49%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #764AF1;
+        border: none;
+        color: white;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .question_btn_passive {
+        width: 49%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .service_next_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        gap: 0 16px;
+    }
+    
+    .back_btn {
+        width: 49%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 32px;
+        border: none;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .back_btn:hover {
+        background-color: #764AF1;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .passive_next_btn,.active_next_btn {
+        width: 49%;
+        height: 100%;
+        border-radius: 32px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .what_service_box {
+        width: 100%;
+        height: auto;
+        margin-top: 64px;        
+    }
+    
+    .what_service_name {
+        height: 56px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .question_block {
+        width: 100%;
+        height: auto;
+        margin-top: 16px;
+        padding: 32px;
+        background-color: white;
+        border: 1px solid #E1E1E1;
+        border-radius: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: unset;
+        gap: 16px 0;
+    }
+    
+    .question_btn_active {
+        width: 48%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #764AF1;
+        border: none;
+        color: white;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .question_btn_passive {
+        width: 48%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .service_next_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        gap: 0 16px;
+    }
+    
+    .back_btn {
+        width: 49%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 32px;
+        border: none;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .back_btn:hover {
+        background-color: #764AF1;
+        cursor: pointer;
+        color: white;
+    }
+
+    .passive_next_btn,.active_next_btn {
+        width: 49%;
+        height: 100%;
+        border-radius: 32px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+    .what_service_box {
+        width: 100%;
+        height: auto;
+        margin-top: 64px;        
+    }
+    
+    .what_service_name {
+        height: 56px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2E2E2E;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .question_block {
+        width: 100%;
+        height: auto;
+        margin-top: 16px;
+        padding: 32px 150px;
+        background-color: white;
+        border: 1px solid #E1E1E1;
+        border-radius: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: unset;
+        gap: 16px 0;
+    }
+    
+    .question_btn_active {
+        width: 48%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #764AF1;
+        border: none;
+        color: white;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .question_btn_passive {
+        width: 48%;
+        height: 56px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        border: 1px solid #2E2E2E;
+        color: #2E2E2E;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+    }
+    
+    .service_next_box {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        gap: 0 16px;
+    }
+    
+    .back_btn {
+        width: 49%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 32px;
+        border: none;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .back_btn:hover {
+        background-color: #764AF1;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .passive_next_btn,.active_next_btn {
+        width: 49%;
+        height: 100%;
+        border-radius: 32px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

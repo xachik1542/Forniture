@@ -1,0 +1,909 @@
+{
+  "menu": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services & packages": "Services & Packages",
+    "work stages": "Work Stages",
+    "about us": "About Us",
+    "our blog": "Our Blog",
+    "contact us": "Contact us"
+  },
+
+  "home": {
+    "interier_design": {
+      "title": "YOUR INNOVATIVE INTERIOR DESIGN",
+      "text": "We create stylish and cozy interiors turnkey. Individual design projects, 3D visualization, furniture, and decor selection. Your perfect interior is our work!",
+      "linkportfolio": "Portfolio",
+      "touch": "Get In Touch"
+    },
+
+    "servicelink": "VIEW SERVICES",
+
+    "latestproject": {
+      "btnname": "Our Latest Projects",
+      "linkbtn": "VIEW ALL PROJECTS"
+    },
+
+    "inform": {
+      "one": {
+        "title": "Using Eco-Materials",
+        "description": "co-friendly materials bring sustainability and health benefits to your space. We prioritize natural, renewable, and low-emission materials like reclaimed wood, bamboo, recycled metals, and non-toxic finishes, ensuring designs that are both beautiful and environmentally responsible."
+      },
+      "two": {
+        "title": "Personalized Solutions",
+        "description": "Our team takes into account all aspects of the space, client preferences, and style to create designs that emphasize individuality and comfort. Each solution is tailored to specific needs, ensuring an interior that will bring joy for years to come."
+      },
+      "three": {
+        "title": "Full-Service Process",
+        "description": "Our team takes into account all aspects of the space, client preferences, and style to create designs that emphasize individuality and comfort. Each solution is tailored to specific needs, ensuring an interior that will bring joy for years to come."
+      },
+      "four": {
+        "title": "Full-Service Process",
+        "description": "Our team takes into account all aspects of the space, client preferences, and style to create designs that emphasize individuality and comfort. Each solution is tailored to specific needs, ensuring an interior that will bring joy for years to come."
+      }
+    },
+
+    "reviews": {
+      "namebox": "Reviews",
+      "one": {
+        "description": "We love hearing from our clients! At Interier Design, we believe in the power of great design to transform spaces and lives. Our clients' satisfaction is our top priority, and we are proud to share their experiences with you. Read what our clients have to say about their journey with us and how we've helped them create their dream spaces.",
+        "name": "Bella Maria",
+        "work": "Manager of Xvelt"
+      },
+      "two": {
+        "description": "We love hearing from our clients! At Interier Design, we believe in the power of great design to transform spaces and lives. Our clients' satisfaction is our top priority, and we are proud to share their experiences with you. Read what our clients have to say about their journey with us and how we've helped them create their dream spaces.",
+        "name": "Bella Maria",
+        "work": "Manager of Xvelt"
+      },
+      "three": {
+        "description": "We love hearing from our clients! At Interier Design, we believe in the power of great design to transform spaces and lives. Our clients' satisfaction is our top priority, and we are proud to share their experiences with you. Read what our clients have to say about their journey with us and how we've helped them create their dream spaces.",
+        "name": "Bella Maria",
+        "work": "Manager of Xvelt"
+      },
+      "four": {
+        "description": "We love hearing from our clients! At Interier Design, we believe in the power of great design to transform spaces and lives. Our clients' satisfaction is our top priority, and we are proud to share their experiences with you. Read what our clients have to say about their journey with us and how we've helped them create their dream spaces.",
+        "name": "Bella Maria",
+        "work": "Manager of Xvelt"
+      },
+      "five": {
+        "description": "We love hearing from our clients! At Interier Design, we believe in the power of great design to transform spaces and lives. Our clients' satisfaction is our top priority, and we are proud to share their experiences with you. Read what our clients have to say about their journey with us and how we've helped them create their dream spaces.",
+        "name": "Bella Maria",
+        "work": "Manager of Xvelt"
+      },
+      "six": {
+        "description": "We love hearing from our clients! At Interier Design, we believe in the power of great design to transform spaces and lives. Our clients' satisfaction is our top priority, and we are proud to share their experiences with you. Read what our clients have to say about their journey with us and how we've helped them create their dream spaces.",
+        "name": "Bella Maria",
+        "work": "Manager of Xvelt"
+      },
+      "seven": {
+        "description": "We love hearing from our clients! At Interier Design, we believe in the power of great design to transform spaces and lives. Our clients' satisfaction is our top priority, and we are proud to share their experiences with you. Read what our clients have to say about their journey with us and how we've helped them create their dream spaces.",
+        "name": "Bella Maria",
+        "work": "Manager of Xvelt"
+      }
+    },
+
+    "answers": {
+      "btnname": "Answers to Questions",
+      "one": {
+        "name": "What affects the price?",
+        "description": "The price of an interior design project depends on several factors, including the size of the space, the complexity of the design, the choice of materials, furniture, and decor, as well as any custom-made elements."
+      },
+      "two": {
+        "name": "How long does the design process take?",
+        "description": "The duration of the design process varies depending on the project's scale and complexity. On average, a residential interior design project can take from a few weeks to several months."
+      },
+      "three": {
+        "name": "What affects the price?",
+        "description": "The price of an interior design project depends on several factors, including the size of the space, the complexity of the design, the choice of materials, furniture, and decor, as well as any custom-made elements."
+      },
+      "four": {
+        "name": "How long does the design process take?",
+        "description": "The duration of the design process varies depending on the project's scale and complexity. On average, a residential interior design project can take from a few weeks to several months."
+      }
+    },
+
+    "about": {
+      "name": "About Us",
+      "description": "A modern interior blends elegance and functionality. Light tones expand the space, while natural materials create a cozy atmosphere. Minimalist furniture emphasizes style, and accent elements add character."
+    },
+
+    "blog": {
+      "btnname": "Our Blog",
+      "linkbtn": "SEE ALL BLOG"
+    },
+
+    "team": {
+      "btnname": "Our Team",
+      "linkbtn": "KNOW MORE ABOUT US"
+    }
+  },
+
+  "portfolio": {
+    "all": "ALL Project",
+    "navigation": {
+      "commerical": {
+        "name": "Commerical",
+        "subcategory": {
+          "architectural": {
+            "name": "Architectural",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          },
+
+          "1-2rooms": {
+            "name": "1-2 rooms",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          },
+
+          "3-4rooms": {
+            "name": "3-4 rooms",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          },
+
+          "more": {
+            "name": "more rooms",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          }
+        }
+      },
+
+      "residential": {
+        "name": "Residential",
+        "subcategory": {
+          "architectural": {
+            "name": "Architectural",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          },
+
+          "1-2rooms": {
+            "name": "1-2 rooms",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          },
+
+          "3-4rooms": {
+            "name": "3-4 rooms",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          },
+
+          "more": {
+            "name": "more rooms",
+            "types": {
+              "light": "Light Interior",
+              "dark": "Dark Interior",
+              "traditional": "Traditional",
+              "modern": "Modern"
+            }
+          }
+        }
+      },
+
+      "media": {
+        "filter": "Filters",
+        "reset": "Reset",
+        "service": "Service",
+        "rooms": "Rooms",
+        "style": "Style",
+        "save": "Save Changes"
+      }
+    },
+
+    "projects": {
+      "one": {
+        "hovername": "Minimalist Interior Design",
+        "hoverabout": "Interier Design is an innovative project specializing in creating stylish and functional interiors",
+        "hoversee": "See Project",
+        "title": "Modern Minimalistic Interior Design",
+        "subtitle": "We develop modern design solutions that combine aesthetics, ergonomics, and cutting-edge technologies. ",
+        "description": "We develop modern design solutions that combine aesthetics, ergonomics, and cutting-edge technologies. Our team of professionals helps clients bring their dream spaces to life, whether it’s residential interiors, offices, or commercial properties",
+        "location": "Czech Republic, Prague",
+        "size": " 80 m2"
+      },
+
+      "two": {
+        "hovername": "Minimalist Interior Design",
+        "hoverabout": "Interier Design is an innovative project specializing in creating stylish and functional interiors",
+        "hoversee": "See Project",
+        "title": "Modern Minimalistic Interior Design",
+        "subtitle": "We develop modern design solutions that combine aesthetics, ergonomics, and cutting-edge technologies. ",
+        "description": "We develop modern design solutions that combine aesthetics, ergonomics, and cutting-edge technologies. Our team of professionals helps clients bring their dream spaces to life, whether it’s residential interiors, offices, or commercial properties",
+        "location": "Czech Republic, Prague",
+        "size": " 80 m2"
+      },
+      "latestname": "Latest Project"
+    },
+
+    "project": {
+      "interier": {
+        "service": "Service",
+        "location": "Location",
+        "object": "Object",
+        "date": "Date"
+      },
+
+      "aboutproject": "About Project",
+
+      "projectroom": {
+        "living": "Living room",
+        "kitchen": "Kitchen",
+        "bedroom": "Bedroom",
+        "bathroom": "Bathroom",
+        "balcony": "Balcony"
+      },
+
+      "view": "AR/VR View"
+    }
+  },
+
+  "services": {
+    "titleservice": {
+      "btnname": "Services & Packages",
+      "title": "SERVICES",
+      "description": "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at."
+    },
+
+    "showservice": {
+      "commerical": {
+        "btnname": "Commerical",
+        "title": "YOUR INNOVATIVE INTERIOR DESIGN",
+        "description": "Professional interior design for home and office. Modern solutions, stylish projects, and high-quality implementation. Get a free consultation!",
+        "know": "Know More",
+
+        "pricing": {
+          "btnname": "Project Pricing",
+          "description": "Professional interior design for home and office. Modern solutions, stylish projects, and high-quality implementation. Get a free consultation!"
+        },
+
+        "vizual": {
+          "btnname": "Vizualization Plan",
+          "title": "Composition of the Design Project",
+
+          "composition": {
+            "one": "Measurement plan",
+            "two": "Plan of dismantled structures and partitions",
+            "three": "Plan of erected structures and partitions",
+            "four": "Detailing of erected structures",
+            "five": "Plan for arrangement of furniture and main interior items",
+            "six": "Diagram and layout of plumbing equipment and sanitary utensils",
+            "seven": "Diagram of an electric heated floor, if available",
+            "eight": "Waterproofing scheme",
+            "nine": "Electrical diagram and location (sockets, switches) and electrical terminals",
+            "ten": "Plan of ceilings and ceiling cornices with bindings",
+            "eleven": "Doorway plan with specification",
+            "twelve": "Skirting scheme",
+            "thirteen": "Air conditioning plan",
+            "fourteen": "Scheme of room finishing with detailed layouts for each room and specification",
+            "fiveteen": "Drawings of built-in furniture and kitchen",
+            "sixteen": "Summary list of finishing indicating materials and their areas",
+            "seventeen": "List of basic furniture, lighting, plumbing, sockets and switches"
+          },
+
+          "viewless": "View Less",
+          "alllist": "All List"
+        },
+
+        "need_design": {
+          "btnname": "Why Do You Need Design",
+          "title": "Design is more than just aesthetics—it’s about creating functional and comfortable spaces that reflect your personality and needs",
+          "description": "Whether for your home, office, or commercial space, a well-designed environment can enhance productivity, promote well-being, and improve the overall atmosphere."
+        }
+      },
+
+      "residential": {
+        "btnname": "Residential",
+        "title": "YOUR INNOVATIVE INTERIOR DESIGN",
+        "description": "Professional interior design for home and office. Modern solutions, stylish projects, and high-quality implementation. Get a free consultation!",
+        "know": "Know More",
+
+        "pricing": {
+          "btnname": "Project Pricing",
+          "description": "Professional interior design for home and office. Modern solutions, stylish projects, and high-quality implementation. Get a free consultation!"
+        },
+
+        "vizual": {
+          "btnname": "Vizualization Plan",
+          "title": "Composition of the Design Project",
+
+          "composition": {
+            "one": "Measurement plan",
+            "two": "Plan of dismantled structures and partitions",
+            "three": "Plan of erected structures and partitions",
+            "four": "Detailing of erected structures",
+            "five": "Plan for arrangement of furniture and main interior items",
+            "six": "Diagram and layout of plumbing equipment and sanitary utensils",
+            "seven": "Diagram of an electric heated floor, if available",
+            "eight": "Waterproofing scheme",
+            "nine": "Electrical diagram and location (sockets, switches) and electrical terminals",
+            "ten": "Plan of ceilings and ceiling cornices with bindings",
+            "eleven": "Doorway plan with specification",
+            "twelve": "Skirting scheme",
+            "thirteen": "Air conditioning plan",
+            "fourteen": "Scheme of room finishing with detailed layouts for each room and specification",
+            "fiveteen": "Drawings of built-in furniture and kitchen",
+            "sixteen": "Summary list of finishing indicating materials and their areas",
+            "seventeen": "List of basic furniture, lighting, plumbing, sockets and switches"
+          },
+
+          "viewless": "View Less",
+          "alllist": "All List"
+        },
+
+        "need_design": {
+          "btnname": "Why Do You Need Design",
+          "title": "Design is more than just aesthetics—it’s about creating functional and comfortable spaces that reflect your personality and needs",
+          "description": "Whether for your home, office, or commercial space, a well-designed environment can enhance productivity, promote well-being, and improve the overall atmosphere."
+        }
+      },
+
+      "architechtural": {
+        "btnname": "Architechtural",
+        "title": "YOUR INNOVATIVE INTERIOR DESIGN",
+        "description": "Professional interior design for home and office. Modern solutions, stylish projects, and high-quality implementation. Get a free consultation!",
+        "know": "Know More",
+
+        "pricing": {
+          "btnname": "Project Pricing",
+          "description": "Professional interior design for home and office. Modern solutions, stylish projects, and high-quality implementation. Get a free consultation!"
+        },
+
+        "vizual": {
+          "btnname": "Vizualization Plan",
+          "title": "Composition of the Design Project",
+
+          "composition": {
+            "one": "Measurement plan",
+            "two": "Plan of dismantled structures and partitions",
+            "three": "Plan of erected structures and partitions",
+            "four": "Detailing of erected structures",
+            "five": "Plan for arrangement of furniture and main interior items",
+            "six": "Diagram and layout of plumbing equipment and sanitary utensils",
+            "seven": "Diagram of an electric heated floor, if available",
+            "eight": "Waterproofing scheme",
+            "nine": "Electrical diagram and location (sockets, switches) and electrical terminals",
+            "ten": "Plan of ceilings and ceiling cornices with bindings",
+            "eleven": "Doorway plan with specification",
+            "twelve": "Skirting scheme",
+            "thirteen": "Air conditioning plan",
+            "fourteen": "Scheme of room finishing with detailed layouts for each room and specification",
+            "fiveteen": "Drawings of built-in furniture and kitchen",
+            "sixteen": "Summary list of finishing indicating materials and their areas",
+            "seventeen": "List of basic furniture, lighting, plumbing, sockets and switches"
+          },
+
+          "viewless": "View Less",
+          "alllist": "All List"
+        },
+
+        "need_design": {
+          "btnname": "Why Do You Need Design",
+          "title": "Design is more than just aesthetics—it’s about creating functional and comfortable spaces that reflect your personality and needs",
+          "description": "Whether for your home, office, or commercial space, a well-designed environment can enhance productivity, promote well-being, and improve the overall atmosphere."
+        }
+      },
+
+      "packages": {
+        "btnname": "Packages",
+        "title": "Professional interior design for home and office. Modern solutions, stylish projects, and high-quality implementation. Get a free consultation!"
+      }
+    },
+
+    "timeline": {
+      "btnname": "Timeline & Price",
+      "planone": "Measurement plan",
+      "plantwo": "Plan of dismantled structures and partitions",
+      "planthree": "Detailing of erected structures",
+      "planfour": "Plan for arrangement of furniture and main interior items",
+      "prize": "from 2 moths from $1000",
+      "linktimeline": "CALCULATE YOUR PROJECT"
+    },
+
+    "calculate": {
+      "calculatename": {
+        "btnname": "Price Calculator",
+        "title": "CALCULATOR",
+        "description": "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at.",
+        "descriptionmedia": "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at. Adipiscing lacinia sit platea a nunc libero."
+      },
+
+      "chooseobject": {
+        "name": "Choose Object Type"
+      },
+
+      "questions": {
+        "btnname": "What Services do you need?",
+        "commerical": {
+          "one": "Conception",
+          "two": "Author's Supervision",
+          "three": "Work Documetns",
+          "four": "Coordination of Redevelopment",
+          "five": "3D Vizualization"
+        },
+        "residential": {
+          "one": "Conception",
+          "two": "Author's Supervision",
+          "three": "Work Documetns",
+          "four": "Coordination of Redevelopment",
+          "five": "3D Vizualization"
+        },
+        "architechtural": {
+          "one": "Conception",
+          "two": "Author's Supervision",
+          "three": "Work Documetns",
+          "four": "Coordination of Redevelopment",
+          "five": "3D Vizualization"
+        }
+      },
+
+      "footage": {
+        "name": "Enter Footage",
+        "inputname": "Footage (m2)",
+        "title": "Enter the footage of your property",
+        "description": "Lorem ipsum dolor sit amet consectetur. Nibh enim diam erat in tellus adipiscing tristique tempus.",
+        "linkcalculate": "CALCULATE"
+      },
+
+      "price": {
+        "name": "Your Project Price",
+        "description": "For more exact price connect with us",
+        "calcagain": "CALCULATE AGAIN"
+      }
+    },
+
+    "answers": {
+      "btnname": "Answers to Questions",
+      "one": {
+        "title": "What affects the price?",
+        "description": "The price of an interior design project depends on several factors, including the size of the space, the complexity of the design, the choice of materials, furniture, and decor, as well as any custom-made elements."
+      },
+      "two": {
+        "title": "How long does the design process take?",
+        "description": "The duration of the design process varies depending on the project's scale and complexity. On average, a residential interior design project can take from a few weeks to several months."
+      },
+      "three": {
+        "title": "What affects the price?",
+        "description": "The price of an interior design project depends on several factors, including the size of the space, the complexity of the design, the choice of materials, furniture, and decor, as well as any custom-made elements."
+      },
+      "link": "SEE WORK STAGES"
+    },
+
+    "pacet": {
+      "standart": {
+        "title": "Standart",
+        "description": "FLorem ipsum dolor sit amet consectetur. Dolor leo augue malesuada viverra turpis. Morbi duis aliquam ipsum mollis diam. Dolor leo augue malesuada viverra turpis",
+
+        "info": {
+          "one": "Planning solution",
+          "two": "Design concept",
+          "three": "3D Visualizations",
+          "four": "Material map",
+          "five": "Required construction drawings",
+          "six": "Complete set list",
+          "seven": "Decoration list"
+        }
+      },
+
+      "classic": {
+        "title": "Classic",
+        "description": "FLorem ipsum dolor sit amet consectetur. Dolor leo augue malesuada viverra turpis. Morbi duis aliquam ipsum mollis diam. Dolor leo augue malesuada viverra turpis",
+
+        "info": {
+          "one": "Planning solution",
+          "two": "Design concept",
+          "three": "3D Visualizations",
+          "four": "Material map",
+          "five": "Complete package of construction drawings",
+          "six": "Calculation of room lighting",
+          "seven": "Mini-project of built-in furniture",
+          "eight": "Complete set list",
+          "nine": "Decoration list"
+        }
+      },
+
+      "bussines": {
+        "title": "Bussines",
+        "description": "FLorem ipsum dolor sit amet consectetur. Dolor leo augue malesuada viverra turpis. Morbi duis aliquam ipsum mollis diam. Dolor leo augue malesuada viverra turpis",
+
+        "info": {
+          "one": "Planning solution",
+          "two": "Design concept",
+          "three": "3D Visualizations",
+          "four": "Material map",
+          "five": "Complete package drawings",
+          "six": "Calculation of room lighting",
+          "seven": "Mini-project of built-in furniture",
+          "eight": "Complete set list",
+          "nine": "Decoration list + Author's supervision + Construction management"
+        }
+      },
+
+      "contact": {
+        "btnname": "Contact Us",
+        "text": "Select how do you want us to contact you",
+        "call": "Call",
+        "message": "Message",
+        "submit": "Submit"
+      }
+    }
+  },
+
+  "work": {
+    "01": {
+      "name": "Acquaintance",
+      "description": "Before concluding contract and starting work, we hold a meeting where we get to know each other, tell you in detail how our work is structured, discuss the budget and write down your wishes in the form of brief."
+    },
+
+    "02": {
+      "name": "Room measurements",
+      "description": "Each design project begins with detailed measurements carried out by professionals. Plan from developer is not enough. We need to independently carry out measurements, measure, among other things, outlets of sewer pipes, water supply, the height of door."
+    },
+
+    "03": {
+      "name": "Layouts",
+      "description": "Based on completed measurement plan, we develop at least three options for planning solutions that suit your lifestyle. When working on layout, we rely on brief, filled out together with you, and ergonomic standards in order to create a functional, thoughtful space."
+    },
+
+    "04": {
+      "name": "Visualization",
+      "description": "After agreeing on main plan, we begin work on drawing up the concept of the future interior. To do this, we develop a detailed 3D visualization a three-dimensional image of each room from several angles so that you can fully experience the atmosphere of the future interior."
+    },
+
+    "05": {
+      "name": "Working drawings",
+      "description": "In order for your interior to fully comply with the project, we prepare a complete set of working drawings (35-45 sheets) which includes: all necessary drawings, wall layouts, electrical, technical drawings, drawings for built-in furniture, etc. That's all you need to start implementing the project. Prepared drawings will allow you to carry out repairs easily and avoid unnecessary questions from builders and contractors."
+    },
+
+    "06": {
+      "name": "Interior equipment specification",
+      "description": "We will select materials, furniture, plumbing and everything necessary to bring the project to life exactly as in visualizations. We will provide specifications that contain articles, quantity, delivery time, cost and name of the supplier. All you have to do is enjoy implementation of the project."
+    },
+
+    "07": {
+      "name": "Author's supervision",
+      "description": "Author's supervision is an important stage in transforming picture into dream interior. As part of supervision, we prepare material purchase schedule, control deliveries and monitor completed work. We also do everything that cannot be done within the framework of a design project. For example, we select fabric, textiles, grout and decor directly on site. And of course, we make changes and prepare clarifying drawings if necessary."
+    }
+  },
+
+  "about": {
+    "interierDesign": {
+      "name": "About us",
+      "title": "WE ARE THE BEST INTERIOR DESIGN AGENCY",
+      "description": "A modern interior blends elegance and functionality. Light tones expand the space, while natural materials create a cozy atmosphere. Minimalist furniture emphasizes style, and accent elements add character."
+    },
+
+    "whatWe": {
+      "name": "What We Do",
+      "description": "We specialize in designing interiors that combine aesthetics, functionality, and the latest trends in modern design."
+    },
+
+    "team": {
+      "btnname": "Our Team",
+      "one": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "two": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "three": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "four": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "five": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "six": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }
+    },
+
+    "answers": {
+      "comname": "Answers to Questions",
+      "one": {
+        "name": "What affects the price?",
+        "description": "The price of an interior design project depends on several factors, including the size of the space, the complexity of the design, the choice of materials, furniture, and decor, as well as any custom-made elements."
+      },
+      "two": {
+        "name": "How long does the design process take?",
+        "description": "The duration of the design process varies depending on the project's scale and complexity. On average, a residential interior design project can take from a few weeks to several months."
+      },
+      "three": {
+        "name": "What affects the price?",
+        "description": "The price of an interior design project depends on several factors, including the size of the space, the complexity of the design, the choice of materials, furniture, and decor, as well as any custom-made elements."
+      },
+      "four": {
+        "name": "How long does the design process take?",
+        "description": "The duration of the design process varies depending on the project's scale and complexity. On average, a residential interior design project can take from a few weeks to several months."
+      }
+    }
+  },
+
+  "blog": {
+    "btnname": "Work Satges",
+    "mediabtnname": "Blog",
+    "title": "BLOG",
+    "description": " Tips and Inspiration for Your Interior",
+    "btnpopular": "Popular",
+    "one": {
+      "name": "Welcome to our interior design blog!",
+      "text": "Here, we share inspiration, ideas, and practical advice for those who want to transform their space.",
+      "size": "12.09.2024",
+
+      "read": {
+        "btnname": "Read Blog",
+        "description": "Interior design is more than just decorating a room—it’s about creating a space that reflects your personality, enhances comfort, and serves a functional purpose. Whether you're redesigning your living room or starting from scratch in a new home, here are five key tips to elevate your space.",
+        "one": {
+          "name": "1. Start with a Color Palette",
+          "title": "Choosing a cohesive color palette is the foundation of good design. Opt for colors that resonate with you and create the atmosphere you desire. For instance, soft neutrals like beige, white, and gray can make a room feel airy and calm, while bolder tones like navy, emerald green, or terracotta add depth and vibrancy. Consider balancing bold colors with lighter shades for a harmonious look. Use services like Color Hunt and Coolors to get color palettes.",
+          "description": "Pro Tip: Stick to a rule of three—one primary color, a secondary color, and an accent hue. This keeps the space visually balanced and cohesive."
+        },
+        "two": {
+          "name": "2. Layer Textures for Depth",
+          "title": "Texture adds dimension and interest to a room, transforming a flat, dull space into a cozy, inviting environment. Mix materials like wood, metal, and fabrics to create contrast. For example, pair a velvet sofa with a sleek glass coffee table, or place a shag rug under a minimalist wooden dining table.",
+          "description": "Pro Tip: Incorporate textiles like throw pillows, curtains, and area rugs to create layers of texture without overwhelming the space."
+        },
+        "three": {
+          "name": "3. Maximize Natural Light",
+          "title": "Lighting plays a crucial role in interior design. Maximize the natural light in your space by using sheer curtains, mirrors, and lighter paint colors that reflect sunlight. If your room lacks sufficient natural light, incorporate different layers of artificial lighting, such as ambient, task, and accent lighting, to set the mood and brighten dark corners.",
+          "description": "Pro Tip: Use strategically placed mirrors to reflect light and create the illusion of a larger, brighter space."
+        },
+        "four": {
+          "name": "4. Focus on Functional Furniture",
+          "title": "Furniture should not only be aesthetically pleasing but also functional. Consider your lifestyle when selecting pieces. For example, if you love hosting, a large sectional sofa or extendable dining table may be a good investment. If space is limited, choose furniture with hidden storage or multi-functional designs, like a coffee table that doubles as storage or a sofa bed.",
+          "description": "Pro Tip: Scale is essential. Make sure your furniture is appropriately sized for the room to avoid a cluttered or cramped feeling."
+        },
+        "five": {
+          "name": "5. Personalize with Accessories",
+          "title": "The finishing touches can truly transform a house into a home. Personalize your space with accessories that reflect your style and interests—artwork, plants, decorative objects, and family photos. Don’t be afraid to mix old and new; a vintage mirror paired with modern lighting can add character and charm to any room.",
+          "description": "Pro Tip: Create a focal point with accessories, such as a statement piece of art or an oversized plant, to draw the eye and give the room a curated, polished look."
+        },
+        "six": {
+          "name": "Final Thoughts",
+          "title": "Interior design is an art form that allows you to express your creativity while making a space both functional and beautiful. By focusing on color, texture, light, functionality, and personalization, you can create a room that feels uniquely yours and enhances everyday living. So, start small, experiment, and have fun transforming your home into a space you’ll love!"
+        }
+      },
+
+      "sale": {
+        "btnname": "Sale",
+        "name": "SALE",
+        "title": "Get 15% discount for your interoir design from Nov 12 - Dec 12"
+      },
+
+      "visit": {
+        "btnname": "Visit Our Instagram",
+        "linkname": "VISIT"
+      }
+    }
+  },
+
+  "contact": {
+    "btnname": "Contact",
+    "bigname": "CONTACT US",
+    "description": "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at.",
+
+    "reg": {
+      "btnname": "Contacts",
+
+      "am": {
+        "title": "for Armenia",
+        "text": "Yerevan, Armenia"
+      },
+      "cz": {
+        "title": "for Czech Republic",
+        "text": "Prague, Czech Republic"
+      }
+    },
+
+    "contactreg": {
+      "btnname": "Contact us",
+      "text": "Lorem ipsum dolor sit amet consectetur.",
+      "submit": "Submit"
+    }
+  },
+
+  "gettouch": {
+    "btnname": "Contact us",
+    "text": "Lorem ipsum dolor sit amet consectetur.",
+    "submit": "Submit"
+  },
+
+  "footer": {
+    "title": " Let’s DISCUSS YOUR PROJECT",
+
+    "forarmenia": {
+      "title": "for Armenia",
+      "text": "Yerevan, Armenia"
+    },
+
+    "forczech": {
+      "title": "for Czech Republic",
+      "text": "Prague, Czech Republic"
+    },
+
+    "menu": {
+      "title": "Explore in site",
+      "home": "Home",
+      "portfolio": "Portfolio",
+      "services": "Services & Packages",
+      "work": " Work Stages",
+      "about": "About Us",
+      "blog": "Our Blog"
+    },
+
+    "services": {
+      "title": "Services",
+      "commerical": "Commerical",
+      "residential": "Residential",
+      "architechtural": "Architechtural"
+    },
+
+    "lang": {
+      "title": "Languages",
+      "czech": "Czech",
+      "english": "English",
+      "armenia": "Armenian",
+      "russia": "Russia"
+    }
+  },
+
+  "footerlogo": {
+    "name": "Privacy Policy",
+    "text": "ALL RIGHTS RESERVED"
+  },
+
+  "policy": {
+    "text": {
+      "btnname": "Privacy Policy",
+      "date": "Effective Date: 12.09.2024",
+      "descriptionone": "We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage our interior design services.",
+      "descriptiontwo": " Please read this privacy policy carefully. By using our services, you agree to the collection and use of information as outlined in this policy."
+    },
+
+    "inform": {
+      "title": {
+        "bolt": "1. Information We Collect",
+        "two": "2. How We Use Your Information",
+        "three": "3. How We Share Your Information",
+        "four": "4. Data Security",
+        "five": "5. Cookies and Tracking Technologies",
+        "six": "6. Your Rights and Choices",
+        "seven": "7. Third-Party Links",
+        "eight": "8. Updates to This Privacy Policy"
+      },
+
+      "one": {
+        "title": "1. Information We Collect",
+        "text": "We collect personal and non-personal information to provide you with a personalized and efficient experience. The types of information we may collect include:",
+        "personal": {
+          "one": "Personal Information:",
+          "two": "Your name, email address, phone number, mailing address, payment information, and other details necessary to fulfill our services."
+        },
+        "project": {
+          "one": "Project Information:",
+          "two": "Design preferences, floor plans, photos, and any details specific to your interior design project."
+        },
+        "nonpersonal": {
+          "one": "Non-Personal Information:",
+          "two": "Browsing data, IP address, device information, and website usage analytics."
+        }
+      },
+      "two": {
+        "title": "2. How We Use Your Information",
+        "text": " We use the information we collect for the following purposes:",
+        "service": {
+          "one": "Service Provision:",
+          "two": "To provide and manage interior design services, including project management and communication."
+        },
+        "customer": {
+          "one": "Customer Support:",
+          "two": "To respond to inquiries, send updates on projects, and provide support related to our services."
+        },
+        "personalization": {
+          "one": "Personalization",
+          "two": "To offer design recommendations, product suggestions, and other content tailored to your preferences."
+        },
+        "marketing": {
+          "one": "Marketing Communications:",
+          "two": "With your consent, we may send you newsletters, promotions, and updates related to our services."
+        },
+        "improvement": {
+          "one": "Improvement of Services:",
+          "two": "To analyze data and improve the functionality and performance of our website and services."
+        }
+      },
+      "three": {
+        "title": " 3. How We Share Your Information",
+        "text": " We do not sell, trade, or rent your personal information to third parties. However, we may share your information with:",
+        "service": {
+          "one": "Service Providers:",
+          "two": "Trusted third parties who assist in delivering our services, such as payment processors,contractors, and vendors."
+        },
+        "legal": {
+          "one": "Legal Requirements:",
+          "two": "When required by law, or in response to valid legal processes,we may disclose your information."
+        },
+        "business": {
+          "one": "Business Transfers:",
+          "two": "In the event of a merger, acquisition, or sale of our business,your information may be transferred as part of the business assets."
+        }
+      },
+      "four": {
+        "title": "4. Data Security",
+        "text": "We take reasonable measures to protect your information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or method of electronic storage is 100% secure, and we cannot guarantee absolute security."
+      },
+      "five": {
+        "title": " 5. Cookies and Tracking Technologies",
+        "text": " We use cookies and similar tracking technologies to enhance your experience on our website. These technologies help us understand how users interact with our website and provide features such as saving your preferences. You can modify your browser settings to refuse cookies, but doing so may limit the functionality of our website."
+      },
+      "six": {
+        "title": "6. Your Rights and Choices",
+        "text": "You have the right to access, update, or delete your personal information. You can also opt-out of receiving marketing communications by following the unsubscribe link in our emails or by contacting us directly"
+      },
+      "seven": {
+        "title": "7. Third-Party Links",
+        "text": "Our website may contain links to third-party websites or services. We are not responsible for the privacy practices or content of these websites. We encourage you to review the privacy policies of any third-party websites you visit."
+      },
+      "eight": {
+        "title": "8. Updates to This Privacy Policy",
+        "text": "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. The updated policy will be posted on this page with the effective date at the top. We encourage you to review this policy periodically."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "If you have any questions about this Privacy Policy or our data practices, please contact us."
+      }
+    }
+  },
+
+  "errorsurl": {
+    "text": "oops!",
+    "title": "Something Went Wrong . . .",
+    "linkname": "Go to Home"
+  },
+
+  "before": "Before",
+  "after": "After",
+  "back": "Back",
+  "previous": "Previous",
+  "next": "Next",
+  "getintouch": "GET IN TOUCH",
+  "notfound": "Nothing is not found"
+}

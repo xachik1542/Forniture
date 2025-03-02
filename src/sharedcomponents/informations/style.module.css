@@ -1,0 +1,263 @@
+.inform_block {
+  width: 1392px;
+  height: 420px;
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.using_box {
+  width: 336px;
+  height: 100%;
+  background-color: white;
+  border-radius: 24px;
+  padding: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.using_box::-webkit-scrollbar {
+  width: 0;
+}
+
+.using_name,
+.servis_two_name {
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.using_text,
+.servis_two_text {
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 1%;
+}
+
+.personal_box {
+  width: 336px;
+  height: 100%;
+  background-color: #764af1;
+  border-radius: 24px;
+  padding: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.personal_box::-webkit-scrollbar {
+  width: 0;
+}
+
+.personal_name,
+.servis_one_name {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.personal_text,
+.servis_one_text {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 1%;
+}
+
+.servis_one {
+  width: 336px;
+  height: 100%;
+  background-color: #2e2e2e;
+  border-radius: 24px;
+  padding: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.servis_one::-webkit-scrollbar {
+  width: 0;
+}
+
+.servis_two {
+  width: 336px;
+  height: 100%;
+  background-color: white;
+  border-radius: 24px;
+  padding: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.servis_two::-webkit-scrollbar {
+  width: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .inform_block {
+    width: 100%;
+    height: auto;
+    justify-content: unset;
+    gap: 16px;
+  }
+
+  .using_box {
+    width: 100%;
+    height: auto;
+  }
+
+  .personal_box {
+    width: 100%;
+    height: auto;
+  }
+
+  .servis_one {
+    width: 100%;
+    height: auto;
+  }
+
+  .servis_two {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .inform_block {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
+
+  .using_box {
+    width: 100%;
+    height: 340px;
+  }
+
+  .personal_box {
+    width: 100%;
+    height: 340px;
+  }
+
+  .servis_one {
+    width: 100%;
+    height: 340px;
+  }
+
+  .servis_two {
+    width: 100%;
+    height: 340px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .inform_block {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
+
+  .using_box {
+    width: 48%;
+    height: 360px;
+  }
+
+  .personal_box {
+    width: 48%;
+    height: 360px;
+  }
+
+  .servis_one {
+    width: 48%;
+    height: 360px;
+  }
+
+  .servis_two {
+    width: 48%;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .inform_block {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
+
+  .using_box {
+    width: 48%;
+    height: 380px;
+  }
+
+  .personal_box {
+    width: 48%;
+    height: 380px;
+  }
+
+  .servis_one {
+    width: 48%;
+    height: 380px;
+  }
+
+  .servis_two {
+    width: 48%;
+    height: 380px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1535px) {
+  .inform_block {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
+
+  .using_box {
+    width: 48%;
+    height: 420px;
+  }
+
+  .personal_box {
+    width: 48%;
+    height: 420px;
+  }
+
+  .servis_one {
+    width: 48%;
+    height: 420px;
+  }
+
+  .servis_two {
+    width: 48%;
+    height: 420px;
+  }
+}

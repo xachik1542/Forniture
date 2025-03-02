@@ -12,6 +12,7 @@ import after_three from "../../../assets/img/home_image/after_three.png";
 
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 
 const images = [
   { id: 1, before: before_one, after: after_one },
@@ -20,6 +21,7 @@ const images = [
 ];
 
 function Before_After() {
+  const [t] = useTranslation();
   const [draggingId, setDraggingId] = useState(null);
   const [dragPositions, setDragPositions] = useState({
     1: 50,
@@ -27,11 +29,13 @@ function Before_After() {
     3: 50,
   });
   const containerRef = useRef(null);
-
+  
   useEffect(() => {
     const handleMouseMove = (e) => {
       if (draggingId !== null && containerRef.current) {
         const rect = containerRef.current.getBoundingClientRect();
+        console.log(rect);
+
         const relativeX = e.clientX - rect.left;
 
         let newDragPosition = (relativeX / rect.width) * 100;
@@ -87,7 +91,7 @@ function Before_After() {
               style={{ left: `${dragPosition}%` }}
             >
               <div className={styles.before_box}>
-                <p className={styles.before_text}>Before</p>
+                <p className={styles.before_text}>{t("before")}</p>
               </div>
 
               <button
@@ -99,7 +103,7 @@ function Before_After() {
               </button>
 
               <div className={styles.after_box}>
-                <p className={styles.after_text}>After</p>
+                <p className={styles.after_text}>{t("after")}</p>
               </div>
             </div>
           </div>

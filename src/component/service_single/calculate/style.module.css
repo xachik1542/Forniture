@@ -1,6 +1,38 @@
 .calculate_block {
-    width: 1392px;
-    height: auto;
-    margin-top: 16px;
+  width: 1392px;
+  height: auto;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+  .calculate_block {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .calculate_block {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .calculate_block {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .calculate_block {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1535px) {
+  .calculate_block {
+    width: 100%;
+  }
+}

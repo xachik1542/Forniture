@@ -92,7 +92,7 @@
 
 @media screen and (max-width: 480px) {
     .container_block {
-        width: 358px;
+        width: 100%;
         height: auto;
         margin-top: 16px;
         display: flex;
@@ -183,7 +183,7 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .container_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 16px;
         display: flex;
@@ -274,7 +274,7 @@
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .container_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 16px;
         display: flex;
@@ -367,7 +367,7 @@
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
     .container_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin-top: 16px;
         display: flex;
@@ -461,7 +461,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1535px) {
     .container_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin-top: 16px;
         display: flex;

@@ -5,7 +5,7 @@ import Sub_Category from "../category/sub_category/Sub_Category.js";
 import Types_Category from "../category/type_category/Types_Category.js";
 import Media from "../media/Media.js";
 import { useEffect, useState } from "react";
-import { nav, data } from "../../../json/portfolio/project.js";
+import { navigation } from "../../../json/portfolio/project.js";
 
 function Category() {
   const [firstId, setFirstId] = useState(0);
@@ -15,7 +15,6 @@ function Category() {
   const [subCategories, setSubCategories] = useState([]);
   const [types, setTypes] = useState([]);
   const [menu, setMenu] = useState(false);
-  const [notFound, setNotFound] = useState(false);
 
   const select = {
     firstId,
@@ -35,7 +34,7 @@ function Category() {
   };
 
   useEffect(() => {
-    setCategory(nav);
+    setCategory(navigation);
   }, []);
 
   return (
@@ -51,8 +50,8 @@ function Category() {
       </div>
 
       <Show_Project
-        categoryId={firstId}
-        subCategoryId={subId}
+        firstId={firstId}
+        subId={subId}
         typeId={typeId}
         setSubCategories={setSubCategories}
         setTypes={setTypes}

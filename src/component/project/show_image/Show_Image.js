@@ -1,29 +1,31 @@
 import styles from "./style.module.css";
+import * as React from "react";
 import { projectsRoom } from "../../../json/portfolio/project";
-import { data } from "../../../json/portfolio/project";
+import { projects } from "../../../json/portfolio/project";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import GetTouch from "../../../get_in_touch/GetTouch";
+import { Dialog, Slide } from "@mui/material";
+import { useTranslation } from "react-i18next";
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
 
 function Show_Image() {
+  const [t] = useTranslation();
   let params = useParams();
   const [roomImage, setRoomImage] = useState();
   const [roomId, setRoomId] = useState(0);
   const [images, setImages] = useState([]);
   const [selectId, setSelectId] = useState(1);
   const [selectOpen, setSelectOpen] = useState(false);
-  const [open, setOpen] = useState(false);
   const [project, setProject] = useState({});
-
-  if (open == true) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "scroll";
-  }
+  const [touchOpen, setTouchOpen] = useState(false);
 
   useEffect(() => {
-    data.map((item) => {
+    projects.map((item) => {
       if (item.id == params.id) {
         setRoomImage(item);
         setImages(item.images);
@@ -42,10 +44,6 @@ function Show_Image() {
     setSelectOpen(false);
   };
 
-  const handleOpenTouch = () => {
-    setOpen(true);
-  };
-
   return (
     <div className={styles.navigation_block}>
       <div className={styles.nav_box}>
@@ -60,7 +58,7 @@ function Show_Image() {
               }
               onClick={() => handleRoomId(item)}
             >
-              {item.title}
+              {t(item.title)}
             </button>
           );
         })}
@@ -75,7 +73,7 @@ function Show_Image() {
                 className={styles.select_btn}
                 onClick={() => setSelectOpen(!selectOpen)}
               >
-                {item.title}
+                {t(item.title)}
                 <IoIosArrowDown
                   className={
                     selectOpen
@@ -97,7 +95,7 @@ function Show_Image() {
                     className={styles.select_btn}
                     onClick={() => handleSelectId(item)}
                   >
-                    {item.title}
+                    {t(item.title)}
                   </button>
                 );
               }
@@ -117,15 +115,27 @@ function Show_Image() {
               );
             })
           ) : (
-            <div className={styles.not_found}>Nothing is not found</div>
+            <div className={styles.not_found}>{t("notfound")}</div>
           )}
         </div>
       ) : null}
 
-      <button className={styles.touch_btn} onClick={handleOpenTouch}>
-        GET IN TOUCH
+      <button className={styles.touch_btn} onClick={() => setTouchOpen(true)}>
+        {t("getintouch")}
       </button>
-      <GetTouch open={open} setOpen={setOpen} />
+
+      <React.Fragment>
+        <Dialog
+          open={touchOpen}
+          maxWidth={false}
+          TransitionComponent={Transition}
+          keepMounted
+          aria-describedby="alert-dialog-slide-description"
+          PaperProps={{ sx: { borderRadius: "24px" } }}
+        >
+          <GetTouch setTouchOpen={setTouchOpen} />
+        </Dialog>
+      </React.Fragment>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .container_block {
     width: 1392px;
     height: auto;
-    margin: 64px 0; 
+    margin: 64px 0 0 0; 
     background-color: #E1E1E1;
     border: 1px solid #B7B7B7;
     border-radius: 24px;
@@ -12,10 +12,11 @@
 }
 
 .container_btn {
-    width: 180px;
+    width: fit-content;
     height: 32px;
     border-radius: 28px;
     gap: 10px;
+    padding: 0 16px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -27,14 +28,14 @@
 
 .close {
     width: 100%;
-    height: 72px;
+    height: auto;
     background-color: white;
     border-radius: 8px;
     padding: 24px;
-    margin-bottom: 16px;
     position: relative;
     background-color: white;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .open {
@@ -42,22 +43,26 @@
     height: 224px;
     border-radius: 8px;
     padding: 24px;
-    margin-bottom: 16px;
     background-color: white;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    cursor: pointer;
 }
 
 .question_name {
+    width: 90%;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 24px;
     line-height: 24px;
-    margin-bottom: 24px;
 }
 
 .question_text {
+    width: 70%;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -66,7 +71,6 @@
     line-height: 32px;
     letter-spacing: 1%;
     color: #6C6C6C;
-    margin-top: 24px;
 }
 
 .plus_minus {
@@ -79,17 +83,16 @@
 
 @media screen and (max-width: 480px) {
     .container_block {
-        width: 358px;
+        width: 100%;
         height: auto;
         margin: 48px 0 0 0; 
     }
     
     .close {
         width: 100%;
-        height: 88px;
+        height: auto;
         border-radius: 8px;
         padding: 24px;
-        margin-bottom: 16px;
         position: relative;
         background-color: white;
         overflow: hidden;
@@ -113,10 +116,10 @@
         font-style: normal;
         font-size: 20px;
         line-height: 24px;
-        margin-bottom: 24px;
     }
     
     .question_text {
+        width: 100%;
         font-family: "Plus Jakarta Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -125,7 +128,6 @@
         line-height: 24px;
         letter-spacing: 1%;
         color: #6C6C6C;
-        margin-top: 24px;
     }
     
     .plus_minus {
@@ -140,17 +142,16 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .container_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: 48px 0 0 0; 
     }
     
     .close {
         width: 100%;
-        height: 72px;
+        height: auto;
         border-radius: 8px;
         padding: 24px;
-        margin-bottom: 16px;
         position: relative;
         background-color: white;
         overflow: hidden;
@@ -161,7 +162,6 @@
         height: auto;
         border-radius: 8px;
         padding: 20px;
-        margin-bottom: 16px;
         gap: 20px;
         background-color: white;
         position: relative;
@@ -174,10 +174,10 @@
         font-style: normal;
         font-size: 20px;
         line-height: 24px;
-        margin-bottom: 24px;
     }
     
     .question_text {
+        width: 100%;
         font-family: "Plus Jakarta Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -186,7 +186,6 @@
         line-height: 24px;
         letter-spacing: 1%;
         color: #6C6C6C;
-        margin-top: 24px;
     }
     
     .plus_minus {
@@ -201,14 +200,14 @@
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .container_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: 48px 0 0 0; 
     }
     
     .close {
         width: 100%;
-        height: 72px;
+        height: auto;
         border-radius: 8px;
         padding: 24px;
         margin-bottom: 16px;
@@ -235,10 +234,10 @@
         font-style: normal;
         font-size: 20px;
         line-height: 24px;
-        margin-bottom: 24px;
     }
     
     .question_text {
+        width: 90%;
         font-family: "Plus Jakarta Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -247,7 +246,6 @@
         line-height: 24px;
         letter-spacing: 1%;
         color: #6C6C6C;
-        margin-top: 24px;
     }
     
     .plus_minus {
@@ -262,14 +260,14 @@
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
     .container_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin: 48px 0 0 0; 
     }
     
     .close {
         width: 100%;
-        height: 72px;
+        height: auto;
         border-radius: 8px;
         padding: 24px;
         margin-bottom: 16px;
@@ -296,10 +294,10 @@
         font-style: normal;
         font-size: 20px;
         line-height: 24px;
-        margin-bottom: 24px;
     }
     
     .question_text {
+        width: 90%;
         font-family: "Plus Jakarta Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -308,7 +306,6 @@
         line-height: 24px;
         letter-spacing: 1%;
         color: #6C6C6C;
-        margin-top: 24px;
     }
     
     .plus_minus {
@@ -323,14 +320,14 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1535px) {
     .container_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin: 48px 0 0 0; 
     }
     
     .close {
         width: 100%;
-        height: 72px;
+        height: auto;
         border-radius: 8px;
         padding: 24px;
         margin-bottom: 16px;
@@ -357,10 +354,10 @@
         font-style: normal;
         font-size: 20px;
         line-height: 24px;
-        margin-bottom: 24px;
     }
     
     .question_text {
+        width: 70%;
         font-family: "Plus Jakarta Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -369,7 +366,6 @@
         line-height: 24px;
         letter-spacing: 1%;
         color: #6C6C6C;
-        margin-top: 24px;
     }
     
     .plus_minus {

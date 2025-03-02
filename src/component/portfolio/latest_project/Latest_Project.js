@@ -2,25 +2,38 @@ import styles from "./style.module.css";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { data } from '../../../json/portfolio/project';
+import { isFavorite, projects } from "../../../json/portfolio/project";
 
 import { MdArrowOutward } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 function Latest_Project() {
+  const [t] = useTranslation();
   const [num, setNum] = useState(false);
   const [info, setInfo] = useState([]);
 
   useEffect(() => {
-    setInfo(data);
+    setInfo(projects);
   }, []);
 
   const handleOver = () => {
     setNum(true);
   };
 
+  const handleLike = (item) => {
+    if (!isFavorite.includes(item)) {
+      isFavorite.push(item);
+    } else {
+      let f = isFavorite.findIndex((el) => el.id == item.id);
+      isFavorite.splice(f, 1);
+    }
+  };
+
   return (
     <div className={styles.container_block}>
-      <button className={styles.container_btn}>Latest Project</button>
+      <button className={styles.container_btn}>
+        {t("portfolio.projects.latestname")}
+      </button>
 
       {info.map((item, index, arr) => {
         if (arr.length == item.id) {
@@ -35,7 +48,7 @@ function Latest_Project() {
 
               <AnimatePresence>
                 <Link className={styles.link_block} to={`/project/${item.id}`}>
-                  <h1 className={styles.media_name}>{item.hover_Name}</h1>
+                  <h1 className={styles.media_name}>{t(item.hover_Name)}</h1>
                   {num && (
                     <motion.div
                       className={styles.mouse_box}
@@ -44,26 +57,29 @@ function Latest_Project() {
                       exit={{ opacity: 0, duraction: 1 }}
                     >
                       <h1 className={styles.container_name}>
-                        {item.hover_Name}
+                        {t(item.hover_Name)}
                       </h1>
                       <p className={styles.container_text}>
-                        {item.hover_About}
+                        {t(item.hover_About)}
                       </p>
                       <h3 className={styles.container_see}>
-                        See Project <MdArrowOutward />
+                        {t(item.hover_See)} <MdArrowOutward />
                       </h3>
                     </motion.div>
                   )}
                 </Link>
               </AnimatePresence>
 
-              <div className={styles.heart_block}>
+              <div
+                className={styles.heart_block}
+                onClick={() => handleLike(item)}
+              >
                 <svg
                   className={styles.container_hear}
                   width="24"
                   height="20"
                   viewBox="0 0 24 20"
-                  fill="none"
+                  fill={isFavorite.includes(item) ? "white" : "none"}
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path

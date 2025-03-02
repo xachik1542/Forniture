@@ -1,0 +1,896 @@
+{
+  "menu": {
+    "home": "Domů",
+    "portfolio": "Portfolio",
+    "services & packages": "Služby a balíčky",
+    "work stages": "Fáze práce",
+    "about us": "O nás",
+    "our blog": "Náš blog",
+    "contact us": "Kontaktujte nás"
+  },
+
+  "home": {
+    "interier_design": {
+      "title": "VAŠE INOVATIVNÍ NÁVRHY INTERIÉRU",
+      "text": "Vytváříme stylové a útulné interiéry na klíč. Individuální designové projekty, 3D vizualizace, výběr nábytku a dekorací. Váš dokonalý interiér je naše práce!",
+      "linkportfolio": "Portfolio",
+      "touch": "Kontaktujte nás"
+    },
+
+    "servicelink": "ZOBRAZIT SLUŽBY",
+
+    "latestproject": {
+      "btnname": "Naše nejnovější projekty",
+      "linkbtn": "ZOBRAZIT VŠECHNY PROJEKTY"
+    },
+
+    "inform": {
+      "one": {
+        "title": "Používání ekologických materiálů",
+        "description": "Ekologické materiály přinášejí udržitelnost a zdravotní výhody do vašeho prostoru. Upřednostňujeme přírodní, obnovitelné a nízkoemisní materiály, jako je recyklované dřevo, bambus, recyklované kovy a netoxické povrchové úpravy, čímž zajišťujeme krásný a ekologicky odpovědný design."
+      },
+      "two": {
+        "title": "Personalizovaná řešení",
+        "description": "Náš tým bere v úvahu všechny aspekty prostoru, preference klientů a styl, aby vytvořil design, který zdůrazňuje individualitu a pohodlí. Každé řešení je přizpůsobeno specifickým potřebám, což zajišťuje interiér, který vám bude dělat radost po mnoho let."
+      },
+      "three": {
+        "title": "Kompletní servisní proces",
+        "description": "Náš tým bere v úvahu všechny aspekty prostoru, preference klientů a styl, aby vytvořil design, který zdůrazňuje individualitu a pohodlí. Každé řešení je přizpůsobeno specifickým potřebám, což zajišťuje interiér, který vám bude dělat radost po mnoho let."
+      },
+      "four": {
+        "title": "Kompletní servisní proces",
+        "description": "Náš tým bere v úvahu všechny aspekty prostoru, preference klientů a styl, aby vytvořil design, který zdůrazňuje individualitu a pohodlí. Každé řešení je přizpůsobeno specifickým potřebám, což zajišťuje interiér, který vám bude dělat radost po mnoho let."
+      }
+    },
+
+    "reviews": {
+      "namebox": "Recenze",
+      "one": {
+        "description": "Rádi slyšíme názory našich klientů! V Interier Design věříme v sílu skvělého designu, který může změnit prostory a životy. Spokojenost našich klientů je naší hlavní prioritou a jsme hrdí na to, že můžeme sdílet jejich zkušenosti s vámi. Přečtěte si, co naši klienti říkají o své cestě s námi a jak jsme jim pomohli vytvořit jejich vysněné prostory.",
+        "name": "Bella Maria",
+        "work": "Manažerka Xvelt"
+      },
+      "two": {
+        "description": "Rádi slyšíme názory našich klientů! V Interier Design věříme v sílu skvělého designu, který může změnit prostory a životy. Spokojenost našich klientů je naší hlavní prioritou a jsme hrdí na to, že můžeme sdílet jejich zkušenosti s vámi. Přečtěte si, co naši klienti říkají o své cestě s námi a jak jsme jim pomohli vytvořit jejich vysněné prostory.",
+        "name": "Bella Maria",
+        "work": "Manažerka Xvelt"
+      },
+      "three": {
+        "description": "Rádi slyšíme názory našich klientů! V Interier Design věříme v sílu skvělého designu, který může změnit prostory a životy. Spokojenost našich klientů je naší hlavní prioritou a jsme hrdí na to, že můžeme sdílet jejich zkušenosti s vámi. Přečtěte si, co naši klienti říkají o své cestě s námi a jak jsme jim pomohli vytvořit jejich vysněné prostory.",
+        "name": "Bella Maria",
+        "work": "Manažerka Xvelt"
+      },
+      "four": {
+        "description": "Rádi slyšíme názory našich klientů! V Interier Design věříme v sílu skvělého designu, který může změnit prostory a životy. Spokojenost našich klientů je naší hlavní prioritou a jsme hrdí na to, že můžeme sdílet jejich zkušenosti s vámi. Přečtěte si, co naši klienti říkají o své cestě s námi a jak jsme jim pomohli vytvořit jejich vysněné prostory.",
+        "name": "Bella Maria",
+        "work": "Manažerka Xvelt"
+      },
+      "five": {
+        "description": "Rádi slyšíme názory našich klientů! V Interier Design věříme v sílu skvělého designu, který může změnit prostory a životy. Spokojenost našich klientů je naší hlavní prioritou a jsme hrdí na to, že můžeme sdílet jejich zkušenosti s vámi. Přečtěte si, co naši klienti říkají o své cestě s námi a jak jsme jim pomohli vytvořit jejich vysněné prostory.",
+        "name": "Bella Maria",
+        "work": "Manažerka Xvelt"
+      },
+      "six": {
+        "description": "Rádi slyšíme názory našich klientů! V Interier Design věříme v sílu skvělého designu, který může změnit prostory a životy. Spokojenost našich klientů je naší hlavní prioritou a jsme hrdí na to, že můžeme sdílet jejich zkušenosti s vámi. Přečtěte si, co naši klienti říkají o své cestě s námi a jak jsme jim pomohli vytvořit jejich vysněné prostory.",
+        "name": "Bella Maria",
+        "work": "Manažerka Xvelt"
+      },
+      "seven": {
+        "description": "Rádi slyšíme názory našich klientů! V Interier Design věříme v sílu skvělého designu, který může změnit prostory a životy. Spokojenost našich klientů je naší hlavní prioritou a jsme hrdí na to, že můžeme sdílet jejich zkušenosti s vámi. Přečtěte si, co naši klienti říkají o své cestě s námi a jak jsme jim pomohli vytvořit jejich vysněné prostory.",
+        "name": "Bella Maria",
+        "work": "Manažerka Xvelt"
+      }
+    },
+
+    "answers": {
+      "btnname": "Odpovědi na otázky",
+      "one": {
+        "name": "Co ovlivňuje cenu?",
+        "description": "Cena designového projektu závisí na několika faktorech, včetně velikosti prostoru, složitosti návrhu, výběru materiálů, nábytku a dekorace, stejně jako na zakázkových prvcích."
+      },
+      "two": {
+        "name": "Jak dlouho trvá proces návrhu?",
+        "description": "Doba trvání procesu návrhu závisí na rozsahu a složitosti projektu. Průměrně může návrh interiéru pro rezidenční prostor trvat od několika týdnů do několika měsíců. Faktory, jako jsou změny v návrhu, dostupnost materiálů a doba výstavby, mohou ovlivnit celkový časový rámec."
+      },
+      "three": {
+        "name": "Co ovlivňuje cenu?",
+        "description": "Cena designového projektu závisí na několika faktorech, včetně velikosti prostoru, složitosti návrhu, výběru materiálů, nábytku a dekorace, stejně jako na zakázkových prvcích."
+      },
+      "four": {
+        "name": "Jak dlouho trvá proces návrhu?",
+        "description": "Doba trvání procesu návrhu závisí na rozsahu a složitosti projektu. Průměrně může návrh interiéru pro rezidenční prostor trvat od několika týdnů do několika měsíců. Faktory, jako jsou změny v návrhu, dostupnost materiálů a doba výstavby, mohou ovlivnit celkový časový rámec."
+      }
+    },
+
+    "about": {
+      "name": "O nás",
+      "description": "Moderní interiér kombinuje eleganci a funkčnost. Světlé tóny rozšiřují prostor a přírodní materiály vytvářejí útulnou atmosféru. Minimalistický nábytek zdůrazňuje styl a akcentní prvky dodávají charakter."
+    },
+
+    "blog": {
+      "btnname": "Náš blog",
+      "linkbtn": "ZOBRAZIT VŠECHNY BLOGY"
+    },
+
+    "team": {
+      "btnname": "Náš tým",
+      "linkbtn": "VÍCE O NÁS"
+    }
+  },
+
+  "portfolio": {
+    "all": "Všechny projekty",
+    "navigation": {
+      "commerical": {
+        "name": "Komerční",
+        "subcategory": {
+          "architectural": {
+            "name": "Architektonický",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          },
+
+          "1-2rooms": {
+            "name": "1-2 pokoje",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          },
+
+          "3-4rooms": {
+            "name": "3-4 pokoje",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          },
+
+          "more": {
+            "name": "Více pokojů",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          }
+        }
+      },
+
+      "residential": {
+        "name": "Rezidenční",
+        "subcategory": {
+          "architectural": {
+            "name": "Architektonický",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          },
+
+          "1-2rooms": {
+            "name": "1-2 pokoje",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          },
+
+          "3-4rooms": {
+            "name": "3-4 pokoje",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          },
+
+          "more": {
+            "name": "Více pokojů",
+            "types": {
+              "light": "Světlý interiér",
+              "dark": "Tmavý interiér",
+              "traditional": "Tradiční",
+              "modern": "Moderní"
+            }
+          }
+        }
+      },
+
+      "media": {
+        "filter": "Filtry",
+        "reset": "Resetovat",
+        "service": "Služba",
+        "rooms": "Pokoje",
+        "style": "Styl",
+        "save": "Uložit změny"
+      }
+    },
+
+    "projects": {
+      "one": {
+        "hovername": "Minimalistický interiérový design",
+        "hoverabout": "Interier Design je inovativní projekt specializující se na tvorbu stylových a funkčních interiérů.",
+        "hoversee": "Zobrazit projekt",
+        "title": "Moderní minimalistický interiérový design",
+        "subtitle": "Navrhujeme moderní designová řešení, která kombinují estetiku, ergonomii a nejnovější technologie.",
+        "description": "Navrhujeme moderní designová řešení, která kombinují estetiku, ergonomii a nejnovější technologie. Náš tým profesionálů pomáhá klientům realizovat jejich sny o dokonalém prostoru, ať už jde o obytné prostory, kanceláře nebo komerční objekty.",
+        "location": "Česká republika, Praha",
+        "size": " 80 m²"
+      },
+
+      "two": {
+        "hovername": "Minimalistický interiérový design",
+        "hoverabout": "Interier Design je inovativní projekt specializující se na tvorbu stylových a funkčních interiérů.",
+        "hoversee": "Zobrazit projekt",
+        "title": "Moderní minimalistický interiérový design",
+        "subtitle": "Navrhujeme moderní designová řešení, která kombinují estetiku, ergonomii a nejnovější technologie.",
+        "description": "Navrhujeme moderní designová řešení, která kombinují estetiku, ergonomii a nejnovější technologie. Náš tým profesionálů pomáhá klientům realizovat jejich sny o dokonalém prostoru, ať už jde o obytné prostory, kanceláře nebo komerční objekty.",
+        "location": "Česká republika, Praha",
+        "size": " 80 m²"
+      },
+
+      "latestname": "Poslední projekt"
+    },
+
+    "project": {
+      "interier": {
+        "service": "Služba",
+        "location": "Lokalita",
+        "object": "Objekt",
+        "date": "Datum"
+      },
+
+      "aboutproject": "O projektu",
+
+      "projectroom": {
+        "living": "Obývací pokoj",
+        "kitchen": "Kuchyně",
+        "bedroom": "Ložnice",
+        "bathroom": "Koupelna",
+        "balcony": "Balkon"
+      },
+
+      "view": "AR/VR Pohled"
+    }
+  },
+
+  "services": {
+    "titleservice": {
+      "btnname": "Služby a balíčky",
+      "title": "SLUŽBY",
+      "description": "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at."
+    },
+
+    "showservice": {
+      "commerical": {
+        "btnname": "Komerční",
+        "title": "VAŠE INOVATIVNÍ INTERIÉROVÉ DESIGNU",
+        "description": "Profesionální interiérový design pro domy a kanceláře. Moderní řešení, stylové projekty a kvalitní realizace. Objednejte si zdarma konzultaci!",
+        "know": "Zjistit více",
+
+        "pricing": {
+          "btnname": "Ceny projektů",
+          "description": "Profesionální interiérový design pro domy a kanceláře. Moderní řešení, stylové projekty a kvalitní realizace. Objednejte si zdarma konzultaci!"
+        },
+
+        "vizual": {
+          "btnname": "Vizualizační plán",
+          "title": "Složení designového projektu",
+
+          "composition": {
+            "one": "Plán měření",
+            "two": "Plán demontovaných konstrukcí a příček",
+            "three": "Plán postavených konstrukcí a příček",
+            "four": "Detailní výkresy postavených konstrukcí",
+            "five": "Plán rozmístění nábytku a hlavních interiérových prvků",
+            "six": "Schéma a uspořádání sanitárního zařízení",
+            "seven": "Schéma elektrického podlahového vytápění, pokud je k dispozici",
+            "eight": "Schéma hydroizolace",
+            "nine": "Elektrická schéma a umístění (zásuvky, vypínače) a elektrické přípojky",
+            "ten": "Plán stropů a stropních lišt s vazbami",
+            "eleven": "Plán dveřních otvorů se specifikací",
+            "twelve": "Schéma soklů",
+            "thirteen": "Plán klimatizace",
+            "fourteen": "Schéma povrchové úpravy místností s podrobnými výkresy a specifikací",
+            "fiveteen": "Výkresy vestavěného nábytku a kuchyně",
+            "sixteen": "Souhrnný seznam povrchových úprav s uvedením materiálů a jejich ploch",
+            "seventeen": "Seznam základního nábytku, osvětlení, sanitárního zařízení, zásuvek a vypínačů"
+          },
+
+          "viewless": "Zobrazit méně",
+          "alllist": "Celý seznam"
+        },
+
+        "need_design": {
+          "btnname": "Proč potřebujete design",
+          "title": "Design není jen estetika, ale také vytváření funkčních a pohodlných prostor, které odrážejí vaši osobnost a potřeby.",
+          "description": "Ať už pro váš domov, kancelář nebo komerční prostor, dobře navržené prostředí může zvýšit produktivitu, zlepšit pohodu a vytvořit pozitivní atmosféru."
+        }
+      },
+
+      "residential": {
+        "btnname": "Rezidenční",
+        "title": "VAŠE INOVATIVNÍ INTERIÉROVÉ DESIGNU",
+        "description": "Profesionální interiérový design pro domy a kanceláře. Moderní řešení, stylové projekty a kvalitní realizace. Objednejte si zdarma konzultaci!",
+        "know": "Zjistit více",
+
+        "pricing": {
+          "btnname": "Ceny projektů",
+          "description": "Profesionální interiérový design pro domy a kanceláře. Moderní řešení, stylové projekty a kvalitní realizace. Objednejte si zdarma konzultaci!"
+        },
+
+        "vizual": {
+          "btnname": "Vizualizační plán",
+          "title": "Složení designového projektu",
+
+          "composition": {
+            "one": "Plán měření",
+            "two": "Plán demontovaných konstrukcí a příček",
+            "three": "Plán postavených konstrukcí a příček",
+            "four": "Detailní výkresy postavených konstrukcí",
+            "five": "Plán rozmístění nábytku a hlavních interiérových prvků",
+            "six": "Schéma a uspořádání sanitárního zařízení",
+            "seven": "Schéma elektrického podlahového vytápění, pokud je k dispozici",
+            "eight": "Schéma hydroizolace",
+            "nine": "Elektrická schéma a umístění (zásuvky, vypínače) a elektrické přípojky",
+            "ten": "Plán stropů a stropních lišt s vazbami",
+            "eleven": "Plán dveřních otvorů se specifikací",
+            "twelve": "Schéma soklů",
+            "thirteen": "Plán klimatizace",
+            "fourteen": "Schéma povrchové úpravy místností s podrobnými výkresy a specifikací",
+            "fiveteen": "Výkresy vestavěného nábytku a kuchyně",
+            "sixteen": "Souhrnný seznam povrchových úprav s uvedením materiálů a jejich ploch",
+            "seventeen": "Seznam základního nábytku, osvětlení, sanitárního zařízení, zásuvek a vypínačů"
+          },
+
+          "viewless": "Zobrazit méně",
+          "alllist": "Celý seznam"
+        },
+
+        "need_design": {
+          "btnname": "Proč potřebujete design",
+          "title": "Design není jen estetika, ale také vytváření funkčních a pohodlných prostor, které odrážejí vaši osobnost a potřeby.",
+          "description": "Ať už pro váš domov, kancelář nebo komerční prostor, dobře navržené prostředí může zvýšit produktivitu, zlepšit pohodu a vytvořit pozitivní atmosféru."
+        }
+      },
+
+      "architechtural": {
+        "btnname": "Architektonické",
+        "title": "VAŠE INOVATIVNÍ INTERIÉROVÉ DESIGNU",
+        "description": "Profesionální interiérový design pro domy a kanceláře. Moderní řešení, stylové projekty a kvalitní realizace. Objednejte si zdarma konzultaci!",
+        "know": "Zjistit více",
+
+        "pricing": {
+          "btnname": "Ceny projektů",
+          "description": "Profesionální interiérový design pro domy a kanceláře. Moderní řešení, stylové projekty a kvalitní realizace. Objednejte si zdarma konzultaci!"
+        },
+
+        "vizual": {
+          "btnname": "Vizualizační plán",
+          "title": "Složení designového projektu",
+
+          "composition": {
+            "one": "Plán měření",
+            "two": "Plán demontovaných konstrukcí a příček",
+            "three": "Plán postavených konstrukcí a příček",
+            "four": "Detailní výkresy postavených konstrukcí",
+            "five": "Plán rozmístění nábytku a hlavních interiérových prvků",
+            "six": "Schéma a uspořádání sanitárního zařízení",
+            "seven": "Schéma elektrického podlahového vytápění, pokud je k dispozici",
+            "eight": "Schéma hydroizolace",
+            "nine": "Elektrická schéma a umístění (zásuvky, vypínače) a elektrické přípojky",
+            "ten": "Plán stropů a stropních lišt s vazbami",
+            "eleven": "Plán dveřních otvorů se specifikací",
+            "twelve": "Schéma soklů",
+            "thirteen": "Plán klimatizace",
+            "fourteen": "Schéma povrchové úpravy místností s podrobnými výkresy a specifikací",
+            "fiveteen": "Výkresy vestavěného nábytku a kuchyně",
+            "sixteen": "Souhrnný seznam povrchových úprav s uvedením materiálů a jejich ploch",
+            "seventeen": "Seznam základního nábytku, osvětlení, sanitárního zařízení, zásuvek a vypínačů"
+          },
+
+          "viewless": "Zobrazit méně",
+          "alllist": "Celý seznam"
+        },
+
+        "need_design": {
+          "btnname": "Proč potřebujete design",
+          "title": "Design není jen estetika, ale také vytváření funkčních a pohodlných prostor, které odrážejí vaši osobnost a potřeby.",
+          "description": "Ať už pro váš domov, kancelář nebo komerční prostor, dobře navržené prostředí může zvýšit produktivitu, zlepšit pohodu a vytvořit pozitivní atmosféru."
+        }
+      },
+
+      "packages": {
+        "btnname": "Balíčky",
+        "title": "Profesionální interiérový design pro domy a kanceláře. Moderní řešení, stylové projekty a kvalitní realizace. Objednejte si zdarma konzultaci!"
+      }
+    },
+
+    "timeline": {
+      "btnname": "Časová osa a cena",
+      "planone": "Plán měření",
+      "plantwo": "Plán demontovaných konstrukcí a příček",
+      "planthree": "Detailní rozpis postavených konstrukcí",
+      "planfour": "Plán uspořádání nábytku a hlavních interiérových prvků",
+      "prize": "od 2 měsíců, od $1000",
+      "linktimeline": "SPOČÍTAT VÁŠ PROJEKT"
+    },
+
+    "calculate": {
+      "calculatename": {
+        "btnname": "Cenová kalkulačka",
+        "title": "KALKULAČKA",
+        "description": "Lorem ipsum dolor sit amet, consectetur. Integer sit vel quisque laoreet lacus at.",
+        "descriptionmedia": "Lorem ipsum dolor sit amet, consectetur. Integer sit vel quisque laoreet lacus at. Adipiscing lacinia sit platea a nunc libero."
+      },
+
+      "chooseobject": {
+        "name": "Vyberte typ objektu"
+      },
+
+      "questions": {
+        "btnname": "Jaké služby potřebujete?",
+        "commerical": {
+          "one": "Koncepce",
+          "two": "Autorský dozor",
+          "three": "Pracovní dokumentace",
+          "four": "Koordinace přestavby",
+          "five": "3D Vizualizace"
+        },
+        "residential": {
+          "one": "Koncepce",
+          "two": "Autorský dozor",
+          "three": "Pracovní dokumentace",
+          "four": "Koordinace přestavby",
+          "five": "3D Vizualizace"
+        },
+        "architechtural": {
+          "one": "Koncepce",
+          "two": "Autorský dozor",
+          "three": "Pracovní dokumentace",
+          "four": "Koordinace přestavby",
+          "five": "3D Vizualizace"
+        }
+      },
+
+      "footage": {
+        "name": "Zadejte metráž",
+        "inputname": "Metráž (m²)",
+        "title": "Zadejte metráž vaší nemovitosti",
+        "description": "Lorem ipsum dolor sit amet consectetur. Nibh enim diam erat in tellus adipiscing tristique tempus.",
+        "linkcalculate": "SPOČÍTAT"
+      },
+
+      "price": {
+        "name": "Cena vašeho projektu",
+        "description": "Pro přesnější cenu nás kontaktujte",
+        "calcagain": "SPOČÍTAT ZNOVU"
+      }
+    },
+
+    "answers": {
+      "btnname": "Odpovědi na otázky",
+      "one": {
+        "title": "Co ovlivňuje cenu?",
+        "description": "Cena designového projektu závisí na několika faktorech, včetně velikosti prostoru, složitosti návrhu, výběru materiálů, nábytku a dekorace, stejně jako na zakázkových prvcích."
+      },
+      "two": {
+        "title": "Jak dlouho trvá proces návrhu?",
+        "description": "Doba trvání procesu návrhu závisí na rozsahu a složitosti projektu. Průměrně může návrh interiéru pro rezidenční prostor trvat od několika týdnů do několika měsíců. Faktory, jako jsou změny v návrhu, dostupnost materiálů a doba výstavby, mohou ovlivnit celkový časový rámec."
+      },
+      "three": {
+        "title": "Co ovlivňuje cenu?",
+        "description": "Cena designového projektu závisí na několika faktorech, včetně velikosti prostoru, složitosti návrhu, výběru materiálů, nábytku a dekorace, stejně jako na zakázkových prvcích."
+      },
+      "link": "ZOBRAZIT FÁZE PRÁCE"
+    },
+
+    "pacet": {
+      "standart": {
+        "title": "Standart",
+        "description": "FLorem ipsum dolor sit amet consectetur. Dolor leo augue malesuada viverra turpis. Morbi duis aliquam ipsum mollis diam. Dolor leo augue malesuada viverra turpis.",
+
+        "info": {
+          "one": "Plánovací řešení",
+          "two": "Návrhový koncept",
+          "three": "3D vizualizace",
+          "four": "Materiálová mapa",
+          "five": "Požadované stavební výkresy",
+          "six": "Seznam kompletní sady",
+          "seven": "Seznam dekorací"
+        }
+      },
+
+      "classic": {
+        "title": "Klasik",
+        "description": "FLorem ipsum dolor sit amet consectetur. Dolor leo augue malesuada viverra turpis. Morbi duis aliquam ipsum mollis diam. Dolor leo augue malesuada viverra turpis.",
+
+        "info": {
+          "one": "Plánovací řešení",
+          "two": "Návrhový koncept",
+          "three": "3D vizualizace",
+          "four": "Materiálová mapa",
+          "five": "Kompletní balíček stavebních výkresů",
+          "six": "Výpočet osvětlení místnosti",
+          "seven": "Mini-projekt vestavěného nábytku",
+          "eight": "Seznam kompletní sady",
+          "nine": "Seznam dekorací"
+        }
+      },
+
+      "bussines": {
+        "title": "Byznys",
+        "description": "FLorem ipsum dolor sit amet consectetur. Dolor leo augue malesuada viverra turpis. Morbi duis aliquam ipsum mollis diam. Dolor leo augue malesuada viverra turpis.",
+
+        "info": {
+          "one": "Plánovací řešení",
+          "two": "Návrhový koncept",
+          "three": "3D vizualizace",
+          "four": "Materiálová mapa",
+          "five": "Kompletní balíček výkresů",
+          "six": "Výpočet osvětlení místnosti",
+          "seven": "Mini-projekt vestavěného nábytku",
+          "eight": "Seznam kompletní sady",
+          "nine": "Seznam dekorací + Autorský dozor + Řízení stavby"
+        }
+      },
+
+      "contact": {
+        "btnname": "Kontaktujte nás",
+        "text": "Vyberte, jak chcete, abychom vás kontaktovali",
+        "call": "Hovor",
+        "message": "Zpráva",
+        "submit": "Odeslat"
+      }
+    }
+  },
+
+  "work": {
+    "01": {
+      "name": "Seznámení",
+      "description": "Před uzavřením smlouvy a zahájením práce pořádáme schůzku, kde se vzájemně poznáme, podrobně vám vysvětlíme strukturu naší práce, prodiskutujeme rozpočet a zaznamenáme vaše přání ve formě briefu."
+    },
+
+    "02": {
+      "name": "Měření místnosti",
+      "description": "Každý návrh interiéru začíná podrobným měřením provedeným profesionály. Plán od developera nestačí. Potřebujeme samostatně provést měření, včetně vývodů kanalizačních trubek, přívodu vody a výšky dveří."
+    },
+
+    "03": {
+      "name": "Dispozice",
+      "description": "Na základě dokončeného plánu měření vypracujeme alespoň tři varianty dispozičního řešení, které odpovídají vašemu životnímu stylu. Při tvorbě dispozice vycházíme z briefu, který jsme s vámi vyplnili, a ergonomických standardů, abychom vytvořili funkční a promyšlený prostor."
+    },
+
+    "04": {
+      "name": "Vizualizace",
+      "description": "Po schválení hlavního plánu začínáme pracovat na konceptu budoucího interiéru. K tomu vytváříme podrobnou 3D vizualizaci – trojrozměrný obraz každé místnosti z několika úhlů, abyste si mohli naplno představit atmosféru budoucího interiéru."
+    },
+
+    "05": {
+      "name": "Výkresová dokumentace",
+      "description": "Aby váš interiér plně odpovídal projektu, připravíme kompletní sadu výkresové dokumentace (35–45 listů), která zahrnuje: všechny potřebné výkresy, rozvržení stěn, elektrické a technické plány, výkresy vestavěného nábytku atd. To je vše, co potřebujete k realizaci projektu. Připravené výkresy vám umožní provést rekonstrukci snadno a bez zbytečných dotazů od stavebníků a dodavatelů."
+    },
+
+    "06": {
+      "name": "Specifikace vybavení interiéru",
+      "description": "Vybereme materiály, nábytek, sanitární techniku a vše potřebné k realizaci projektu přesně tak, jak je znázorněno na vizualizacích. Poskytneme vám specifikace, které obsahují kódy produktů, množství, dodací lhůty, cenu a jméno dodavatele. Vám zbývá jen sledovat realizaci projektu a těšit se na výsledek."
+    },
+
+    "07": {
+      "name": "Autorský dozor",
+      "description": "Autorský dozor je důležitou fází přeměny návrhu ve skutečný interiér snů. V rámci dozoru připravujeme harmonogram nákupu materiálů, kontrolujeme dodávky a monitorujeme provedené práce. Dále děláme vše, co nelze řešit v rámci designového projektu – například vybíráme látky, textilie, spárovací hmoty a dekorace přímo na místě. A samozřejmě provádíme úpravy a připravujeme upřesňující výkresy, pokud je to nutné."
+    }
+  },
+
+  "about": {
+    "interierDesign": {
+      "name": "O nás",
+      "title": "JSME NEJLEPŠÍ AGENTURA PRO INTERIÉROVÝ DESIGN",
+      "description": "Moderní interiér kombinuje eleganci a funkčnost. Světlé tóny rozšiřují prostor a přírodní materiály vytvářejí útulnou atmosféru. Minimalistický nábytek zdůrazňuje styl a akcentní prvky dodávají charakter."
+    },
+
+    "whatWe": {
+      "name": "Co děláme",
+      "description": "Specializujeme se na navrhování interiérů, které kombinují estetiku, funkčnost a nejnovější trendy v moderním designu."
+    },
+
+    "team": {
+      "btnname": "Náš tým",
+      "one": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "two": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "three": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "four": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "five": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "six": {
+        "name": "Bella Maria",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }
+    },
+
+    "answers": {
+      "comname": "Odpovědi na otázky",
+      "one": {
+        "name": "Co ovlivňuje cenu?",
+        "description": "Cena designového projektu závisí na několika faktorech, včetně velikosti prostoru, složitosti návrhu, výběru materiálů, nábytku a dekorace, stejně jako na zakázkových prvcích."
+      },
+      "two": {
+        "name": "Jak dlouho trvá proces návrhu?",
+        "description": "Doba trvání procesu návrhu závisí na rozsahu a složitosti projektu. Průměrně může návrh interiéru pro rezidenční prostor trvat od několika týdnů do několika měsíců. Faktory, jako jsou změny v návrhu, dostupnost materiálů a doba výstavby, mohou ovlivnit celkový časový rámec."
+      },
+      "three": {
+        "name": "Co ovlivňuje cenu?",
+        "description": "Cena designového projektu závisí na několika faktorech, včetně velikosti prostoru, složitosti návrhu, výběru materiálů, nábytku a dekorace, stejně jako na zakázkových prvcích."
+      },
+      "four": {
+        "name": "Jak dlouho trvá proces návrhu?",
+        "description": "Doba trvání procesu návrhu závisí na rozsahu a složitosti projektu. Průměrně může návrh interiéru pro rezidenční prostor trvat od několika týdnů do několika měsíců. Faktory, jako jsou změny v návrhu, dostupnost materiálů a doba výstavby, mohou ovlivnit celkový časový rámec."
+      }
+    }
+  },
+
+  "blog": {
+    "btnname": "Pracovní fáze",
+    "mediabtnname": "Blog",
+    "title": "BLOG",
+    "description": "Tipy a inspirace pro váš interiér",
+    "btnpopular": "Populární",
+    "one": {
+      "name": "Vítejte na našem blogu o designu interiérů!",
+      "text": "Zde se dělíme o inspiraci, nápady a praktické rady pro ty, kteří chtějí proměnit svůj prostor.",
+      "size": "12.09.2024",
+      "read": {
+        "btnname": "Číst blog",
+        "description": "Interiérový design není jen o zdobení místnosti, ale o vytvoření prostoru, který odráží vaši osobnost, zvyšuje komfort a plní praktickou funkci. Ať už redesignujete svůj obývací pokoj nebo zařizujete nový domov, zde je pět klíčových tipů, jak vylepšit váš interiér.",
+        "one": {
+          "name": "1. Začněte s barevnou paletou",
+          "title": "Koherentní barevná paleta je základem dobrého designu. Vyberte si barvy, které vám vyhovují a vytvářejí požadovanou atmosféru. Například neutrální odstíny jako béžová, bílá a šedá mohou vytvořit vzdušný a klidný dojem, zatímco sytější tóny jako námořnická modrá, smaragdově zelená nebo terakota dodají hloubku a živost. Kombinujte výrazné barvy se světlejšími odstíny pro harmonický vzhled. Použijte služby jako Color Hunt a Coolors pro nalezení inspirace.",
+          "description": "Tip: Dodržujte pravidlo tří barev – jednu hlavní, jednu sekundární a jednu akcentní. Pomůže to udržet vizuální rovnováhu a soudržnost."
+        },
+        "two": {
+          "name": "2. Přidejte textury pro hloubku",
+          "title": "Textury dodávají místnosti rozměr a zajímavost, přetvářejí fádní prostor na útulné a příjemné prostředí. Kombinujte materiály jako dřevo, kov a textilie pro vytvoření kontrastu. Například sametovou pohovku můžete sladit s elegantním skleněným konferenčním stolkem nebo umístit chlupatý koberec pod minimalistický dřevěný stůl.",
+          "description": "Tip: Použijte textilie jako polštáře, závěsy a koberce, abyste vytvořili vrstvený vzhled bez přeplnění prostoru."
+        },
+        "three": {
+          "name": "3. Maximalizujte přirozené světlo",
+          "title": "Osvětlení hraje klíčovou roli v interiérovém designu. Maximalizujte přirozené světlo pomocí průsvitných závěsů, zrcadel a světlejších barev stěn, které odrážejí sluneční paprsky. Pokud váš prostor nemá dostatek přirozeného světla, zkombinujte různé vrstvy umělého osvětlení, jako je ambientní, pracovní a akcentní osvětlení, pro vytvoření požadované atmosféry.",
+          "description": "Tip: Strategicky umístěná zrcadla mohou odrážet světlo a opticky zvětšit a prosvětlit prostor."
+        },
+        "four": {
+          "name": "4. Zaměřte se na funkční nábytek",
+          "title": "Nábytek by neměl být pouze estetický, ale také funkční. Zvažte svůj životní styl při jeho výběru. Pokud rádi hostíte návštěvy, velká rohová pohovka nebo rozkládací jídelní stůl mohou být skvělou investicí. Pokud máte omezený prostor, vyberte multifunkční nábytek, jako je konferenční stolek s úložným prostorem nebo rozkládací pohovka.",
+          "description": "Tip: Velikost je klíčová. Ujistěte se, že váš nábytek odpovídá velikosti místnosti, aby nevypadal přeplněně nebo nevyužitě."
+        },
+        "five": {
+          "name": "5. Personalizujte prostor doplňky",
+          "title": "Finální detaily mohou skutečně proměnit dům v domov. Personalizujte svůj prostor pomocí doplňků, které odrážejí váš styl a zájmy – umělecká díla, rostliny, dekorativní předměty a rodinné fotografie. Nebojte se kombinovat staré a nové – například vintage zrcadlo ve spojení s moderním osvětlením může dodat charakter a jedinečnost každému prostoru.",
+          "description": "Tip: Vytvořte ohniskový bod pomocí doplňků, jako je výrazný obraz nebo velká rostlina, které přitáhnou pozornost a dodají místnosti propracovaný vzhled."
+        },
+        "six": {
+          "name": "Závěrečné myšlenky",
+          "title": "Interiérový design je umění, které vám umožňuje vyjádřit kreativitu a zároveň vytvořit prostor, který je funkční i krásný. Zaměřením se na barvy, textury, osvětlení, funkčnost a personalizaci můžete vytvořit místnost, která je jedinečně vaše a zpříjemní vám každodenní život. Začněte v malém, experimentujte a užijte si proces proměny vašeho domova!"
+        }
+      },
+      "sale": {
+        "btnname": "Sleva",
+        "name": "SLEVA",
+        "title": "Získejte 15% slevu na interiérový design od 12. listopadu do 12. prosince"
+      },
+      "visit": {
+        "btnname": "Navštivte náš Instagram",
+        "linkname": "NAVŠTÍVIT"
+      }
+    }
+  },
+
+  "contact": {
+    "btnname": "Kontakt",
+    "bigname": "KONTAKTUJTE NÁS",
+    "description": "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at.",
+
+    "reg": {
+      "btnname": "Kontakty",
+
+      "am": {
+        "title": "Pro Arménii",
+        "text": "Jerevan, Arménie"
+      },
+      "cz": {
+        "title": "Pro Českou republiku",
+        "text": "Praha, Česká republika"
+      }
+    },
+
+    "contactreg": {
+      "btnname": "Kontaktujte nás",
+      "text": "Lorem ipsum dolor sit amet consectetur.",
+      "submit": "Odeslat"
+    }
+  },
+
+  "gettouch": {
+    "btnname": "Kontaktujte nás",
+    "text": "Lorem ipsum dolor sit amet consectetur.",
+    "submit": "Odeslat"
+  },
+
+  "footer": {
+    "title": "POJĎME PRODISKUTOVAT VÁŠ PROJEKT",
+    "forarmenia": {
+      "title": "Pro Arménii",
+      "text": "Jerevan, Arménie"
+    },
+    "forczech": {
+      "title": "Pro Českou republiku",
+      "text": "Praha, Česká republika"
+    },
+    "menu": {
+      "title": "Prozkoumejte web",
+      "home": "Domů",
+      "portfolio": "Portfolio",
+      "services": "Služby a Balíčky",
+      "work": "Fáze Práce",
+      "about": "O Nás",
+      "blog": "Náš Blog"
+    },
+    "services": {
+      "title": "Služby",
+      "commerical": "Komerční",
+      "residential": "Rezidenční",
+      "architechtural": "Architektonické"
+    },
+    "lang": {
+      "title": "Jazyky",
+      "czech": "Čeština",
+      "english": "Angličtina",
+      "armenia": "Arménština",
+      "russia": "Ruština"
+    }
+  },
+
+  "footerlogo": {
+    "name": "Zásady ochrany osobních údajů",
+    "text": "VŠECHNA PRÁVA VYHRAZENA"
+  },
+
+  "policy": {
+    "text": {
+      "btnname": "Zásady ochrany osobních údajů",
+      "date": "Datum účinnosti: 12.09.2024",
+      "descriptionone": "Zavazujeme se chránit vaše soukromí. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme, sdílíme a chráníme vaše informace při návštěvě našich webových stránek nebo využívání našich služeb v oblasti interiérového designu.",
+      "descriptiontwo": "Pečlivě si přečtěte tyto zásady ochrany osobních údajů. Používáním našich služeb souhlasíte se shromažďováním a používáním informací v souladu s těmito zásadami."
+    },
+
+    "inform": {
+      "title": {
+        "bolt": "1. Informace, které shromažďujeme",
+        "two": "2. Jak používáme vaše informace",
+        "three": "3. Jak sdílíme vaše informace",
+        "four": "4. Bezpečnost údajů",
+        "five": "5. Soubory cookie a technologie sledování",
+        "six": "6. Vaše práva a možnosti",
+        "seven": "7. Odkazy na třetí strany",
+        "eight": "8. Aktualizace těchto zásad ochrany osobních údajů"
+      },
+
+      "one": {
+        "title": "1. Informace, které shromažďujeme",
+        "text": "Shromažďujeme osobní a neosobní údaje, abychom vám mohli poskytnout personalizované a efektivní služby. Typy shromažďovaných údajů zahrnují:",
+        "personal": {
+          "one": "Osobní údaje:",
+          "two": "Vaše jméno, e-mailová adresa, telefonní číslo, poštovní adresa, platební údaje a další informace nezbytné pro poskytování našich služeb."
+        },
+        "project": {
+          "one": "Informace o projektu:",
+          "two": "Designové preference, půdorysy, fotografie a jakékoli další údaje týkající se vašeho interiérového projektu."
+        },
+        "nonpersonal": {
+          "one": "Neosobní údaje:",
+          "two": "Údaje o prohlížení, IP adresa, informace o zařízení a analytika využívání webových stránek."
+        }
+      },
+      "two": {
+        "title": "2. Jak používáme vaše informace",
+        "text": "Shromážděné informace využíváme k následujícím účelům:",
+        "service": {
+          "one": "Poskytování služeb:",
+          "two": "Pro zajištění a správu služeb interiérového designu, včetně komunikace a řízení projektů."
+        },
+        "customer": {
+          "one": "Zákaznická podpora:",
+          "two": "Pro odpovídání na dotazy, zasílání aktualizací o projektech a poskytování podpory související s našimi službami."
+        },
+        "personalization": {
+          "one": "Personalizace:",
+          "two": "Pro poskytování doporučení ohledně designu, produktů a dalšího obsahu přizpůsobeného vašim preferencím."
+        },
+        "marketing": {
+          "one": "Marketingová komunikace:",
+          "two": "S vaším souhlasem vám můžeme zasílat newslettery, propagační akce a novinky související s našimi službami."
+        },
+        "improvement": {
+          "one": "Zlepšování služeb:",
+          "two": "Pro analýzu dat a zlepšování funkcionality a výkonu našich webových stránek a služeb."
+        }
+      },
+      "three": {
+        "title": "3. Jak sdílíme vaše informace",
+        "text": "Vaše osobní údaje neprodáváme, nevyměňujeme ani nepronajímáme třetím stranám. Můžeme je však sdílet v následujících případech:",
+        "service": {
+          "one": "Poskytovatelé služeb:",
+          "two": "Důvěryhodné třetí strany, které nám pomáhají s poskytováním našich služeb, například zpracovatelé plateb, dodavatelé a prodejci."
+        },
+        "legal": {
+          "one": "Právní požadavky:",
+          "two": "Když to vyžaduje zákon nebo v reakci na platné právní procesy můžeme vaše údaje zveřejnit."
+        },
+        "business": {
+          "one": "Obchodní transakce:",
+          "two": "V případě fúze, akvizice nebo prodeje naší společnosti mohou být vaše údaje převedeny jako součást podnikových aktiv."
+        }
+      },
+      "four": {
+        "title": "4. Bezpečnost údajů",
+        "text": "Přijímáme přiměřená opatření na ochranu vašich údajů před neoprávněným přístupem, změnou, zveřejněním nebo zničením. Žádná metoda přenosu dat přes internet ani elektronické ukládání však nemůže zaručit absolutní bezpečnost."
+      },
+      "five": {
+        "title": "5. Soubory cookie a technologie sledování",
+        "text": "Používáme soubory cookie a podobné technologie sledování k vylepšení vašeho zážitku na našich webových stránkách. Tyto technologie nám pomáhají pochopit, jak uživatelé interagují s našimi stránkami, a poskytovat funkce, jako je ukládání vašich preferencí. Nastavení souborů cookie můžete změnit v nastavení vašeho prohlížeče, ale některé funkce webových stránek mohou být omezeny."
+      },
+      "six": {
+        "title": "6. Vaše práva a možnosti",
+        "text": "Máte právo přistupovat ke svým osobním údajům, aktualizovat je nebo je smazat. Také se můžete odhlásit z odběru marketingových sdělení kliknutím na odkaz pro odhlášení v našich e-mailech nebo nás kontaktovat přímo."
+      },
+      "seven": {
+        "title": "7. Odkazy na třetí strany",
+        "text": "Naše webové stránky mohou obsahovat odkazy na webové stránky nebo služby třetích stran. Nezodpovídáme za zásady ochrany osobních údajů ani obsah těchto stránek. Doporučujeme vám přečíst si zásady ochrany osobních údajů jakýchkoli webových stránek třetích stran, které navštívíte."
+      },
+      "eight": {
+        "title": "8. Aktualizace těchto zásad ochrany osobních údajů",
+        "text": "Tyto zásady ochrany osobních údajů můžeme čas od času aktualizovat, aby odrážely změny v našich postupech nebo právních požadavcích. Aktualizované zásady budou zveřejněny na této stránce s novým datem účinnosti. Doporučujeme pravidelně kontrolovat tyto zásady."
+      },
+      "contact": {
+        "title": "Kontaktujte nás",
+        "text": "Máte-li jakékoli dotazy ohledně těchto zásad ochrany osobních údajů nebo našich postupů nakládání s údaji, kontaktujte nás."
+      }
+    }
+  },
+
+  "before": "Před",
+  "after": "Po",
+  "back": "Zpět",
+  "previous": "Předchozí",
+  "next": "Další",
+  "getintouch": "KONTAKTUJTE NÁS",
+  "notfound": "Nic nebylo nalezeno"
+}

@@ -15,8 +15,9 @@
 }
 
 .container_btn {
-    width: 126px;
+    width: fit-content;
     height: 32px;
+    padding: 0 14px;
     background-color: white;
     border: 1px solid #2E2E2E;
     border-radius: 28px;
@@ -55,7 +56,7 @@
 
 @media screen and (max-width: 480px) {
     .container_block {
-        width: 358px;
+        width: 100%;
         height: auto;
         background-color: white;
         border: 1px solid #E1E1E1;
@@ -80,7 +81,7 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .container_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         background-color: white;
         border: 1px solid #E1E1E1;
@@ -107,7 +108,7 @@
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .container_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         background-color: white;
         border: 1px solid #E1E1E1;
@@ -132,7 +133,7 @@
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
     .container_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         background-color: white;
         border: 1px solid #E1E1E1;
@@ -153,7 +154,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1535px) {
     .container_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         background-color: white;
         border: 1px solid #E1E1E1;

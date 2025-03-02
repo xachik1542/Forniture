@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 480px) {
     .navigation_block {
-        width: 358px;
+        width: 100%;
         height: auto;
         margin-top: 48px;
     }
@@ -120,7 +120,7 @@
 
     .select_block {
         display: block;
-        width: 358px;
+        width: 100%;
         height: auto;
     }
     
@@ -205,7 +205,7 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .navigation_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 48px;
     }
@@ -273,7 +273,7 @@
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .navigation_block {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 48px;
     }
@@ -342,7 +342,7 @@
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
     .navigation_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin-top: 48px;
     }
@@ -412,7 +412,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1535px) {
     .navigation_block {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin-top: 48px;
     }

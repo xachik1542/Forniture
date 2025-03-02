@@ -1,63 +1,56 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import styles from "./style.module.css";
+import Commponents_Answer from "./Components_Answer";
+import { useTranslation } from "react-i18next";
 
 function Answers() {
+  const [t] = useTranslation();
   const [id, setId] = useState(0);
- 
+
   const answer = [
-    {id: 1, name: "What affects the price?", text: "  Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at. Adipiscing lacinia sit platea a nunc libero. In ut adipiscing urna pellentesque amet varius posuere quis. Amet justo senectus at pellentesque phasellus fringilla nec. Adipiscing iaculis placerat malesuada nisi nisi."},
-    {id: 2, name: "Is the lorem ipsum dolor sit amet?", text: "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at. Adipiscing lacinia sit platea a nunc libero. In ut adipiscing urna pellentesque amet varius posuere quis. Amet justo senectus at pellentesque phasellus fringilla nec. Adipiscing iaculis placerat malesuada nisi nisi."},
-    {id: 3, name: "What affects the price?", text: "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at. Adipiscing lacinia sit platea a nunc libero. In ut adipiscing urna pellentesque amet varius posuere quis. Amet justo senectus at pellentesque phasellus fringilla nec. Adipiscing iaculis placerat malesuada nisi nisi."},
-    {id: 4, name: "Is the lorem ipsum dolor sit amet?", text: "Lorem ipsum dolor sit amet consectetur. Integer sit vel quisque laoreet lacus at. Adipiscing lacinia sit platea a nunc libero. In ut adipiscing urna pellentesque amet varius posuere quis. Amet justo senectus at pellentesque phasellus fringilla nec. Adipiscing iaculis placerat malesuada nisi nisi."}
+    {
+      id: 1,
+      name: t("home.answers.one.name"),
+      text: t("home.answers.one.description"),
+    },
+    {
+      id: 2,
+      name: t("home.answers.two.name"),
+      text: t("home.answers.two.description"),
+    },
+    {
+      id: 3,
+      name: t("home.answers.three.name"),
+      text: t("home.answers.three.description"),
+    },
+    {
+      id: 4,
+      name: t("home.answers.four.name"),
+      text: t("home.answers.four.description"),
+    },
   ];
 
-  const handleOpen = (id) => {
-    answer.map((item) => {
-      if(item.id === id) {
-        setId(id);
-      }
-    })
-  }
-
+  const getId = (getId) => {
+    if (getId == id) {
+      setId(-1);
+    } else {
+      setId(getId);
+    }
+  };
 
   return (
-    <div className={styles.answers_block}>
-      <button>Answers to Questions</button>
-
-      <div className={styles.answers_many_blocks}>
-        {answer.map((item) => {
-          return (
-            <div 
-              key={item.id} 
-              className={id === item.id ? styles.answer_open : styles.answer_close}
-              onClick={() => handleOpen(item.id)}
-              >
-              <h1 className={styles.answer_name}>{item.name}</h1>
-                
-              <AnimatePresence>
-                  {id === item.id &&
-                    <motion.p 
-                      initial={{opacity: 0}}
-                      animate={{opacity: 1}}
-                      exit={{opacity: 0}}
-                      transition={{duration: 0.5}}
-                      className={styles.answer_text}
-                    >
-                    {item.text}
-                    </motion.p>
-                  }
-              </AnimatePresence>
-
-              {id == item.id ? <h1 className={styles.plus_minus}>-</h1> 
-              : 
-              <h1 className={styles.plus_minus}>+</h1>
-              }
-            </div> 
-          )
-        })}
-       
-      </div>
+    <div className={styles.container_block}>
+      <button className={styles.container_btn}>{t("home.answers.btnname")}</button>
+      {answer.map((el) => {
+        return (
+          <Commponents_Answer
+            key={el.id}
+            item={el}
+            setId={getId}
+            isShow={el.id == id ? true : false}
+          />
+        );
+      })}
     </div>
   );
 }

@@ -1,96 +1,238 @@
 .reg_block {
-    width: 1157px;
-    height: 587px;
-    padding: 16px;
-    background-color: #E1E1E1;
-    border-radius: 24px;
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    position: absolute;
-    z-index: 10;
-    position: fixed;
-    top: 1000px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+  width: 1157px;
+  height: 587px;
+  padding: 16px;
+  background-color: #e1e1e1;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }
+
+.reg_block::-webkit-scrollbar {
+  width: 0;
+}
+
 .image_block {
-    width: 555px;
-    height: 100%;
-    border-radius: 24px;
-    background-image: url('../assets/img/service_packages/design.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: right;
+  width: 555px;
+  height: 100%;
+  border-radius: 24px;
+  background-image: url("../assets/img/service_packages/design.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .contact_reg {
-    width: 555px;
-    height: 100%;
-    padding: 32px;
-    position: relative;
-    background-color: white;
-}
-.close_icon {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 32px;
-    right: 37px;
-    cursor: pointer;
-}
-.contact_reg>button {
-    width: fit-content;
-    height: 32px;
-    border-radius: 28px;
-    padding: 0 16px;
-    background-color: white;
-    border: 1px solid;
-    font-size: 14px;
-    line-height: 16px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-.contact_reg>h1 {
-    margin-top: 24px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 1%;
+  width: 555px;
+  height: 100%;
+  padding: 32px;
+  position: relative;
+  background-color: white;
 }
 
+.close_icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 32px;
+  right: 37px;
+  cursor: pointer;
+}
+
+.contact_reg > button {
+  width: fit-content;
+  height: 32px;
+  border-radius: 28px;
+  padding: 0 16px;
+  background-color: white;
+  border: 1px solid;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.contact_reg > h1 {
+  margin-top: 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1%;
+}
+
+.contact_reg > h1:lang(am) {
+  margin-top: 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1%;
+}
 
 .form_block {
-    width: 100%;
-    height: auto;
-    margin-top: 44px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 8px 0;
+  width: 100%;
+  height: auto;
+  margin-top: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 0;
 }
 
 .name_block {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: 77px;
 }
 
-.number_block,.email_block {
-    width: 237.5px;
-    height: auto;
+.number_block,
+.email_block {
+  width: 237.5px;
+  height: 77px;
 }
 
 .inp {
+  width: 100%;
+  height: 56px;
+  background-color: #ebebeb;
+  color: #6c6c6c;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 16px;
+}
+
+.error_message {
+  color: red;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+.textarea_block {
+  width: 100%;
+  height: 151px;
+}
+
+.textarea_inp {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #ebebeb;
+  color: #6c6c6c;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  resize: none;
+}
+
+.submit_btn {
+  width: 100%;
+  height: 48px;
+  background-color: #764af1;
+  color: white;
+  border: none;
+  border-radius: 130px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .reg_block {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    overflow: scroll;
+    gap: 0;
+  }
+
+  .image_block {
+    display: none;
+  }
+
+  .contact_reg {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: relative;
+    background-color: white;
+  }
+
+  .close_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #6c6c6c;
+  }
+
+  .contact_reg > h1 {
+    font-size: 20px;
+    line-height: 28.8px;
+    margin-top: 24px;
+  }
+
+  .form_block {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px 0;
+  }
+
+  .name_block {
+    width: 100%;
+    height: 75px;
+  }
+
+  .number_block,
+  .email_block {
+    width: 100%;
+    height: 75px;
+  }
+
+  .inp {
     width: 100%;
     height: 56px;
-    background-color: #EBEBEB;
-    color: #6C6C6C;
+    background-color: #ebebeb;
+    color: #6c6c6c;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -101,9 +243,9 @@
     font-size: 14px;
     line-height: 21px;
     padding-left: 16px;
-}
+  }
 
-.error_message {
+  .error_message {
     color: red;
     font-size: 12px;
     line-height: 16px;
@@ -111,36 +253,35 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    margin-top: 5px;
-}
+    margin-top: 2px;
+  }
 
-
-.textarea_block {
+  .textarea_block {
     width: 100%;
     height: 151px;
-}
+  }
 
-.textarea_inp {
+  .textarea_inp {
     width: 100%;
     height: 100%;
     padding: 16px;
     border: none;
     outline: none;
     border-radius: 8px;
-    background-color: #EBEBEB;
-    color: #6C6C6C;
+    background-color: #ebebeb;
+    color: #6c6c6c;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-size: 14px;
     line-height: 21px;
-}
+  }
 
-.submit_inp {
+  .submit_btn {
     width: 100%;
-    height: 48px;
-    background-color: #764AF1;
+    height: 56px;
+    background-color: #764af1;
     color: white;
     border: none;
     border-radius: 130px;
@@ -151,657 +292,514 @@
     font-size: 16px;
     line-height: 16px;
     cursor: pointer;
-}
-
-
-@media screen and (max-width: 480px) {
-    .reg_block {
-        width: 358px;
-        height: 625px;
-        padding: 24px;
-        border-radius: 24px;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        gap: 24px;
-    }
-
-    .image_block {
-        display: none;
-    }
-
-    .contact_reg {
-        width: 100%;
-        height: auto;
-        padding: 0;
-        position: relative;
-        background-color: white;
-    }
-    
-    .close_icon {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-        color: #6C6C6C;
-    }
-
-    .contact_reg>h1 {
-        line-height: 28.8px;
-    }
-    
-    
-    .form_block {
-        width: 100%;
-        height: 439px;
-        margin-top: 24px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 16px 0;
-        overflow-y: scroll;
-    }
-    
-    .name_block {
-        width: 100%;
-        height: auto;
-    }
-    
-    .number_block,.email_block {
-        width: 100%;
-        height: auto;
-    }
-    
-    .inp {
-        width: 100%;
-        height: 56px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        border: none;
-        border-radius: 8px;
-        outline: none;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-        padding-left: 16px;
-    }
-    
-    .error_message {
-        color: red;
-        font-size: 12px;
-        line-height: 16px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        margin-top: 2px;
-    }
-    
-    
-    .textarea_block {
-        width: 100%;
-        height: 151px;
-    }
-    
-    .textarea_inp {
-        width: 100%;
-        height: 100%;
-        padding: 16px;
-        border: none;
-        outline: none;
-        border-radius: 8px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-    }
-    
-    .submit_inp {
-        width: 100%;
-        height: 56px;
-        background-color: #764AF1;
-        color: white;
-        border: none;
-        border-radius: 130px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 16px;
-        cursor: pointer;
-    }
-    
-    
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    .reg_block {
-        width: 90%;
-        height: 625px;
-        padding: 24px;
-        border-radius: 24px;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        gap: 24px;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+  }
 
-    .image_block {
-        display: none;
-    }
+  .image_block {
+    display: none;
+  }
 
-    .contact_reg {
-        width: 100%;
-        height: auto;
-        padding: 0;
-        position: relative;
-        background-color: white;
-    }
+  .contact_reg {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: relative;
+    background-color: white;
+  }
 
-    .close_icon {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-        color: #6C6C6C;
-    }
-    
-    .contact_reg>h1 {
-        line-height: 28.8px;
-    }
-    
-    
-    .form_block {
-        width: 100%;
-        height: 439px;
-        margin-top: 24px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 16px 0;
-        overflow-y: scroll;
-    }
-    
-    .name_block,.number_block{
-        width: 49%;
-        height: auto;
-    }
-    
-    .email_block {
-        width: 100%;
-        height: auto;
-    }
-    
-    .inp {
-        width: 100%;
-        height: 56px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        border: none;
-        border-radius: 8px;
-        outline: none;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-        padding-left: 16px;
-    }
-    
-    .error_message {
-        color: red;
-        font-size: 12px;
-        line-height: 16px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        margin-top: 2px;
-    }
-    
-    
-    .textarea_block {
-        width: 100%;
-        height: 151px;
-    }
-    
-    .textarea_inp {
-        width: 100%;
-        height: 100%;
-        padding: 16px;
-        border: none;
-        outline: none;
-        border-radius: 8px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-    }
-    
-    .submit_inp {
-        width: 100%;
-        height: 56px;
-        background-color: #764AF1;
-        color: white;
-        border: none;
-        border-radius: 130px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 16px;
-        cursor: pointer;
-    }
-    
-    
+  .close_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #6c6c6c;
+  }
+
+  .contact_reg > h1 {
+    line-height: 28.8px;
+  }
+
+  .form_block {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px 0;
+  }
+
+  .name_block,
+  .number_block,
+  .email_block {
+    width: 100%;
+    height: 74px;
+  }
+
+  .inp {
+    width: 100%;
+    height: 56px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 16px;
+  }
+
+  .error_message {
+    color: red;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 2px;
+  }
+
+  .textarea_block {
+    width: 100%;
+    height: 151px;
+  }
+
+  .textarea_inp {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .submit_inp {
+    width: 100%;
+    height: 56px;
+    background-color: #764af1;
+    color: white;
+    border: none;
+    border-radius: 130px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
-    .reg_block {
-        width: 90%;
-        height: 625px;
-        padding: 24px;
-        border-radius: 24px;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        gap: 24px;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: scroll;
+    gap: 24px;
+  }
 
-    .image_block {
-        width: 50%;
-    }
+  .image_block {
+    width: 50%;
+    height: 527px;
+    background-position: center;
+  }
 
-    .contact_reg {
-        width: 50%;
-        height: auto;
-        padding: 0;
-        position: relative;
-        background-color: white;
-    }
+  .contact_reg {
+    width: 50%;
+    height: 535px;
+    padding: 0;
+    position: relative;
+    background-color: white;
+  }
 
-    .close_icon {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-        color: #6C6C6C;
-    }
-    
-    .contact_reg>h1 {
-        line-height: 28.8px;
-    }
-    
-    
-    .form_block {
-        width: 100%;
-        height: 439px;
-        margin-top: 24px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 16px 0;
-        overflow-y: scroll;
-    }
-    
-    .name_block,.number_block{
-        width: 49%;
-        height: auto;
-    }
-    
-    .email_block {
-        width: 100%;
-        height: auto;
-    }
-    
-    .inp {
-        width: 100%;
-        height: 56px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        border: none;
-        border-radius: 8px;
-        outline: none;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-        padding-left: 16px;
-    }
-    
-    .error_message {
-        color: red;
-        font-size: 12px;
-        line-height: 16px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        margin-top: 2px;
-    }
-    
-    
-    .textarea_block {
-        width: 100%;
-        height: 151px;
-    }
-    
-    .textarea_inp {
-        width: 100%;
-        height: 100%;
-        padding: 16px;
-        border: none;
-        outline: none;
-        border-radius: 8px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-    }
-    
-    .submit_inp {
-        width: 100%;
-        height: 56px;
-        background-color: #764AF1;
-        color: white;
-        border: none;
-        border-radius: 130px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 16px;
-        cursor: pointer;
-    }
-    
-    
+  .close_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #6c6c6c;
+  }
+
+  .contact_reg > h1 {
+    line-height: 28.8px;
+  }
+
+  .form_block {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px 0;
+  }
+
+  .name_block,
+  .number_block {
+    width: 49%;
+    height: 70px;
+  }
+
+  .email_block {
+    width: 100%;
+    height: 70px;
+  }
+
+  .inp {
+    width: 100%;
+    height: 56px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 16px;
+  }
+
+  .error_message {
+    color: red;
+    font-size: 10px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+  }
+
+  .textarea_block {
+    width: 100%;
+    height: 151px;
+  }
+
+  .textarea_inp {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .submit_inp {
+    width: 100%;
+    height: 56px;
+    background-color: #764af1;
+    color: white;
+    border: none;
+    border-radius: 130px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-    .reg_block {
-        width: 95%;
-        height: 600px;
-        padding: 24px;
-        border-radius: 24px;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        gap: 24px;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: scroll;
+    gap: 24px;
+  }
 
-    .image_block {
-        width: 50%;
-        height: auto;
-    }
+  .image_block {
+    width: 50%;
+    height: 536px;
+  }
 
-    .contact_reg {
-        width: 50%;
-        height: auto;
-        padding: 0;
-        position: relative;
-        background-color: white;
-    }
+  .contact_reg {
+    width: 50%;
+    height: 536px;
+    padding: 0;
+    position: relative;
+    background-color: white;
+  }
 
-    .close_icon {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-        color: #6C6C6C;
-    }
-    
-    .contact_reg>h1 {
-        line-height: 28.8px;
-    }
-    
-    
-    .form_block {
-        width: 100%;
-        height: auto;
-        margin-top: 24px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 16px 0;
-        overflow-y: scroll;
-    }
-    
-    .name_block,.number_block{
-        width: 49%;
-        height: auto;
-    }
-    
-    .email_block {
-        width: 100%;
-        height: auto;
-    }
-    
-    .inp {
-        width: 100%;
-        height: 56px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        border: none;
-        border-radius: 8px;
-        outline: none;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-        padding-left: 16px;
-    }
-    
-    .error_message {
-        color: red;
-        font-size: 12px;
-        line-height: 16px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        margin-top: 2px;
-    }
-    
-    
-    .textarea_block {
-        width: 100%;
-        height: 151px;
-    }
-    
-    .textarea_inp {
-        width: 100%;
-        height: 100%;
-        padding: 16px;
-        border: none;
-        outline: none;
-        border-radius: 8px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-    }
-    
-    .submit_inp {
-        width: 100%;
-        height: 56px;
-        background-color: #764AF1;
-        color: white;
-        border: none;
-        border-radius: 130px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 16px;
-        cursor: pointer;
-    }
-    
-    
+  .close_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #6c6c6c;
+  }
+
+  .contact_reg > h1 {
+    line-height: 28.8px;
+  }
+
+  .form_block {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px 0;
+    /* border: 1px solid red; */
+  }
+
+  .name_block,
+  .number_block {
+    width: 49%;
+    height: 75px;
+  }
+
+  .email_block {
+    width: 100%;
+    height: 75px;
+  }
+
+  .inp {
+    width: 100%;
+    height: 56px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 16px;
+  }
+
+  .error_message {
+    color: red;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 2px;
+  }
+
+  .textarea_block {
+    width: 100%;
+    height: 151px;
+  }
+
+  .textarea_inp {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .submit_inp {
+    width: 100%;
+    height: 56px;
+    background-color: #764af1;
+    color: white;
+    border: none;
+    border-radius: 130px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1535px) {
-    .reg_block {
-        width: 80%;
-        height: 600px;
-        padding: 16px;
-        border-radius: 24px;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        gap: 24px;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: scroll;
+    gap: 24px;
+  }
 
-    .image_block {
-        width: 60%;
-        height: auto;
-    }
+  .image_block {
+    width: 50%;
+    height: 536px;
+  }
 
-    .contact_reg {
-        width: 40%;
-        height: auto;
-        padding: 0;
-        position: relative;
-        background-color: white;
-    }
+  .contact_reg {
+    width: 50%;
+    height: 536px;
+    padding: 0;
+    position: relative;
+    background-color: white;
+  }
 
-    .close_icon {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-        color: #6C6C6C;
-    }
-    
-    .contact_reg>h1 {
-        line-height: 28.8px;
-    }
-    
-    
-    .form_block {
-        width: 100%;
-        height: auto;
-        margin-top: 24px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 16px 0;
-        overflow-y: scroll;
-    }
-    
-    .name_block,.number_block{
-        width: 49%;
-        height: auto;
-    }
-    
-    .email_block {
-        width: 100%;
-        height: auto;
-    }
-    
-    .inp {
-        width: 100%;
-        height: 56px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        border: none;
-        border-radius: 8px;
-        outline: none;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-        padding-left: 16px;
-    }
-    
-    .error_message {
-        color: red;
-        font-size: 12px;
-        line-height: 16px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        margin-top: 2px;
-    }
-    
-    
-    .textarea_block {
-        width: 100%;
-        height: 151px;
-    }
-    
-    .textarea_inp {
-        width: 100%;
-        height: 100%;
-        padding: 16px;
-        border: none;
-        outline: none;
-        border-radius: 8px;
-        background-color: #EBEBEB;
-        color: #6C6C6C;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 21px;
-    }
-    
-    .submit_inp {
-        width: 100%;
-        height: 56px;
-        background-color: #764AF1;
-        color: white;
-        border: none;
-        border-radius: 130px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 16px;
-        cursor: pointer;
-    }
-    
-    
+  .close_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #6c6c6c;
+  }
+
+  .contact_reg > h1 {
+    line-height: 28.8px;
+  }
+
+  .form_block {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px 0;
+  }
+
+  .name_block,
+  .number_block {
+    width: 49%;
+    height: 75px;
+  }
+
+  .email_block {
+    width: 100%;
+    height: 75px;
+  }
+
+  .inp {
+    width: 100%;
+    height: 56px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 16px;
+  }
+
+  .error_message {
+    color: red;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 2px;
+  }
+
+  .textarea_block {
+    width: 100%;
+    height: 151px;
+  }
+
+  .textarea_inp {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    color: #6c6c6c;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .submit_inp {
+    width: 100%;
+    height: 56px;
+    background-color: #764af1;
+    color: white;
+    border: none;
+    border-radius: 130px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+  }
 }

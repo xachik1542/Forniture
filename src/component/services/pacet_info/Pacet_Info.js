@@ -8,9 +8,10 @@ import {
 import { MdOutlineClose } from "react-icons/md";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { AnimatePresence, motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
-function Pacet_Info({ pacet, setPacet }) {
+function Pacet_Info({ pacet, setPacet, setOpen }) {
+  const [t] = useTranslation();
   const [call, setCall] = useState(false);
   const [massage, setMassage] = useState(false);
 
@@ -31,141 +32,143 @@ function Pacet_Info({ pacet, setPacet }) {
     setCall(false);
   };
 
-  const handleClose = () => {
-    setPacet([]);
-  };
-
   const onSubmit = (e) => {
-    console.log(e);
     reset();
   };
 
-  console.log(window.outerHeight);
-  
-  
-  return (
-    <AnimatePresence>
-      {pacet.length > 0 && (
-        <motion.div
-          className={styles.container_block}
-          animate={{ top: window.outerHeight / 2 }}
-          exit={{ top: 1000 }}
-          transition={{ duration: 0.5 }}
-        >
-          {pacet.map((item) => {
-            return (
-              <div key={item.id} className={styles.pacet_block}>
-                <div className={styles.pacet_text_block}>
-                  <MdOutlineClose
-                    onClick={handleClose}
-                    className={styles.media_close}
-                  />
-                  <img src={item.img} />
-                  <h1 className={styles.pacet_title}>{item.title}</h1>
-                  <p className={styles.pacet_description}>{item.description}</p>
+  const handleClose = () => {
+    setPacet([]);
+    setOpen(false);
+  };
 
-                  <ul className={styles.pacet_ul_box}>
-                    {item.info.map((el) => {
-                      return <li key={el.id}>{el.name}</li>;
-                    })}
-                  </ul>
+  return (
+    <div className={styles.container_block}>
+      <div className={styles.pacet_block}>
+        {pacet.map((item) => {
+          return (
+            <div key={item.id} className={styles.pacet_box}>
+              <MdOutlineClose
+                onClick={handleClose}
+                className={styles.icon_close}
+              />
+              <div className={styles.pacet_text_block}>
+                <img src={item.img} />
+                <h1 className={styles.pacet_title}>{t(item.title)}</h1>
+                <p className={styles.pacet_description}>
+                  {t(item.description)}
+                </p>
+
+                <ul className={styles.pacet_ul_box}>
+                  {item.info.map((el) => {
+                    return <li key={el.id}>{t(el.name)}</li>;
+                  })}
+                </ul>
+              </div>
+
+              <div className={styles.container_reg}>
+                <div className={styles.container_reg_title}>
+                  <button className={styles.reg_btn}>
+                    {t("services.pacet.contact.btnname")}
+                  </button>
+                  <p>{t("services.pacet.contact.text")}</p>
                 </div>
 
-                <div className={styles.container_reg}>
-                  <MdOutlineClose
-                    onClick={handleClose}
-                    className={styles.close}
-                  />
-                  <div className={styles.container_reg_title}>
-                    <button className={styles.reg_btn}>Contact Us</button>
-                    <p>Select how do you want us to contact you</p>
-                    <h2 className={styles.media_text_form}>
-                      Let’s contact and
-                      <br /> discuss your project
-                    </h2>
+                <form
+                  className={styles.container_form_box}
+                  onSubmit={handleSubmit(onSubmit)}
+                >
+                  <div className={styles.call_and_massage}>
+                    <div
+                      className={styles.call_box}
+                      style={{ backgroundColor: call ? "#764AF1" : "white" }}
+                    >
+                      <input
+                        type="radio"
+                        checked={call}
+                        onClick={handleCallShow}
+                      />
+                      <span
+                        className={styles.call_span}
+                        style={{ color: call ? "white" : "#2E2E2E" }}
+                      >
+                        {t("services.pacet.contact.call")}
+                      </span>
+                    </div>
+                    <div
+                      className={styles.massage_box}
+                      style={{ backgroundColor: massage ? "#764AF1" : "white" }}
+                    >
+                      <input
+                        type="radio"
+                        checked={massage}
+                        onClick={handleMassageShow}
+                      />
+                      <span
+                        className={styles.message_span}
+                        style={{ color: massage ? "white" : "#2E2E2E" }}
+                      >
+                        {t("services.pacet.contact.message")}
+                      </span>
+                    </div>
                   </div>
 
-                  <form
-                    className={styles.container_form_box}
-                    onSubmit={handleSubmit(onSubmit)}
-                  >
-                    <div className={styles.call_and_massage}>
-                      <div className={styles.call_box}>
-                        <input
-                          type="radio"
-                          checked={call}
-                          onClick={handleCallShow}
-                        />
-                      </div>
-                      <div className={styles.massage_box}>
-                        <input
-                          type="radio"
-                          checked={massage}
-                          onClick={handleMassageShow}
-                        />
-                      </div>
-                    </div>
+                  <div className={styles.input_box}>
+                    <input
+                      className={styles.name_inp}
+                      type="text"
+                      placeholder="Name"
+                      {...register("name", Name_Validatation)}
+                    />
+                    <p className={styles.errors_message}>
+                      {errors?.name?.message}
+                    </p>
+                  </div>
 
-                    <div>
+                  {call ? (
+                    <div className={styles.input_box}>
                       <input
-                        className={styles.name_inp}
-                        type="text"
-                        placeholder="Name"
-                        {...register("name", Name_Validatation)}
+                        type="tel"
+                        className={styles.tel_inp}
+                        placeholder="Phone"
+                        {...register("phone", Phone_Validation)}
                       />
                       <p className={styles.errors_message}>
-                        {errors?.name?.message}
+                        {errors?.phone?.message}
                       </p>
                     </div>
+                  ) : null}
 
-                    {call ? (
-                      <div>
-                        <input
-                          type="tel"
-                          className={styles.tel_inp}
-                          placeholder="Phone"
-                          {...register("phone", Phone_Validation)}
-                        />
-                        <p className={styles.errors_message}>
-                          {errors?.phone?.message}
-                        </p>
-                      </div>
-                    ) : null}
+                  {massage ? (
+                    <div className={styles.input_box}>
+                      <input
+                        type="text"
+                        className={styles.email_inp}
+                        placeholder="Email"
+                        {...register("email", Email_Validation)}
+                      />
+                      <p className={styles.errors_message}>
+                        {errors?.email?.message}
+                      </p>
+                    </div>
+                  ) : null}
 
-                    {massage ? (
-                      <div>
-                        <input
-                          type="text"
-                          className={styles.email_inp}
-                          placeholder="Email"
-                          {...register("email", Email_Validation)}
-                        />
-                        <p className={styles.errors_message}>
-                          {errors?.email?.message}
-                        </p>
-                      </div>
-                    ) : null}
+                  <textarea
+                    className={styles.textarea_text}
+                    type="text"
+                    placeholder="Message"
+                    {...register("message", Textarea_Validation)}
+                  ></textarea>
 
-                    <textarea
-                      className={styles.textarea_text}
-                      type="text"
-                      placeholder="Message"
-                      {...register("message", Textarea_Validation)}
-                    ></textarea>
-
-                    <input
-                      className={styles.submit_inp}
-                      type="submit"
-                      value={"Submit"}
-                    ></input>
-                  </form>
-                </div>
+                  <button className={styles.button_submit}>
+                    {t("services.pacet.contact.submit")}
+                  </button>
+                </form>
               </div>
-            );
-          })}
-        </motion.div>
-      )}
-    </AnimatePresence>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 

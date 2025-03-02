@@ -9,12 +9,12 @@
 
 .name_inp_box {
     width: 100%;
-    height: auto;
+    height: 80px;
 }
 
 .tel_inp_box,.email_inp_box {
     width: 316px;
-    height: auto;
+    height: 80px;
 }
 
 .inp {
@@ -60,6 +60,7 @@
     font-size: 14px;
     line-height: 21px;
     background-color: #EBEBEB;
+    resize: none;
 }
 
 .form_one_text {
@@ -102,7 +103,7 @@
 
     .tel_inp_box,.email_inp_box,.name_inp_box {
         width: 100%;
-        height: auto;
+        height: 80px;
     }
 
     .inp {
@@ -175,7 +176,7 @@
 
     .tel_inp_box,.email_inp_box,.name_inp_box {
         width: 100%;
-        height: auto;
+        height: 80px;
     }
 
     .inp {
@@ -251,12 +252,12 @@
 
     .name_inp_box,.tel_inp_box {
         width: 49%;
-        height: auto;
+        height: 80px;
     }
 
     .email_inp_box {
         width: 100%;
-        height: auto;
+        height: 80px;
     }
 
     .inp {
@@ -333,12 +334,12 @@
 
     .name_inp_box,.tel_inp_box {
         width: 49%;
-        height: auto;
+        height: 80px;
     }
 
     .email_inp_box {
         width: 100%;
-        height: auto;
+        height: 80px;
     }
 
     .inp {
@@ -410,12 +411,12 @@
 
     .name_inp_box,.tel_inp_box {
         width: 49%;
-        height: auto;
+        height: 80px;
     }
 
     .email_inp_box {
         width: 100%;
-        height: auto;
+        height: 80px;
     }
 
     .inp {

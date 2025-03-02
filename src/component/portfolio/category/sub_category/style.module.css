@@ -110,11 +110,12 @@
     }
     
     .sub_li {
-        width: 180px;
+        width: 150px;
         height: 100%;
         background-color: white;
         border: 2px solid #885FFA;
         border-radius: 32px;
+        padding: 0 14px;
         gap: 8px;
         font-size: 16px;
         line-height: 24px;
@@ -135,7 +136,7 @@
     }
     
     .sub_li_change {
-        width: 180px;
+        width: 150px;
         height: 100%;
         border: none;
         flex-shrink: 0;

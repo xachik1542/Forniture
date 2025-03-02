@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import styles from "./app.module.css";
 import Header from "./header/Header";
 import Home from "./page/home/Home";
@@ -16,8 +16,16 @@ import Contact from "./page/contact/Contact";
 import Policy from "./page//policy/Policy";
 import Footer from "./footer/Footer";
 import Logo from "./Footer_Logo/Logo";
+import { useEffect } from "react";
+import Error_Url from "./error_url/Error_Url";
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <div className={styles.app_block}>
       <Header />
@@ -35,6 +43,7 @@ function App() {
         <Route path="/favs" element={<Favs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/policy" element={<Policy />} />
+        <Route path="*" element={<Error_Url />} />
       </Routes>
       <Footer />
       <Logo />

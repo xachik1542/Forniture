@@ -1,587 +1,570 @@
 .reg_block {
-    width: 1392px;
-    height: 623px;
-    margin-top: 16px;
-    display: flex;
-    justify-content: space-between;  
+  width: 1392px;
+  height: 623px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .text_img_box {
-    width: 688px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 688px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .inform_box {
-    width: 688px;
-    height: 286px;
-    border-radius: 24px;
-    padding: 32px;
-    gap: 24px;
-    border: 1px solid #E1E1E1;
-    background-color: white;
+  width: 688px;
+  height: 286px;
+  border-radius: 24px;
+  padding: 32px;
+  gap: 24px;
+  border: 1px solid #e1e1e1;
+  background-color: white;
 }
 
-.inform_box>button {
-    width: 96px;
-    height: 32px;
-    gap: 24px;
-    border-radius: 28px;
-    background-color: white;
-    border: 1px solid;
-    font-size: 14px;
-    line-height: 16px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+.inform_box > button {
+  width: fit-content;
+  height: 32px;
+  gap: 24px;
+  padding: 0 16px;
+  border-radius: 28px;
+  background-color: white;
+  border: 1px solid;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .inform_pair_box {
-    width: 478px;
-    height: 166px;
-    margin-top: 24px;
-    display: flex;
-    justify-content: space-between;
+  width: 478px;
+  height: 166px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pair_one {
-    width: 203px;
-    height: 150px;
-    gap: 16px;
+  width: fit-content;
+  height: auto;
+  gap: 16px;
 }
 
 .pair_two {
-    width: 227px;
-    height: 146px;
-    gap: 12px;
+  width: fit-content;
+  height: auto;
+  gap: 12px;
 }
 
-.pair_one>h1,.pair_two>h1 {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 33.6px;
-    color: #2E2E2E;
-    margin-bottom: 16px;
+.pair_one > h1,
+.pair_two > h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33.6px;
+  color: #2e2e2e;
+  margin-bottom: 16px;
 }
 
-.pair_one>p,.pair_two>p {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 19.5px;
-    line-height: 28px;
-    color: #2E2E2E;
-    margin-bottom: 8px;
+.pair_one > p,
+.pair_two > p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19.5px;
+  line-height: 28px;
+  color: #2e2e2e;
+  margin-bottom: 8px;
 }
 
 .design_img {
-    width: 100%;
-    height: 327px;
-    border-radius: 24px;
-    border: 1px solid #B7B7B7;
+  width: 100%;
+  height: 327px;
+  border-radius: 24px;
+  border: 1px solid #b7b7b7;
 }
-
 
 .contact_reg {
-    width: 688px;
-    height: 100%;
-    padding: 32px;
-    border-radius: 24px;
-    background-color: #2E2E2E;
-    border: 1px solid #E1E1E1;
+  width: 688px;
+  height: 100%;
+  padding: 32px;
+  border-radius: 24px;
+  background-color: #2e2e2e;
+  border: 1px solid #e1e1e1;
 }
 
-.contact_reg>button {
-    width: 108px;
-    height: 32px;
-    border-radius: 28px;
-    background-color: white;
-    border: 1px solid;
-    font-size: 14px;
-    line-height: 16px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+.contact_reg > button {
+  width: fit-content;
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 28px;
+  background-color: white;
+  border: 1px solid;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
-.contact_reg>h1 {
-    margin-top: 24px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 1%;
-    color: white;
+.contact_reg > h1 {
+  margin-top: 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 1%;
+  color: white;
 }
-
 
 .reg_form {
-    width: 624px;
-    height: 359px;
-    margin-top: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  width: 624px;
+  height: 359px;
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 
 .name_block {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: 75px;
 }
 
-.number_block,.email_block {
-    width: 304px;
-    height: auto;
+.number_block,
+.email_block {
+  width: 304px;
+  height: 75px;
 }
 
 .inp {
-    width: 100%;
-    height: 56px;
-    background-color: inherit;
-    border: 1px solid #EBEBEB;
-    color: #FFFFFF;
-    padding-left: 16px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 21px;
+  width: 100%;
+  height: 56px;
+  background-color: inherit;
+  border: 1px solid #ebebeb;
+  color: #ffffff;
+  padding-left: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .error_message {
-    color: red;
-    margin-top: 2px;
-    font-size: 12px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+  color: red;
+  margin-top: 2px;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .textarea_block {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .textarea_inp {
-    width: 100%;
-    height: 151px;
-    background-color: inherit;
-    border: 1px solid #EBEBEB;
-    color: #FFFFFF;
-    padding: 16px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 21px;
+  width: 100%;
+  height: 151px;
+  background-color: inherit;
+  border: 1px solid #ebebeb;
+  color: #ffffff;
+  padding: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  resize: none;
 }
 
 .submit_inp {
-    width: 100%;
-    height: 48px;
-    background-color: #764AF1;
-    color: white;
-    border: none;
-    border-radius: 130px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 16px;
+  width: 100%;
+  height: 48px;
+  background-color: #764af1;
+  color: white;
+  border: none;
+  border-radius: 130px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
 }
 
-
-
 @media screen and (max-width: 480px) {
-   .reg_block { 
-        width: 358px;
-        height: auto;
-        flex-wrap: wrap;
-   }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
 
-   .text_img_box {
-        width: 100%;
-        height: auto;
-   }
+  .text_img_box {
+    width: 100%;
+    height: auto;
+  }
 
-   .inform_box { 
-        width: 100%;
-        height: auto;
-        padding: 24px;
-   } 
+  .inform_box {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+  }
 
-   .inform_pair_box {
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        gap: 24px;
-   }
+  .inform_pair_box {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
 
-   .pair_one {
-        width: 182px;
-        height: 135px;
-   }
+  .pair_one > h1,
+  .pair_two > h1 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+  }
 
-   .pair_two {
-        width: 204px;
-        height: 131px;
-   }
+  .pair_one > h1,
+  .pair_two > h1 {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
 
-   .pair_one>h1,.pair_two>h1 {
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 700;
-   }
+  .design_img {
+    display: none;
+  }
 
-   .pair_one>h1,.pair_two>h1 {
-        font-size: 18px;
-        line-height: 25.2px;
-    }
+  .contact_reg {
+    width: 100%;
+    height: 625px;
+    border: 1px solid #e1e1e1;
+    border-radius: 24px;
+    padding: 24px;
+    margin-top: 16px;
+    gap: 24px;
+  }
 
-    .design_img {
-        display: none;
-    }
+  .contact_reg > h1 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
 
-    .contact_reg {
-        width: 358px;
-        height: 625px;
-        border: 1px solid #E1E1E1;
-        border-radius: 24px;
-        padding: 24px;
-        margin-top: 16px;
-        gap: 24px;
-    }
+  .reg_form {
+    width: 100%;
+    height: 439px;
+  }
 
-    .contact_reg>h1 {
-        font-size: 24px;
-        line-height: 28.8px;
-    }
+  .name_block,
+  .number_block,
+  .email_block {
+    width: 100%;
+    height: 75px;
+  }
 
-    .reg_form {
-        width: 310px;
-        height: 439px;
-    }
-
-    .number_block,.email_block {
-        width: 100%;
-        height: auto;
-    }
-
-    .inp {
-        width: 100%;
-        height: 56px;
-    }
+  .inp {
+    width: 100%;
+    height: 56px;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
-    .reg_block {
-        width: 90%;
-        height: auto;
-        flex-wrap: wrap;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
 
-    .text_img_box {
-        width: 100%;
-        height: auto;
-        gap: 16px;
-    }
+  .text_img_box {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
 
-    .inform_box {
-        width: 100%;
-        height: auto;
-        padding: 24px;
-    }
+  .inform_box {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+  }
 
-    .inform_pair_box {
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        gap: 16px;
-    }
+  .inform_pair_box {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
 
-    .pair_one {
-        width: 200px;
-        height: 100%;
-    }
+  .pair_one > h1,
+  .pair_two > h1 {
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 700;
+  }
 
-    .pair_two {
-        width: 100%;
-        height: 100%;
-    }
+  .pair_one > h1,
+  .pair_two > h1 {
+    font-size: 16px;
+    line-height: 25.2px;
+  }
 
-    .pair_one>h1,.pair_two>h1 {
-        font-size: 19px;
-        line-height: 28px;
-        font-weight: 700;
-   }
+  .design_img {
+    width: 100%;
+    height: 300px;
+  }
 
-   .pair_one>h1,.pair_two>h1 {
-        font-size: 16px;
-        line-height: 25.2px;
-    }
+  .contact_reg {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    margin-top: 16px;
+    gap: 24px;
+  }
 
-    .design_img {
-        width: 100%;
-        height: 300px;
-    }
+  .contact_reg > h1 {
+    font-size: 30px;
+    line-height: 29px;
+  }
 
-    .contact_reg {
-        width: 100%;
-        height: auto;
-        padding: 24px;
-        margin-top: 16px;
-        gap: 24px;
-    }
+  .reg_form {
+    width: 100%;
+    height: auto;
+    gap: 16px 0;
+  }
 
-    .contact_reg>h1 {
-        font-size: 30px;
-        line-height: 29px;
-    }
+  .name_block {
+    width: 100%;
+    height: 75px;
+  }
+  .number_block,
+  .email_block {
+    width: 49%;
+    height: 75px;
+  }
 
-    .reg_form {
-        width: 100%;
-        height: auto;
-        gap: 16px 0;
-    }
-
-    .number_block,.email_block {
-        width: 49%;
-        height: auto;
-    }
-
-    .inp {
-        width: 100%;
-        height: 56px;
-    }
+  .inp {
+    width: 100%;
+    height: 56px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .reg_block {
-        width: 90%;
-        height: auto;
-        flex-direction: column;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
 
-    .text_img_box {
-        width: 100%;
-        height: auto;
-        gap: 16px;
-    }
+  .text_img_box {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
 
-    .inform_box {
-        width: 100%;
-        height: auto;
-        padding: 24px;
-    }
+  .inform_box {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+  }
 
-    .inform_pair_box {
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        gap: 16px;
-    }
+  .inform_pair_box {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
 
-    .pair_one {
-        width: 50%;
-        height: 100%;
-    }
+  .pair_one,
+  .pair_two {
+    width: 50%;
+    height: 100%;
+  }
 
-    .pair_two {
-        width: 50%;
-        height: 100%;
-    }
+  .design_img {
+    width: 100%;
+    height: 350px;
+  }
 
-    .design_img {
-        width: 100%;
-        height: 350px;
-    }
+  .contact_reg {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    margin-top: 16px;
+    gap: 24px;
+  }
 
-    .contact_reg {
-        width: 100%;
-        height: auto;
-        padding: 24px;
-        margin-top: 16px;
-        gap: 24px;
-    }
+  .contact_reg > h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
 
-    .contact_reg>h1 {
-        font-size: 30px;
-        line-height: 30px;
-    }
+  .reg_form {
+    width: 100%;
+    height: auto;
+    gap: 16px 0;
+  }
 
-    .reg_form {
-        width: 100%;
-        height: auto;
-        gap: 16px 0;
-    }
+  .name_block {
+    width: 100%;
+    height: 75px;
+  }
 
-    .number_block,.email_block {
-        width: 49%;
-        height: auto;
-    }
+  .number_block,
+  .email_block {
+    width: 49%;
+    height: 75px;
+  }
 
-    .inp {
-        width: 100%;
-        height: 56px;
-    }
+  .inp {
+    width: 100%;
+    height: 56px;
+  }
 
-    .textarea_inp {
-        height: 200px;
-    }
-
+  .textarea_inp {
+    height: 200px;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    .reg_block {
-        width: 95%;
-        height: auto;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+  }
 
-    .text_img_box {
-        width: 49%;
-        height: auto;
-        gap: 16px;
-    }
+  .text_img_box {
+    width: 49%;
+    height: auto;
+    gap: 16px;
+  }
 
-    .inform_box {
-        width: 100%;
-        height: auto;
-        padding: 24px;
-    }
+  .inform_box {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+  }
 
-    .inform_pair_box {
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 16px;
-    }
+  .inform_pair_box {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+  }
 
-    .pair_one {
-        width: 100%;
-        height: 100%;
-    }
+  .design_img {
+    display: none;
+  }
 
-    .pair_two {
-        width: 100%;
-        height: 100%;
-    }
+  .contact_reg {
+    width: 49%;
+    height: auto;
+    padding: 24px;
+    gap: 24px;
+  }
 
-    .design_img {
-        display: none;
-    }
+  .contact_reg > h1 {
+    font-size: 35px;
+    line-height: 38px;
+  }
 
-    .contact_reg {
-        width: 49%;
-        height: auto;
-        padding: 24px;
-        gap: 24px;
-    }
+  .reg_form {
+    width: 100%;
+    height: auto;
+    gap: 16px 0;
+  }
 
-    .contact_reg>h1 {
-        font-size: 35px;
-        line-height: 38px;
-    }
+  .name_block {
+    width: 100%;
+    height: 75px;
+  }
 
-    .reg_form {
-        width: 100%;
-        height: auto;
-        gap: 16px 0;
-    }
+  .number_block,
+  .email_block {
+    width: 49%;
+    height: 75px;
+  }
 
-    .number_block,.email_block {
-        width: 49%;
-        height: auto;
-    }
-
-    .inp {
-        width: 100%;
-        height: 56px;
-    }
+  .inp {
+    width: 100%;
+    height: 56px;
+  }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1535px) {
-    .reg_block {
-        width: 95%;
-        height: auto;
-        gap: 16px;
-    }
+  .reg_block {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
 
-    .text_img_box {
-        width: 49%;
-        height: auto;
-        gap: 16px;
-    }
+  .text_img_box {
+    width: 49%;
+    height: auto;
+    gap: 16px;
+  }
 
-    .inform_box {
-        width: 100%;
-        height: auto;
-        padding: 24px;
-    }
+  .inform_box {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+  }
 
-    .inform_pair_box {
-        width: 100%;
-        height: auto;
-        gap: 16px;
-    }
+  .inform_pair_box {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
 
-    .pair_one {
-        width: 50%;
-        height: 100%;
-    }
+  .design_img {
+    width: 100%;
+    height: 300px;
+  }
 
-    .pair_two {
-        width: 50%;
-        height: 100%;
-    }
+  .contact_reg {
+    width: 49%;
+    height: auto;
+    padding: 24px;
+    gap: 24px;
+  }
 
-    .design_img {
-        width: 100%;
-        height: 300px;
-    }
+  .contact_reg > h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
 
-    .contact_reg {
-        width: 49%;
-        height: auto;
-        padding: 24px;
-        gap: 24px;
-    }
+  .reg_form {
+    width: 100%;
+    height: auto;
+    gap: 16px 0;
+  }
 
-    .contact_reg>h1 {
-        font-size: 40px;
-        line-height: 42px;
-    }
+  .name_block {
+    width: 100%;
+    height: 75px;
+  }
 
-    .reg_form {
-         width: 100%;
-        height: auto;
-        gap: 16px 0; 
-    }
+  .number_block,
+  .email_block {
+    width: 49%;
+    height: 75px;
+  }
 
-    .number_block,.email_block {
-        width: 49%;
-        height: auto;
-    }
-
-    .inp {
-        width: 100%;
-        height: 56px;
-    }
+  .inp {
+    width: 100%;
+    height: 56px;
+  }
 }
-
-  

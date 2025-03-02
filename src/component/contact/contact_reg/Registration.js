@@ -7,8 +7,10 @@ import {
   Email_Validation,
   Textarea_Validation,
 } from "../../../validate/Validatation";
+import { useTranslation } from "react-i18next";
 
 function Registration() {
+  const [t] = useTranslation();
   const {
     register,
     handleSubmit,
@@ -24,20 +26,20 @@ function Registration() {
     <div className={styles.reg_block}>
       <div className={styles.text_img_box}>
         <div className={styles.inform_box}>
-          <button>Contacts</button>
+          <button>{t("contact.reg.btnname")}</button>
 
           <div className={styles.inform_pair_box}>
             <div className={styles.pair_one}>
-              <h1>for Armenia</h1>
+              <h1>{t("contact.reg.am.title")}</h1>
               <p>+374 12-34-56-78</p>
               <p>example@email.com</p>
-              <p>Yerevan, Armenia</p>
+              <p>{t("contact.reg.am.text")}</p>
             </div>
             <div className={styles.pair_two}>
-              <h1>for Czech Republic</h1>
+              <h1>{t("contact.reg.cz.title")}</h1>
               <p>+420 123-4567-90</p>
               <p>example@email.com</p>
-              <p>Prague, Czech Republic</p>
+              <p>{t("contact.reg.cz.text")}</p>
             </div>
           </div>
         </div>
@@ -46,11 +48,8 @@ function Registration() {
       </div>
 
       <div className={styles.contact_reg}>
-        <button>Contact us</button>
-        <h1>
-          Lorem ipsum dolor sit
-          <br /> amet consectetur.
-        </h1>
+        <button>{t("contact.contactreg.btnname")}</button>
+        <h1>{t("contact.contactreg.text")}</h1>
 
         <form
           action="#"
@@ -94,7 +93,7 @@ function Registration() {
               {...register("message", Textarea_Validation)}
             ></textarea>
           </div>
-          <input type="Submit" className={styles.submit_inp}></input>
+          <button className={styles.submit_inp}>{t("contact.contactreg.submit")}</button>
         </form>
       </div>
     </div>

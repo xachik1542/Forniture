@@ -31,6 +31,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Forniture" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/project/:id" element={<Project />} />
         <Route path="/service" element={<Service />} />
